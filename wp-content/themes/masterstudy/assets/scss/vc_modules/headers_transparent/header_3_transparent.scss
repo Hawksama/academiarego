@@ -1,0 +1,8 @@
+@import "../../scss_components/mixins";
+@import "../../scss_components/base_variables";
+
+.transparent_header {
+    .header_default.header_3 {
+        background-color: transparent;
+    }
+}

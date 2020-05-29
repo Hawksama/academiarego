@@ -1,0 +1,119 @@
+/* line 4, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+.stm_lms_single_course_carousel_wrapper {
+  position: relative;
+  padding: 26px 0 59px; }
+  /* line 9, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+  .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item {
+    display: flex;
+    flex-wrap: wrap; }
+    /* line 13, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+    .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__image {
+      width: 43.1%; }
+      /* line 16, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+      .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__image img {
+        border-radius: 10px; }
+    /* line 21, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+    .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content {
+      margin-left: auto;
+      padding-top: 18px;
+      width: 51.5%; }
+      /* line 26, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+      .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .single_product_after_title {
+        margin-bottom: 19px; }
+      /* line 30, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+      .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content h2 {
+        margin-bottom: 27px; }
+      /* line 34, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+      .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single--info_meta {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 0 25px; }
+        /* line 39, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+        .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single--info_meta .stm_lms_course__meta {
+          margin-right: 30px;
+          font-size: 15px;
+          text-transform: capitalize; }
+          /* line 44, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+          .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single--info_meta .stm_lms_course__meta i {
+            position: relative;
+            top: 1px;
+            font-size: 14px;
+            margin-right: 5px; }
+      /* line 53, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+      .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons {
+        display: flex;
+        align-items: center; }
+        /* line 57, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+        .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons > .btn {
+          margin-bottom: 0 !important; }
+        /* line 61, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+        .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-buy-buttons {
+          margin: 0;
+          flex-grow: 1; }
+          /* line 65, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+          .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-buy-buttons .stm_lms_mixed_button {
+            margin: 0 10px 0 0; }
+          /* line 69, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+          .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-buy-buttons .btn {
+            display: inline-block;
+            width: auto;
+            padding: 17px 20px 16px;
+            margin: 0;
+            vertical-align: top; }
+            /* line 76, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+            .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-buy-buttons .btn span {
+              letter-spacing: -0.7px; }
+            /* line 80, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+            .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-buy-buttons .btn_big {
+              padding-top: 23px; }
+              /* line 83, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+              .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-buy-buttons .btn_big span {
+                margin-right: 30px; }
+          /* line 89, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+          .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-buy-buttons .btn-subscription,
+          .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-buy-buttons .or {
+            display: none; }
+        /* line 95, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+        .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-wishlist {
+          margin: 0 0 0 34px; }
+          /* line 98, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+          .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-wishlist i {
+            text-indent: 0; }
+            /* line 101, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+            .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-wishlist i.far {
+              color: #273044;
+              opacity: .6;
+              transition: .3s; }
+              /* line 106, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+              .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-wishlist i.far + span {
+                opacity: .6;
+                transition: .3s; }
+          /* line 114, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+          .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-wishlist:hover i.far {
+            color: #fff;
+            opacity: 1; }
+            /* line 118, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+            .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content .stm_lms_courses__single__buttons .stm-lms-wishlist:hover i.far + span {
+              opacity: 1; }
+
+/* line 131, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+.stm_lms_single_course_carousel .stm-lms-buy-buttons-enterprise {
+  display: none !important; }
+
+@media (max-width: 769px) {
+  /* line 138, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+  .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__image {
+    width: auto;
+    margin-bottom: 30px; }
+  /* line 143, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+  .stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel .stm_lms_single_course_carousel_item__content {
+    width: 100%; } }
+
+@media (max-width: 515px) {
+  /* line 151, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+  .stm_lms_courses__single__buttons {
+    flex-wrap: wrap; }
+    /* line 154, assets/scss/vc_modules/single_course_carousel/style_1.scss */
+    .stm_lms_courses__single__buttons .stm-lms-wishlist {
+      width: 100%;
+      margin: 20px 0 0 !important; } }

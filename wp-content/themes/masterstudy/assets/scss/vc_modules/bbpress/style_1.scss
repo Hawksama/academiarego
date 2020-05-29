@@ -1,0 +1,119 @@
+body #bbpress-forums {
+
+    li.bbp-header,
+    li.bbp-footer {
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+
+    li.bbp-body {
+        ul.topic,
+        ul.forum {
+            padding: 15px 30px;
+        }
+    }
+
+    .bbp-forums-list li {
+        display: block;
+    }
+
+    .bbp-breadcrumb {
+        display: none;
+    }
+
+    div.bbp-search-form {
+        margin: 0 0 30px;
+        float: none;
+
+        #bbp_search {
+            margin-right: 15px;
+            min-width: 200px;
+        }
+
+        #bbp_search_submit {
+            height: 45px;
+            vertical-align: top;
+        }
+    }
+
+    img.avatar {
+        display: none;
+    }
+
+    /*NOTICES*/
+    .bbp-template-notice {
+
+        background-color: #195ec8;
+        border-color: #195ec8;
+        padding: 10px 15px;
+        color: #fff;
+        font-size: 14px;
+
+        * {
+            color: #fff;
+            font-size: 14px;
+        }
+
+        &.info {
+            background-color: #457992;
+            border-color: #457992;
+        }
+    }
+
+    div.bbp-forum-author a.bbp-author-name,
+    div.bbp-topic-author a.bbp-author-name,
+    div.bbp-reply-author a.bbp-author-name {
+        margin: 0 7px;
+    }
+
+    span.bbp-admin-links a {
+        color: #443f3f;
+    }
+
+    .bbp-forum-header a.bbp-forum-permalink,
+    .bbp-topic-header a.bbp-topic-permalink,
+    .bbp-reply-header a.bbp-reply-permalink {
+
+    }
+
+    li.bbp-body div.hentry {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    div.bbp-reply-content {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 30px;
+        border-left: 1px solid #eee;
+    }
+
+    .bbp-reply-author {
+        padding-top: 3px;
+
+        br {
+            display: none;
+        }
+    }
+
+    div.bbp-the-content-wrapper input.ed_button {
+        min-width: auto;
+        background-color: #fff;
+        border: 1px solid #eee;
+        color: #4c4545 !important;
+        font-weight: 400;
+        text-transform: none;
+        letter-spacing: 0;
+    }
+
+    fieldset.bbp-form legend {
+        font-size: 16px;
+    }
+
+    div.bbp-submit-wrapper {
+        float: left;
+        margin: 0 0 30px;
+
+    }
+
+}

@@ -1,0 +1,22 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.udemy {
+    .stm_lms_courses_grid__top {
+        margin-bottom: 35px;
+        h2 {
+            text-transform: none;
+            font-size: 22px;
+        }
+    }
+
+    .categories-courses-dropdown:after {
+        opacity: 1;
+    }
+
+    .stm_lms_recent_courses__term {
+        font-size: 16px;
+        color: #457992;
+    }
+
+}

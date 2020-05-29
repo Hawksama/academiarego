@@ -1,0 +1,16 @@
+/* line 5, assets/scss/vc_modules/stm_layout_styles/udemy.scss */
+.udemy .stm_lms_courses_grid__top {
+  margin-bottom: 35px; }
+  /* line 7, assets/scss/vc_modules/stm_layout_styles/udemy.scss */
+  .udemy .stm_lms_courses_grid__top h2 {
+    text-transform: none;
+    font-size: 22px; }
+
+/* line 13, assets/scss/vc_modules/stm_layout_styles/udemy.scss */
+.udemy .categories-courses-dropdown:after {
+  opacity: 1; }
+
+/* line 17, assets/scss/vc_modules/stm_layout_styles/udemy.scss */
+.udemy .stm_lms_recent_courses__term {
+  font-size: 16px;
+  color: #457992; }

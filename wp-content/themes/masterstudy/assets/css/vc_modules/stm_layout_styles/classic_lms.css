@@ -1,0 +1,142 @@
+/* line 5, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.select2-container--default .select2-dropdown {
+  border-color: #babdc1; }
+
+/* line 9, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.select2-container--default .select2-selection--single {
+  border-color: #babdc1;
+  border-radius: 4px; }
+  /* line 13, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #293145; }
+  /* line 17, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+  .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    border-color: #385bce transparent transparent transparent;
+    transform: none !important;
+    top: -4px !important; }
+
+/* line 29, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+body .stm_lms_courses_grid__top {
+  margin-bottom: 76px; }
+
+/* line 34, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.widget_pages ul.style_1 {
+  margin-top: -5px; }
+  /* line 38, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+  .widget_pages ul.style_1 li a {
+    padding-top: 5px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+    /* line 48, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+    .widget_pages ul.style_1 li a:after {
+      top: 7px !important;
+      margin-top: 0 !important; }
+
+/* line 58, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.textwidget .btn {
+  padding: 11px 15px !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  border-color: #fff !important;
+  font-size: 12px;
+  font-weight: 400; }
+
+/* line 68, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.widget_mailchimp .stm_mailchimp_unit .button {
+  background-color: #273044 !important; }
+
+/* line 72, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.post_list_main_section_wrapper .post_list_item_title {
+  padding-right: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  word-spacing: 0; }
+
+/* line 81, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+html body.classic_lms .search-toggler {
+  padding: 3px 7px;
+  border-width: 2px;
+  border-color: #333;
+  color: #333; }
+
+/* line 89, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.header_main_menu_wrapper .header-menu > li > a {
+  font-weight: 600; }
+
+/* line 94, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+html .triangled_colored_separator, body .triangled_colored_separator {
+  width: 80px;
+  font-size: 0;
+  background-color: transparent !important; }
+  /* line 99, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+  html .triangled_colored_separator:before, html .triangled_colored_separator:after, body .triangled_colored_separator:before, body .triangled_colored_separator:after {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    width: 33px;
+    height: 3px; }
+  /* line 108, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+  html .triangled_colored_separator:after, body .triangled_colored_separator:after {
+    margin-left: 13px; }
+  /* line 112, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+  html .triangled_colored_separator .triangle, body .triangled_colored_separator .triangle {
+    display: inline-block;
+    border: 0 !important;
+    font-size: 0; }
+    /* line 117, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+    html .triangled_colored_separator .triangle:before, body .triangled_colored_separator .triangle:before {
+      position: relative;
+      top: -2px;
+      left: -3px;
+      content: '';
+      display: block;
+      width: 12px;
+      height: 12px;
+      border-width: 3px 3px 0 0;
+      border-style: solid;
+      transform: rotate(-45deg); }
+
+/* line 133, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.stm_lms_courses__single .star-rating {
+  margin-top: 4px !important; }
+
+@media (max-width: 769px) {
+  /* line 138, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+  #searchform-mobile .search-wrapper .search-input {
+    border-left: 1px solid #e1e2e4; }
+  /* line 143, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+  body .stm-lms-course-info {
+    margin-bottom: 20px; } }
+
+/* line 149, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.blog_main_layout_grid {
+  margin-bottom: 50px; }
+
+/* line 154, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.single-stm-courses .nav.nav-tabs > li.active a {
+  color: #273044 !important; }
+
+/* line 161, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.single-stm-courses .classic_style .nav.nav-tabs > li.active a {
+  color: #fff !important; }
+
+/* line 168, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+.stm_lms_profile_buttons_set__inner .stm_assignment_btn_stm {
+  position: relative;
+  padding-right: 20px; }
+  /* line 172, assets/scss/vc_modules/stm_layout_styles/classic_lms.scss */
+  .stm_lms_profile_buttons_set__inner .stm_assignment_btn_stm label {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    padding: 1px 4px;
+    background-color: #385bce;
+    color: #fff !important;
+    font-size: 11px;
+    border-radius: 50%; }

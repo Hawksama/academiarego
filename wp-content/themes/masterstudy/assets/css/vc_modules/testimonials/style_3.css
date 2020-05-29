@@ -1,0 +1,73 @@
+/* line 5, assets/scss/vc_modules/testimonials/style_3.scss */
+.stm_testimonials_wrapper_style_3 .stm_testimonials_single {
+  text-align: center; }
+  /* line 7, assets/scss/vc_modules/testimonials/style_3.scss */
+  .stm_testimonials_wrapper_style_3 .stm_testimonials_single .testimonials_title {
+    margin: 0 0 3px;
+    font-size: 22px; }
+  /* line 11, assets/scss/vc_modules/testimonials/style_3.scss */
+  .stm_testimonials_wrapper_style_3 .stm_testimonials_single .testimonials_excerpt {
+    font-size: 18px;
+    line-height: 36px; }
+  /* line 15, assets/scss/vc_modules/testimonials/style_3.scss */
+  .stm_testimonials_wrapper_style_3 .stm_testimonials_single .stars {
+    margin: 0 0 29px;
+    letter-spacing: 5px; }
+    /* line 18, assets/scss/vc_modules/testimonials/style_3.scss */
+    .stm_testimonials_wrapper_style_3 .stm_testimonials_single .stars .fa-star {
+      color: #f2b91e; }
+      /* line 20, assets/scss/vc_modules/testimonials/style_3.scss */
+      .stm_testimonials_wrapper_style_3 .stm_testimonials_single .stars .fa-star:before {
+        content: "\f005\f005\f005\f005\f005"; }
+
+/* line 28, assets/scss/vc_modules/testimonials/style_3.scss */
+.navs {
+  position: relative;
+  max-width: 80%;
+  padding: 0 50px;
+  margin: 0 auto 10px; }
+  /* line 33, assets/scss/vc_modules/testimonials/style_3.scss */
+  .navs .simple_carousel_prev,
+  .navs .simple_carousel_next {
+    position: absolute;
+    top: 50%;
+    margin: -12px 0 0; }
+    /* line 38, assets/scss/vc_modules/testimonials/style_3.scss */
+    .navs .simple_carousel_prev i,
+    .navs .simple_carousel_next i {
+      font-size: 25px;
+      cursor: pointer; }
+  /* line 43, assets/scss/vc_modules/testimonials/style_3.scss */
+  .navs .simple_carousel_prev {
+    left: 0; }
+  /* line 46, assets/scss/vc_modules/testimonials/style_3.scss */
+  .navs .simple_carousel_next {
+    right: 0; }
+  /* line 49, assets/scss/vc_modules/testimonials/style_3.scss */
+  .navs #carousel-custom-dots {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none; }
+    /* line 54, assets/scss/vc_modules/testimonials/style_3.scss */
+    .navs #carousel-custom-dots li {
+      display: inline-block;
+      transform: scale(0.7);
+      transition: .3s ease;
+      cursor: pointer; }
+      /* line 59, assets/scss/vc_modules/testimonials/style_3.scss */
+      .navs #carousel-custom-dots li.active {
+        transform: scale(1); }
+      /* line 62, assets/scss/vc_modules/testimonials/style_3.scss */
+      .navs #carousel-custom-dots li img {
+        border-radius: 50%; }
+
+@media (max-width: 768px) {
+  /* line 70, assets/scss/vc_modules/testimonials/style_3.scss */
+  .navs {
+    max-width: 100%; } }
+
+@media (max-width: 650px) {
+  /* line 76, assets/scss/vc_modules/testimonials/style_3.scss */
+  .navs {
+    display: none; } }

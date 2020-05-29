@@ -1,0 +1,40 @@
+/* line 5, assets/scss/vc_modules/testimonials/style_1.scss */
+.testimonials_control_bar {
+  margin-top: 20px; }
+
+/* line 9, assets/scss/vc_modules/testimonials/style_1.scss */
+.testimonials-carousel-unit {
+  margin: 0 -15px; }
+  /* line 11, assets/scss/vc_modules/testimonials/style_1.scss */
+  .testimonials-carousel-unit .media-left {
+    min-width: 84px;
+    padding-right: 15px; }
+
+/* line 17, assets/scss/vc_modules/testimonials/style_1.scss */
+.testimonials_control_bar_top {
+  padding-bottom: 8px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc; }
+
+/* line 24, assets/scss/vc_modules/testimonials/style_1.scss */
+.testimonial-media-unit .testimonial-media-unit-rounded {
+  border-radius: 50%;
+  max-width: inherit;
+  height: inherit; }
+
+/* line 32, assets/scss/vc_modules/testimonials/style_1.scss */
+.testimonials_main_wrapper .testimonial_sphere {
+  color: #aaa;
+  font-size: 12px; }
+
+/* line 37, assets/scss/vc_modules/testimonials/style_1.scss */
+.testimonials_main_wrapper .testimonials-inner-title {
+  margin: 8px 0 4px; }
+
+/* line 41, assets/scss/vc_modules/testimonials/style_1.scss */
+.testimonials_main_wrapper .short_separator {
+  margin: 10px 0 23px; }
+
+/* line 47, assets/scss/vc_modules/testimonials/style_1.scss */
+.testimonial_inner_wrapper:hover .testimonial_inner_content p {
+  color: #555; }

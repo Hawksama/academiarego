@@ -1,0 +1,471 @@
+@import "../components/colors";
+@import "../components/animation";
+@import "../components/mixins";
+
+.stm-lms-wrapper {
+	padding-bottom: 70px;
+}
+
+.stm_lms_user_info_top {
+	padding-bottom: 0;
+	border-bottom: 0;
+	align-items: flex-start;
+
+	&__left {
+		width: 60%;
+
+		h1 {
+			max-width: 100%;
+			font-size: 38px;
+		}
+
+		h5 {
+			font-size: 16px;
+			font-weight: 400;
+		}
+	}
+
+	&__right {
+		width: 40%;
+		padding-top: 5px;
+		margin-left: auto;
+		text-align: right;
+
+		> * {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.stm-lms-user_rating {
+			margin: 0 25px 0 0;
+		}
+
+		.stm-lms-user_message_btn,
+		.stm-lms-user_message_btn.public_messages {
+			margin: 0;
+			min-height: auto;
+
+			.btn:not(.btn-cancel) {
+				border-radius: 5px;
+				background-color: #2fbe40 !important;
+			}
+		}
+	}
+
+	&__socials {
+		margin-bottom: 30px;
+
+		a {
+			background-color: transparent !important;
+			font-size: 20px;
+			color: #8b919c;
+
+			&:hover {
+				color: #8b919c !important;
+			}
+		}
+	}
+}
+
+.stm_lms_user_infoblock {
+	padding: 60px 0 50px;
+	margin: 0 0 56px;
+
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: -9999px;
+		right: -9999px;
+		bottom: 56px;
+		background-color: #f0f2f5;
+	}
+
+	.stm_lms_user_side {
+		padding: 0;
+		display: inline-block;
+		text-align: center;
+
+		.stm_lms_user_info_top__socials {
+			text-align: center;
+		}
+
+		.stm-lms-user_avatar {
+			img {
+				border-radius: 10px;
+			}
+		}
+	}
+
+	.stm_lms_user_bio {
+		padding-bottom: 0;
+		border-bottom: 0;
+		margin-bottom: 0;
+		font-size: 16px;
+		line-height: 28px;
+
+		h3 {
+			font-size: 18px;
+			font-weight: 600;
+		}
+	}
+}
+
+@media(min-width: 1300px) {
+
+	.stm-lms-user-courses {
+		.stm_lms_instructor_courses__single {
+			width: 25%;
+		}
+	}
+
+	.stm_lms_instructor_courses {
+		.stm_lms_instructor_courses__single {
+			width: 25%;
+		}
+	}
+
+	#stm_lms_instructor_co_courses {
+		.stm_lms_instructor_courses__single {
+			width: 25%;
+		}
+	}
+	.stm_lms_user_infoblock {
+		.col-md-3 {
+			width: 20.5%;
+		}
+
+		.col-md-9 {
+			width: 79.5%;
+		}
+	}
+}
+
+.stm_lms_courses {
+	.stm_lms_courses__top {
+		margin-bottom: 40px;
+
+		h3 {
+			font-size: 24px;
+			font-weight: bold;
+		}
+	}
+}
+
+.stm_lms_edit_account,
+.stm_lms_create_announcement {
+	textarea,
+	.form-control {
+		background-color: #fff;
+	}
+
+	.stm_lms_edit_socials_list {
+		background-color: #5676e7;
+
+		label {
+			color: #fff;
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.stm_lms_user_infoblock:before {
+		bottom: 0;
+	}
+	.stm_lms_user_info_top {
+		flex-wrap: wrap;
+
+		&__left,
+		&__right {
+			width: 100%;
+			text-align: left;
+		}
+
+		h1 {
+			max-width: 100% !important;
+		}
+	}
+
+}
+
+/*New User Update*/
+.stm-lms-wrapper {
+	.stm_lms_user_info_top {
+		margin: 0 0 0px;
+
+		&__left {
+			h1 {
+				margin: 0 0 -4px;
+				font-size: 30px;
+				letter-spacing: -1.2px;
+			}
+
+			h5 {
+				text-transform: none;
+			}
+		}
+
+		&__right {
+			.stm-lms-user_rating {
+				margin: 9px 26px 0 0;
+			}
+
+			.stm-lms-my-points {
+				padding: 13px 3px 10px 65px;
+				background-color: transparent;
+			}
+		}
+	}
+}
+
+#stm_lms_edit_account {
+    .stm_lms_user_info_top {
+        padding: 0;
+        margin: 0;
+        h1 {
+            margin: 30px 0;
+            font-size: 30px;
+            line-height: 1.4;
+        }
+    }
+}
+
+.stm_lms_account_classic_tabs {
+	display: flex;
+	width: 100%;
+	position: relative;
+	z-index: 11;
+	> div {
+		flex-grow: 1;
+		vertical-align: top;
+		line-height: 12px;
+		text-align: center;
+		transition: .3s ease;
+
+		a {
+			display: block;
+			background-color: $main_color;
+			padding: 17px 1% 21px;
+			border-top: 3px solid $main_color;
+			line-height: 1;
+
+			&.active {
+				background-color: #fff;
+
+				* {
+					color: $main_color !important;
+				}
+
+				label {
+					background-color: $main_color;
+				}
+			}
+		}
+
+		label {
+			padding: 0;
+			display: inline-block;
+			vertical-align: top;
+			width: 5px;
+			height: 5px;
+			font-size: 0;
+			background-color: #f4d761;
+			border-radius: 50%;
+			box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
+		}
+
+		i {
+			position: relative;
+			top: 2px;
+			margin: 0 7px 0 0;
+			font-size: 11px;
+		}
+
+		span {
+			font-size: 12px;
+			letter-spacing: 0.5px;
+		}
+
+		* {
+			color: #fff !important;
+		}
+
+		&:hover {
+			a {
+				background-color: #fff;
+			}
+
+			* {
+				color: $main_color !important;
+			}
+
+			label {
+				background-color: $main_color;
+			}
+		}
+	}
+}
+
+.stm_lms_user_infoblock {
+	padding: 39px 0 0;
+
+	&:before {
+		display: none;
+	}
+
+	.stm_lms_user_side .stm-lms-user_avatar img {
+		border-radius: 50%;
+	}
+
+	.stm_lms_user_bio {
+		margin: 3px 0 0;
+
+		h3 {
+			margin: 0 0 19px;
+		}
+	}
+
+	.stm_lms_user_info_top__socials {
+		margin: 30px 0;
+
+		> a {
+			margin-right: 10px;
+			color: #fff !important;
+			background-color: #3b5998 !important;
+
+			&.twitter {
+				background-color: #1da1f2 !important;
+			}
+
+			&.google-plus {
+				background-color: #db4437 !important;
+			}
+
+			&.instagram {
+				background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+			}
+		}
+	}
+}
+
+.stm-lms-user_edit_profile_btn {
+	a {
+		padding: 8px 15px 8px;
+		opacity: .5;
+		border: 1px solid #273044;
+		border-radius: 19px;
+
+		span {
+			font-size: 14px;
+			text-transform: none;
+			color: #273044 !important;
+		}
+
+		i {
+			margin-right: 4px;
+			font-size: 16px;
+		}
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.stm_lms_create_announcement {
+	h1 {
+		font-size: 30px;
+		line-height: 1.4;
+		margin: 0 0 30px;
+	}
+}
+
+.stm-lms-wrapper--gradebook_header a {
+	margin-bottom: 0;
+}
+
+.my-certificates-title {
+	margin: 30px 0;
+	font-size: 30px;
+	line-height: 1.4;
+}
+
+#stm_lms_my_course_bundles {
+	.stm_lms_my_bundles {
+		a:not(.new_bundle) {
+			display: none;
+		}
+
+		h2 {
+            margin: 0 30px 0 0;
+			text-align: left;
+		}
+	}
+}
+
+@media (max-width: 1050px) {
+    .stm_lms_account_classic_tabs>div {
+        i {
+            display: none;
+        }
+        span {
+            font-size: 11px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .stm_lms_account_classic_tabs>div {
+        position: relative;
+        i {
+            display: block;
+            font-size: 16px;
+			margin-right: 0;
+        }
+        span {
+            display: none;
+        }
+        label {
+            position: absolute;
+            top: 15px;
+            right: 50%;
+            margin-right: -10px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .stm_lms_account_classic_tabs>div {
+        a {
+            padding: 10px 1% 15px;
+        }
+        i {
+            font-size: 13px;
+        }
+        span {
+        }
+        label {
+        }
+    }
+
+    .stm-lms-wrapper .stm_lms_user_info_top__right .stm-lms-my-points {
+        width: 100%;
+        margin: 10px 0 20px;
+        padding-left: 55px;
+        img {
+            left: 0;
+        }
+    }
+}
+
+#stm_lms_chat {
+    .back-to-account {
+        display: none;
+    }
+    h1 {
+        margin: 30px 0;
+        font-size: 30px;
+        line-height: 1.4;
+    }
+}

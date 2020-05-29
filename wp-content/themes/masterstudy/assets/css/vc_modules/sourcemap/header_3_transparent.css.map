@@ -1,0 +1,1 @@
+{"version":3,"sources":["header_3_transparent.scss"],"names":[],"mappings":"AAGA;EAEQ,8BAA6B,EAChC","file":"../headers_transparent/header_3_transparent.css","sourcesContent":["@import \"../../scss_components/mixins\";\n@import \"../../scss_components/base_variables\";\n\n.transparent_header {\n    .header_default.header_3 {\n        background-color: transparent;\n    }\n}"]}

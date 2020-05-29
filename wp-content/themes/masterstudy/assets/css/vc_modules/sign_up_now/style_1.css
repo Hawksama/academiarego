@@ -1,0 +1,36 @@
+/* line 5, assets/scss/vc_modules/sign_up_now/style_1.scss */
+.stm_sign_up_now {
+  padding: 0 31px; }
+  /* line 7, assets/scss/vc_modules/sign_up_now/style_1.scss */
+  .stm_sign_up_now .stm_sign_up_now_inner {
+    padding: 51px 67px 3px;
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px; }
+    /* line 13, assets/scss/vc_modules/sign_up_now/style_1.scss */
+    .stm_sign_up_now .stm_sign_up_now_inner h2 {
+      margin: 0 0 25px;
+      word-spacing: 1px; }
+  /* line 21, assets/scss/vc_modules/sign_up_now/style_1.scss */
+  .stm_sign_up_now .wpcf7-form .form-group {
+    margin-bottom: 15px; }
+  /* line 24, assets/scss/vc_modules/sign_up_now/style_1.scss */
+  .stm_sign_up_now .form-control {
+    text-align: center;
+    height: 47px;
+    line-height: 47px;
+    font-size: 13px;
+    color: #aaa; }
+    /* line 30, assets/scss/vc_modules/sign_up_now/style_1.scss */
+    .stm_sign_up_now .form-control:focus {
+      color: #555;
+      font-size: 16px;
+      font-weight: 700; }
+  /* line 38, assets/scss/vc_modules/sign_up_now/style_1.scss */
+  .stm_sign_up_now .ajax-loader {
+    display: block;
+    margin: 5px auto !important; }
+  /* line 42, assets/scss/vc_modules/sign_up_now/style_1.scss */
+  .stm_sign_up_now input[type="submit"] {
+    margin: 6px auto 0; }

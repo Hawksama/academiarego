@@ -1,0 +1,123 @@
+@import "base";
+@import "../../scss_components/mixins";
+
+.row-has-animation {
+    .wpb_column {
+        position: relative;
+        z-index: 1000;
+    }
+    .stm_lms_row_animation {
+        position: absolute;
+        top: 50%;
+        right: 12%;
+        margin-top: -238px;
+        z-index: 100;
+        .magnifier,
+        .moon,
+        .bubblespeech,
+        .book1,
+        .book2 {
+            position: absolute;
+        }
+        .book1 {
+            top: 110px;
+            right: 40px;
+            animation: slideDown 5s infinite;
+        }
+        .book2 {
+            bottom: 45px;
+            right: 155px;
+            animation: slideUp 7s infinite;
+        }
+        .magnifier {
+            bottom: 115px;
+            right: 70px;
+            animation: slideUp 10s infinite;
+        }
+        .bubblespeech {
+            top: 60px;
+            right: 40px;
+            animation: slideDown 5s infinite;
+            animation-delay: .3s;
+        }
+        .moon {
+            top: 120px;
+            left: 105px;
+            animation: circle 3s infinite linear;
+            transition: 25s ease;
+        }
+    }
+    &.hinted-row {
+        .stm_lms_row_animation {
+            .moon {
+                top: -4000px;
+                left: 9999px;
+                animation: none;
+            }
+        }
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(20px);
+    }
+    70% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideUpSmall {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg)
+        translate(-3px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-3px)
+        rotate(-360deg);
+    }
+}
+
+@include breakpoint(tabletonly) {
+    .row-has-animation .stm_lms_row_animation {
+        display: none;
+    }
+}

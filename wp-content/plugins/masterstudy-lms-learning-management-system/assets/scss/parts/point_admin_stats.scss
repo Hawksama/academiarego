@@ -1,0 +1,149 @@
+@import "../components/colors";
+
+#stm_lms_admin_point_stats {
+
+    .notice {
+        display: none;
+    }
+
+    .inner {
+        position: relative;
+        &.loading {
+            opacity: 0.6;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
+
+    .wp-list-table {
+        thead {
+            tr {
+                th {
+                    font-weight: 700;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    &.history {
+                        cursor: pointer;
+                    }
+                    &.users_td {
+                        padding: 0;
+                        table {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .points {
+            width: 100px;
+            text-align: center;
+        }
+
+        .history {
+            width: 100px;
+            text-align: center;
+        }
+
+        .point-actions {
+            width: 100px;
+            text-align: right;
+            i {
+                display: inline-block;
+                vertical-align: top;
+                width: 20px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                cursor: pointer;
+                &.lnricons-pencil3 {
+                    &:hover {
+                        color: $main_color;
+                    }
+                }
+                &.lnricons-cross {
+                    &:hover {
+                        color: $red;
+                    }
+                }
+            }
+        }
+
+        .user_history {
+            tbody {
+                tr {
+                    &:hover {
+                        td {
+                            background-color: #f1f1f1;
+                        }
+                    }
+                }
+            }
+
+            .point-score {
+                width: 150px;
+            }
+
+            .edit_points {
+                position: relative;
+                padding-right: 40px;
+                input {
+                    max-width: 100px;
+                }
+                .actions-edit {
+                    position: absolute;
+                    right: 0;
+                    top: 7px;
+                    i {
+                        margin-left: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .loading {
+                opacity: 0.5;
+            }
+
+        }
+    }
+
+    .asignments_grid__pagination {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15px -5px;
+
+            li {
+                span,
+                a {
+                    display: block;
+                    padding: 4px 5px;
+                    min-width: 20px;
+                    text-align: center;
+                    border: 1px solid #aaa;
+                    text-decoration: none;
+                    margin: 0 5px;
+                    border-radius: 5px;
+                    &.current {
+                        background-color: $main_color;
+                        border-color: $main_color;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,142 @@
+/* line 1, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+.stm_buddypress_instructors {
+  padding: 87px 0 82px;
+  background-color: #111f2d; }
+  /* line 5, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+  .stm_buddypress_instructors__title {
+    margin: 0 0 10px;
+    padding: 0 15px;
+    text-align: center;
+    color: #fff; }
+  /* line 12, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+  .stm_buddypress_instructors__subtitle {
+    padding: 0 15px;
+    text-align: center;
+    color: #fff;
+    opacity: .7;
+    font-size: 18px; }
+  /* line 20, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+  .stm_buddypress_instructors__list {
+    margin: 70px 0 0;
+    padding: 0 15px; }
+  /* line 26, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+  .stm_buddypress_instructors .stm_lms_instructors_carousel__single {
+    width: 270px;
+    color: #fff;
+    margin: 0 auto; }
+    /* line 31, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+    .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar {
+      position: relative; }
+      /* line 34, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+      .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar img {
+        border-radius: 10px; }
+      /* line 38, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+      .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar .stm_lms_user_info_top__socials {
+        position: absolute;
+        bottom: 25px;
+        left: 0;
+        right: 0;
+        text-align: center; }
+        /* line 45, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+        .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar .stm_lms_user_info_top__socials a {
+          display: inline-block;
+          vertical-align: top;
+          width: 35px;
+          height: 35px;
+          margin: 0 5px;
+          font-size: 0;
+          text-align: center;
+          border-radius: 50%;
+          cursor: pointer;
+          opacity: 0;
+          transform: translateY(5px);
+          transition: .3s ease; }
+          /* line 59, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+          .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar .stm_lms_user_info_top__socials a:nth-child(2) {
+            transition-delay: 0.1s; }
+          /* line 63, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+          .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar .stm_lms_user_info_top__socials a:nth-child(3) {
+            transition-delay: 0.2s; }
+          /* line 67, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+          .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar .stm_lms_user_info_top__socials a:nth-child(4) {
+            transition-delay: 0.3s; }
+          /* line 71, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+          .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar .stm_lms_user_info_top__socials a i {
+            font-size: 18px;
+            line-height: 35px;
+            color: #fff; }
+      /* line 81, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+      .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar:hover .stm_lms_user_info_top__socials a {
+        transform: translateY(0);
+        opacity: 1; }
+        /* line 85, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+        .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar:hover .stm_lms_user_info_top__socials a:nth-child(2) {
+          transition-delay: 0.1s; }
+        /* line 89, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+        .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar:hover .stm_lms_user_info_top__socials a:nth-child(3) {
+          transition-delay: 0.2s; }
+        /* line 93, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+        .stm_buddypress_instructors .stm_lms_instructors_carousel__single_avatar:hover .stm_lms_user_info_top__socials a:nth-child(4) {
+          transition-delay: 0.3s; }
+    /* line 101, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+    .stm_buddypress_instructors .stm_lms_instructors_carousel__single_name_activity {
+      display: flex;
+      margin: 28px 0 10px; }
+    /* line 106, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+    .stm_buddypress_instructors .stm_lms_instructors_carousel__single_name {
+      margin-right: 10px;
+      color: #fff;
+      flex-grow: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 20px;
+      font-weight: 700; }
+    /* line 117, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+    .stm_buddypress_instructors .stm_lms_instructors_carousel__single_activity {
+      margin-left: auto;
+      color: #aaa;
+      font-size: 13px;
+      white-space: nowrap; }
+      /* line 123, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+      .stm_buddypress_instructors .stm_lms_instructors_carousel__single_activity i {
+        position: relative;
+        top: 1px;
+        font-size: 16px; }
+    /* line 130, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+    .stm_buddypress_instructors .stm_lms_instructors_carousel__single_position_rate {
+      display: flex; }
+    /* line 134, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+    .stm_buddypress_instructors .stm_lms_instructors_carousel__single_position {
+      flex-grow: 1;
+      opacity: .6; }
+    /* line 140, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+    .stm_buddypress_instructors .stm_lms_instructors_carousel__single .stm-lms-user_rating .star-rating {
+      position: relative;
+      top: 3px;
+      margin: 0;
+      width: 75px;
+      vertical-align: top;
+      background-size: 15px 15px;
+      height: 15px; }
+      /* line 149, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+      .stm_buddypress_instructors .stm_lms_instructors_carousel__single .stm-lms-user_rating .star-rating > span {
+        background-size: 15px 15px;
+        height: 15px; }
+    /* line 155, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+    .stm_buddypress_instructors .stm_lms_instructors_carousel__single .stm-lms-user_rating .stm-lms-user_rating__total,
+    .stm_buddypress_instructors .stm_lms_instructors_carousel__single .stm-lms-user_rating .rating {
+      display: none; }
+  /* line 166, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+  .stm_buddypress_instructors .owl-carousel .owl-dots {
+    margin: 75px 0 0; }
+  /* line 169, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+  .stm_buddypress_instructors .owl-carousel .owl-dot {
+    width: 10px;
+    height: 10px;
+    border: 0;
+    background-color: #d2d2d2; }
+    /* line 175, assets/scss/vc_modules/buddypress_instructors/style_1.scss */
+    .stm_buddypress_instructors .owl-carousel .owl-dot.active {
+      background-color: #1a92e6;
+      transform: scale(1.3); }

@@ -1,0 +1,75 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.stm_lms_courses_categories.style_1 {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+    .stm_lms_courses_category {
+        margin: 0 15px;
+        &__image {
+            margin: 0 0 13px;
+            overflow: hidden;
+            img {
+                transition: .3s ease;
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+        &__info {
+            display: flex;
+            align-items: center;
+            margin: 0 0 26px;
+            h4 {
+                min-width: 130px;
+                margin: 0 15px 0 0;
+                transition: .3s ease;
+            }
+            span {
+                margin-left: auto;
+                color: #273044;
+            }
+        }
+    }
+}
+
+@include breakpoint(1200px) {
+    .stm_lms_courses_categories.style_1 {
+        max-width: 770px;
+        margin: 0 auto;
+        justify-content: space-between;
+        .stm_lms_courses_category {
+            width: 45%;
+            &_wide {
+                width: 100%;
+            }
+            &__1 {
+                width: 100%;
+                justify-content: space-between;
+                > a {
+                    display: block;
+                    width: 47%;
+                }
+            }
+            &_default {
+                display: flex;
+            }
+        }
+    }
+}
+
+@include breakpoint(mobile) {
+    .stm_lms_courses_categories.style_1 {
+        .stm_lms_courses_category {
+            flex-wrap: wrap;
+            width: 100%;
+            > a {
+                width: 100%;
+                h4 {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

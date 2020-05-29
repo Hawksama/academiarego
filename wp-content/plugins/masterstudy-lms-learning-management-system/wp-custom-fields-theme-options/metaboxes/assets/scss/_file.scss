@@ -1,0 +1,80 @@
+.wpcfto_generic_field__file {
+	margin-bottom: 30px;
+}
+
+.file-select {
+	margin-bottom: 20px;
+}
+
+.file-select > .select-button {
+	padding: 1rem;
+
+	color: white;
+	background-color: #2EA169;
+
+	border-radius: .3rem;
+
+	text-align: center;
+	font-weight: bold;
+
+	cursor: pointer;
+
+	&.uploading {
+		background-color: transparent;
+		background-image: repeating-linear-gradient(
+						-45deg,
+						rgba(46,161,105,.5),
+						rgba(46,161,105,.5) 1rem,
+						#2EA169 1rem,
+						#2EA169 2rem
+		);
+		background-size: 200% 200%;
+		animation: barberpole 10s linear infinite;
+	}
+}
+
+/* Don't forget to hide the original file input! */
+.file-select > input[type="file"] {
+	display: none;
+}
+
+.field_label__file {
+	margin: 0 0 20px;
+	> a {
+		display: inline-block;
+		margin-right: 10px;
+		color: #fff !important;
+		background-color: #195ec8;
+		padding: 5px 10px;
+		border-radius: 5px;
+		i {
+			margin-right: 5px;
+		}
+	}
+}
+
+.stm_metaboxes_grid .stm_metaboxes_grid__inner {
+	.field_label_error {
+		background: #fd3753;
+		color: #fff;
+		padding: 17px 15px;
+		border-radius: 5px;
+
+		ul {
+			margin: 15px 0 15px 15px;
+			list-style: decimal;
+			li {
+				margin-bottom: 10px;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+@keyframes barberpole {
+	100% {
+		background-position: 100% 100%;
+	}
+}

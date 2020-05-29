@@ -1,0 +1,93 @@
+/* line 5, assets/scss/vc_modules/row_animations/flying_students.scss */
+.row-has-animation .wpb_column {
+  position: relative;
+  z-index: 1000; }
+
+/* line 9, assets/scss/vc_modules/row_animations/flying_students.scss */
+.row-has-animation .stm_lms_row_animation {
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  margin-top: -238px;
+  z-index: 100; }
+  /* line 15, assets/scss/vc_modules/row_animations/flying_students.scss */
+  .row-has-animation .stm_lms_row_animation .magnifier,
+  .row-has-animation .stm_lms_row_animation .moon,
+  .row-has-animation .stm_lms_row_animation .bubblespeech,
+  .row-has-animation .stm_lms_row_animation .book1,
+  .row-has-animation .stm_lms_row_animation .book2 {
+    position: absolute; }
+  /* line 22, assets/scss/vc_modules/row_animations/flying_students.scss */
+  .row-has-animation .stm_lms_row_animation .book1 {
+    top: 110px;
+    right: 40px;
+    animation: slideDown 5s infinite; }
+  /* line 27, assets/scss/vc_modules/row_animations/flying_students.scss */
+  .row-has-animation .stm_lms_row_animation .book2 {
+    bottom: 45px;
+    right: 155px;
+    animation: slideUp 7s infinite; }
+  /* line 32, assets/scss/vc_modules/row_animations/flying_students.scss */
+  .row-has-animation .stm_lms_row_animation .magnifier {
+    bottom: 115px;
+    right: 70px;
+    animation: slideUp 10s infinite; }
+  /* line 37, assets/scss/vc_modules/row_animations/flying_students.scss */
+  .row-has-animation .stm_lms_row_animation .bubblespeech {
+    top: 60px;
+    right: 40px;
+    animation: slideDown 5s infinite;
+    animation-delay: .3s; }
+  /* line 43, assets/scss/vc_modules/row_animations/flying_students.scss */
+  .row-has-animation .stm_lms_row_animation .moon {
+    top: 120px;
+    left: 105px;
+    animation: circle 3s infinite linear;
+    transition: 25s ease; }
+
+/* line 52, assets/scss/vc_modules/row_animations/flying_students.scss */
+.row-has-animation.hinted-row .stm_lms_row_animation .moon {
+  top: -4000px;
+  left: 9999px;
+  animation: none; }
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(20px); }
+  70% {
+    transform: translateY(0px); }
+  100% {
+    transform: translateY(0px); } }
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0); }
+  30% {
+    transform: translateY(-20px); }
+  60% {
+    transform: translateY(0px); }
+  100% {
+    transform: translateY(0px); } }
+
+@keyframes slideUpSmall {
+  0% {
+    transform: translateY(0); }
+  30% {
+    transform: translateY(-10px); }
+  60% {
+    transform: translateY(0px); }
+  100% {
+    transform: translateY(0px); } }
+
+@keyframes circle {
+  from {
+    transform: rotate(0deg) translate(-3px) rotate(0deg); }
+  to {
+    transform: rotate(360deg) translate(-3px) rotate(-360deg); } }
+
+@media (max-width: 769px) {
+  /* line 120, assets/scss/vc_modules/row_animations/flying_students.scss */
+  .row-has-animation .stm_lms_row_animation {
+    display: none; } }

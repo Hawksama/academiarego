@@ -1,0 +1,449 @@
+body.rtl.rtl-demo {
+
+    .stm_lms_courses__single--image div.stm_lms_lazy_image {
+        width: calc(100% + 1px);
+    }
+
+    .stm_lms_instructors__grid .stm_lms_instructors__single .stm_lms_user_side {
+        text-align: center;
+    }
+
+    .fwsb {
+        font-weight: 600;
+    }
+
+    .header_2_top_bar {
+        border: 0;
+    }
+
+    .header_2 {
+        .header_top {
+            .stm_lms_courses_search__button {
+                right: auto;
+                left: 0;
+                background-color: #273044;
+            }
+
+            .stm_courses_search {
+                padding-right: 13px;
+                padding-left: 0;
+                margin-left: 30px;
+                background-color: #fcb408;
+
+                .stm_lms_courses_search input {
+                    padding-right: 15px !important;
+                    padding-left: 80px !important;
+                }
+
+                .stm_lms_categories {
+                    display: flex;
+                    align-items: center;
+                    color: #111111;
+
+                    i {
+                        position: relative;
+                        top: 1px;
+                        margin-left: 5px;
+                        color: #111111;
+                    }
+
+                    span {
+                        color: #111111;
+                    }
+                }
+            }
+        }
+    }
+
+    .header_2_top_bar__inner {
+
+        .top_bar_right_part {
+            margin: 0;
+            flex-grow: 1;
+
+            .pull-right {
+                float: none !important;
+                order: -1;
+                margin-left: auto;
+
+                .header_top_bar_socs {
+                    margin-right: 0;
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        .stm_lms_wpml_switcher {
+            margin-left: 40px;
+        }
+    }
+
+    .vc_row-o-equal-height {
+        div[class*="vc_col-sm-"] {
+            float: none !important;
+        }
+    }
+
+    .overflowed_content .icon_box:hover {
+        top: 0;
+    }
+
+    .icon_box {
+        h5 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 13px;
+            opacity: 1;
+
+        }
+    }
+
+    .stm_lms_courses_grid {
+        .stm_lms_courses_grid__top h2 {
+            text-transform: none;
+            font-size: 35px;
+        }
+
+        .stm_lms_load_more_courses {
+            margin: 0 !important;
+            border: 3px solid #fcb408;
+            background-color: #fff;
+            color: #273044;
+
+            &:after {
+                display: none;
+            }
+
+            span {
+                font-weight: 700;
+            }
+
+            &:before {
+                border-color: #fcb408;
+            }
+        }
+    }
+
+    .post_list_content_unit {
+        .col-md-3 {
+            left: 75%;
+        }
+
+        .col-md-9 {
+            right: 25%;
+
+            .post_list_inner_content_unit {
+                margin-left: 0;
+                margin-right: -30px;
+            }
+        }
+
+        .post_list_item_title {
+            padding-left: 0;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .post_list_meta_unit {
+            opacity: 0.3;
+            transition: .3s ease;
+        }
+
+        &:hover {
+            .post_list_meta_unit {
+                opacity: 1;
+            }
+        }
+
+    }
+
+    .vc_sep_width_10 {
+        max-width: 80px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 1px solid transparent;
+        border-radius: 10px !important;
+    }
+
+    .stm_lms_instructors_carousel_wrapper {
+        .stm_lms_instructors_carousel__top {
+            text-align: center;
+
+            h3 {
+                margin: 0 auto 20px;
+                font-size: 36px;
+            }
+
+            a.h4 {
+                display: none;
+            }
+        }
+
+        .stm_lms_instructors__grid .stm_lms_instructors__single {
+            &:hover {
+                background-color: #fff;
+            }
+
+            .stm_lms_user_side {
+                h5 {
+                    padding: 0 15px;
+                }
+
+                .stm-lms-user_rating {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+
+                    .star-rating {
+                        display: block;
+                        margin-right: 7px;
+                        order: 40;
+
+                        span {
+                            position: relative;
+                            margin-right: auto;
+                        }
+                    }
+
+                    .rating {
+                        display: block;
+                        order: 20;
+                    }
+
+                    .stm-lms-user_rating__total {
+                        margin: 7px 0 0;
+                        width: 100%;
+                        order: 50;
+                        color: #273044;
+                    }
+                }
+            }
+        }
+    }
+
+    .stm_subscribe {
+        .widget_mailchimp {
+            .stm_subscribe_title {
+                font-weight: 600;
+            }
+
+            .stm_mailchimp_unit {
+                .form-control {
+                    padding-left: 145px !important;
+                }
+
+                .button {
+                    right: auto;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    .vc_row-no-padding {
+        .stm_image_box.stm_image_box__style_2 {
+            position: relative;
+            padding: 0 30px 35px;
+            margin-bottom: 50px;
+            justify-content: flex-start;
+
+            img {
+                margin-top: 35px;
+                order: -100;
+                margin-right: 0;
+                margin-left: 50px;
+            }
+
+            .stm_image_box__title {
+                h3 {
+                    font-size: 24px;
+                }
+            }
+
+            .stm_image_box__textarea {
+                max-width: inherit;
+                font-size: 18px;
+                line-height: 24px;
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                right: -15px;
+                top: 0;
+                bottom: 0;
+                width: 1px;
+                background-color: #e4e6ea;
+            }
+
+            .btn {
+                padding: 18px 25px;
+                background-color: #fff;
+                color: #273044;
+
+                &:after {
+                    background-color: #273044;
+                }
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+        > .wpb_column {
+            &:last-child {
+                .stm_image_box {
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .stm_lms_log_in {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .stm_lms_courses__grid.stm_lms_courses__grid_right .stm_lms_courses__single .stm_lms_courses__single--info {
+        right: calc(100% - 10px);
+        left: calc(-100% - 90px);
+
+        &:before {
+            left: auto;
+            right: -17px;
+            transform: rotate(180deg);
+        }
+    }
+
+    .stm_lms_courses__grid.stm_lms_courses__grid_right.stm_lms_courses__grid_2 .stm_lms_courses__single:nth-child(4n) .stm_lms_courses__single--info,
+    .stm_lms_courses__grid.stm_lms_courses__grid_right.stm_lms_courses__grid_2 .stm_lms_courses__single:nth-child(4n+3) .stm_lms_courses__single--info, .stm_lms_courses__grid.stm_lms_courses__grid_right.stm_lms_courses__grid_4 .stm_lms_courses__single:nth-child(4n) .stm_lms_courses__single--info, .stm_lms_courses__grid.stm_lms_courses__grid_right.stm_lms_courses__grid_4 .stm_lms_courses__single:nth-child(4n+3) .stm_lms_courses__single--info {
+        left: calc(100% - 10px);
+        right: calc(-100% - 90px);
+
+        &:before {
+            right: auto;
+            left: -17px;
+            transform: rotate(0);
+        }
+    }
+
+    .stm_testimonials_wrapper_style_2 div.stm_lms_testimonials_single__excerpt p {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    @media (max-width: 1280px) {
+        .header_2 {
+            .header_top .stm_header_links a {
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                i {
+                    display: none;
+                }
+            }
+
+            .header_top {
+                .right-unit > * {
+                    margin-right: 15px;
+                }
+
+                .center-unit {
+                    padding: 0 15px;
+                }
+            }
+        }
+
+        .vc_row-no-padding .stm_image_box.stm_image_box__style_2 {
+            flex-wrap: wrap;
+
+            img {
+
+                margin: 0 0 20px;
+                order: 1;
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .vc_row-no-padding .stm_image_box.stm_image_box__style_2 {
+            img {
+                max-height: 81px;
+                width: auto;
+            }
+
+            .stm_image_box__title h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    @media (max-width: 769px) {
+        .stm_header_top_search {
+            margin-right: auto;
+            margin-left: 0;
+        }
+        .stm_header_top_toggler {
+            margin-right: 15px;
+            background-color: #fcb408;
+            color: #fff;
+        }
+
+        .vc_row-no-padding .stm_image_box.stm_image_box__style_2 {
+            padding-right: 10px;
+            padding-left: 10px;
+
+            img {
+                margin: 0 auto 20px;
+            }
+
+            .stm_image_box__title {
+                h3 {
+                    font-size: 16px;
+                    line-height: 1.3;
+                }
+            }
+
+            .stm_image_box__textarea {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        .post_list_content_unit {
+            .col-md-3 {
+                display: none;
+            }
+            .col-md-9 {
+                right: 0;
+                width: 100%;
+                .post_list_inner_content_unit {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 515px) {
+        .logo-unit {
+            margin-right: 0;
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.stm_teacher_single_featured_image {
+    position: relative;
+    & .display_inline_block {
+        position: relative;
+    }
+    & .stm_teacher_single_socials {
+        position: absolute;
+        width: 100%;
+        bottom: 20px;
+        left: 0;
+        & a {
+            position: relative;
+            top: 0;
+            display: inline-block;
+            margin: 5px 4px;
+            height: 38px;
+            width: 38px;
+            font-size: 18px;
+            color: $white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 38px;
+            &.expert-social-facebook {
+                background-color: $facebook;
+            }
+            &.expert-social-twitter {
+                background-color: $twitter;
+            }
+            &.expert-social-google-plus {
+                background-color: $google-plus;
+            }
+            &.expert-social-linkedin {
+                background-color: $linkedin;
+            }
+            &.expert-social-youtube-play {
+                background-color: $youtube;
+            }
+            &:after {
+                @include pseudo(absolute, 100%, 6px);
+                bottom: -6px;
+                left: 0;
+                display: none;
+            }
+            &:hover {
+                top: -6px;
+                &:after {
+                    display: block;
+                }
+            }
+        }
+    }
+}

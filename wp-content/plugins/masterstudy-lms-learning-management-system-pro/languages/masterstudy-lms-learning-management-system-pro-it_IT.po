@@ -1,0 +1,2341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MasterStudy LMS Learning Management System PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-17 05:18+0000\n"
+"PO-Revision-Date: 2020-05-21 14:10+0200\n"
+"Language-Team: Italian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"Last-Translator: Stylemix Themes <timur@stylemix.net>\n"
+"Language: it_IT\n"
+"X-Loco-Version: 2.3.1; wp-5.4\n"
+
+#: stm-lms-templates/stm-lms-assignments.php:13
+#: stm-lms-templates/stm-lms-enterprise-groups.php:10
+#: stm-lms-templates/stm-lms-assignment.php:20
+msgid "Group Limit:"
+msgstr "Limite di gruppo:"
+
+#: stm-lms-templates/stm-lms-assignments.php:29
+#: stm-lms-templates/stm-lms-enterprise-groups.php:22
+#: stm-lms-templates/stm-lms-gradebook.php:16
+#: stm-lms-templates/manage_course/single.php:73
+#: stm-lms-templates/account/private/parts/certificates.php:10
+msgid "Back to account"
+msgstr "Torna all'account"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:14
+msgid "You wont be able to manage group anymore. Proceed with caution!"
+msgstr "Non sarai più in grado di gestire il gruppo. Procedi con cautela!"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:15
+msgid "Do you really want to delete this user from group?"
+msgstr "Vuoi veramente cancellare questo utente dal gruppo?"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:34
+msgid "Back to groups"
+msgstr "Torna ai gruppi"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:37
+#, php-format
+msgid "Group \"%s\""
+msgstr "Gruppo \"%s\""
+
+#: stm-lms-templates/stm-lms-gradebook.php:19 lms/classes/addons.php:46
+msgid "The Gradebook"
+msgstr "Registro dei voti"
+
+#: stm-lms-templates/stm-lms-gradebook.php:28 addons/udemy/main.php:77
+msgid "Search Courses"
+msgstr "Cerca corsi"
+
+#: stm-lms-templates/stm-lms-gradebook.php:32
+msgid "Enter keyword here"
+msgstr "Inserisci parola chiave"
+
+#: stm-lms-templates/stm-lms-gradebook.php:39
+msgid "Order by Views"
+msgstr "Ordina per Visualizzazioni"
+
+#: stm-lms-templates/stm-lms-gradebook.php:74
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:130
+msgid "Load more"
+msgstr "Carica altro"
+
+#: stm-lms-templates/stm-lms-assignment.php:15
+#, php-format
+msgid "Status: %sPending%s"
+msgstr "Stato: %sIn sospeso%s"
+
+#: stm-lms-templates/stm-lms-assignment.php:16
+#, php-format
+msgid "Status: %sPassed%s"
+msgstr "Stato: %sSuperato%s"
+
+#: stm-lms-templates/stm-lms-assignment.php:17
+#, php-format
+msgid "Status: %sNon passed%s"
+msgstr "Stato: %sNon superato%s"
+
+#: stm-lms-templates/stm-lms-assignment.php:34
+#: stm-lms-templates/stm-lms-user-assignment.php:30
+msgid "Back to Assignments"
+msgstr "Torna ai Compiti"
+
+#: stm-lms-templates/stm-lms-user-points-history.php:18
+#: stm-lms-templates/stm-lms-user-points-distribution.php:18
+#: stm-lms-templates/bundles/my_bundles.php:17
+msgid "Back to Account"
+msgstr "Torna all'account"
+
+#: stm-lms-templates/stm-lms-user-assignment.php:14
+msgid "Do you really want to approve this Essay?"
+msgstr "Vuoi davvero approvare questo saggio?"
+
+#: stm-lms-templates/stm-lms-user-assignment.php:15
+msgid "Do you really want to reject this Essay?"
+msgstr "Vuoi davvero rifiutare questo saggio?"
+
+#: lms/classes/addons.php:17
+msgid "Udemy Course Importer"
+msgstr "Importatore di corsi Udemy"
+
+#: lms/classes/addons.php:22 stm-lms-templates/global/prerequisite.php:12
+msgid "Prerequisites"
+msgstr "Prerequisiti"
+
+#: lms/classes/addons.php:26 addons/online_testing/main.php:21
+msgid "Online Testing"
+msgstr "Test Online"
+
+#: lms/classes/addons.php:31
+msgid "Statistics and Payout"
+msgstr "Statistiche e Pagamento"
+
+#: lms/classes/addons.php:36
+msgid "Trial Courses"
+msgstr "Corsi di prova"
+
+#: lms/classes/addons.php:41 addons/sequential_drip_content/main.php:251
+#: addons/sequential_drip_content/main.php:260
+#: addons/sequential_drip_content/main.php:265
+msgid "Sequential Drip Content"
+msgstr "Contenuto sequenziale graduale"
+
+#: lms/classes/addons.php:50
+msgid "Lessons Live Streaming"
+msgstr "Lezioni streaming in diretta"
+
+#: lms/classes/addons.php:54
+msgid "Group Courses"
+msgstr "Corsi di gruppo"
+
+#: lms/classes/addons.php:59 addons/assignments/main.php:429
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:2
+msgid "Assignments"
+msgstr "Compiti"
+
+#: lms/classes/addons.php:64
+msgid "Point system"
+msgstr "Sistema a punti"
+
+#: lms/classes/addons.php:69
+msgid "Course Bundle"
+msgstr "Pacchetto corsi"
+
+#: lms/classes/addons.php:74
+msgid "Multi-instructors"
+msgstr "Multi-istruttori"
+
+#: lms/classes/addons.php:78
+msgid "Google Classrooms"
+msgstr "Google Classrooms"
+
+#: lms/classes/addons.php:83 addons/zoom_conference/main.php:99
+#: addons/zoom_conference/main.php:108
+msgid "Zoom Conference"
+msgstr "Zoom Conference"
+
+#: lms/classes/addons.php:88
+msgid "Scorm"
+msgstr "Scorm"
+
+#: lms/classes/certificates.php:47
+msgid "Enter valid code"
+msgstr "Inserisci un codice valido"
+
+#: lms/classes/certificates.php:71 lms/classes/certificates.php:78
+msgid "Sorry, Certificate not found"
+msgstr "Siamo spiacenti, certificato non trovato"
+
+#: lms/classes/certificates.php:83
+#, php-format
+msgid "Certificate is valid. Course \"%s\" finished by %s"
+msgstr "Il certificato è valido. Il corso \"%s\" è terminato da %s"
+
+#: lms/classes/manage_course.php:31
+msgid "Your Course title here..."
+msgstr "Il titolo del tuo corso qui..."
+
+#: lms/classes/manage_course.php:32
+msgid "Course title"
+msgstr "Titolo del corso"
+
+#: lms/classes/manage_course.php:33 lms/classes/manage_course.php:87
+msgid "Choose category"
+msgstr "Scegli categoria"
+
+#: lms/classes/manage_course.php:402
+msgid "Course Saved, redirecting..."
+msgstr "Corso salvato, reindirizzamento..."
+
+#: lms/classes/manage_course.php:485
+msgid "Please log-in"
+msgstr "Per favore, effettua l'accesso"
+
+#: lms/classes/manage_course.php:498
+msgid "It is not your course."
+msgstr "Non è il tuo corso."
+
+#: lms/actions/create_announcement.php:14
+msgid "Announcement has been sent to course students."
+msgstr "La comunicazione è stata inviata agli studenti del corso."
+
+#: lms/actions/create_announcement.php:19
+msgid "Please fill all fields"
+msgstr "Per favore compila tutti i campi"
+
+#: lms/actions/create_announcement.php:37
+msgid "Announcement from Instructor"
+msgstr "Comunicazione dall'insegnante"
+
+#: addons/statistics/main.php:25
+msgid "Statistics"
+msgstr "Statistiche"
+
+#: addons/zoom_conference/main.php:59
+msgctxt "post type general name"
+msgid "Zoom Conferences"
+msgstr "Conferenze Zoom"
+
+#: addons/zoom_conference/main.php:60
+msgctxt "post type singular name"
+msgid "Zoom Conference"
+msgstr "Conferenza Zoom"
+
+#: addons/zoom_conference/main.php:61
+msgctxt "admin menu"
+msgid "Zoom Conferences"
+msgstr "Conferenze Zoom"
+
+#: addons/zoom_conference/main.php:62
+msgctxt "add new on admin bar"
+msgid "Zoom Conference"
+msgstr "Conferenza Zoom"
+
+#: addons/zoom_conference/main.php:63
+msgctxt "zoom_conference"
+msgid "Add New"
+msgstr "Aggiungi Nuova"
+
+#: addons/zoom_conference/main.php:64
+msgid "Add New Zoom Conference"
+msgstr "Aggiungi nuova conferenza Zoom"
+
+#: addons/zoom_conference/main.php:65
+msgid "New Zoom Conference"
+msgstr "Nuova conferenza Zoom"
+
+#: addons/zoom_conference/main.php:66
+msgid "Edit Zoom Conference"
+msgstr "Modifica conferenza Zoom"
+
+#: addons/zoom_conference/main.php:67
+msgid "View Zoom Conference"
+msgstr "Visualizza Conferenza Zoom"
+
+#: addons/zoom_conference/main.php:68
+msgid "All Zoom Conferences"
+msgstr "Tutte le Conferenze Zoom"
+
+#: addons/zoom_conference/main.php:69
+msgid "Search Zoom Conferences"
+msgstr "Cerca conferenze Zoom"
+
+#: addons/zoom_conference/main.php:70
+msgid "Parent Zoom Conferences:"
+msgstr "Conferenze Zoom principali:"
+
+#: addons/zoom_conference/main.php:71
+msgid "No Zoom Conferences found."
+msgstr "Nessuna conferenza zoom trovata."
+
+#: addons/zoom_conference/main.php:72
+msgid "No Zoom Conferences found in Trash."
+msgstr "Nessuna conferenza zoom trovata nel Cestino."
+
+#: addons/zoom_conference/main.php:77 addons/live_streams/main.php:48
+msgid "Description."
+msgstr "Descrizione."
+
+#: addons/zoom_conference/main.php:112
+msgid "Conference Start Date"
+msgstr "Data di inizio della conferenza"
+
+#: addons/zoom_conference/main.php:118
+msgid "Conference Start Time"
+msgstr "Orario di inizio della conferenza"
+
+#: addons/zoom_conference/main.php:124 addons/zoom_conference/main.php:182
+msgid "Timezone"
+msgstr "Fuso orario"
+
+#: addons/zoom_conference/main.php:130
+msgid "Join before host"
+msgstr "Unisciti prima dell'Host"
+
+#: addons/zoom_conference/main.php:135 addons/zoom_conference/main.php:209
+msgid "Host join start"
+msgstr "Host si unisce all'avio"
+
+#: addons/zoom_conference/main.php:140 addons/zoom_conference/main.php:221
+msgid "Start After Participants"
+msgstr "Inizia dopo i partecipanti"
+
+#: addons/zoom_conference/main.php:145 addons/zoom_conference/main.php:234
+msgid "Mute Participants upon entry"
+msgstr "Metti in Muto i Partecipanti al momento dell'ingresso"
+
+#: addons/zoom_conference/main.php:150 addons/zoom_conference/main.php:247
+msgid "Enforce Login"
+msgstr "Applica Accesso"
+
+#: addons/zoom_conference/main.php:165 addons/live_streams/main.php:114
+msgid "Stream start date"
+msgstr "Data di inizio Streaming"
+
+#: addons/zoom_conference/main.php:175 addons/live_streams/main.php:124
+msgid "Stream start time"
+msgstr "Ora di inizio Streaming"
+
+#: addons/zoom_conference/main.php:197
+msgid "Join Before Host"
+msgstr "Unisciti prima dell'Host"
+
+#: addons/course_bundle/settings.php:41 addons/udemy/main.php:52
+#: addons/assignments/main.php:400 addons/sequential_drip_content/main.php:49
+#: addons/shareware/main.php:41 addons/google_classrooms/main.php:321
+#: addons/enterprise_courses/main.php:126
+msgid "Credentials"
+msgstr "Credenziali"
+
+#: addons/course_bundle/settings.php:45
+msgid "Bundles quantity limit"
+msgstr "Limite quantità pacchetti"
+
+#: addons/course_bundle/settings.php:49
+msgid "Courses in bundle quantity limit"
+msgstr "Limite quantità corsi nel pacchetto"
+
+#: addons/course_bundle/settings.php:50
+msgid ""
+"By default limit is 5. Five courses - fits the best in bundle on frontend."
+msgstr ""
+"Per impostazione predefinita, il limite è 5. Cinque corsi - si adatta al "
+"meglio nel pacchetto nella parte anteriore."
+
+#: addons/course_bundle/cart.php:41 addons/course_bundle/cart.php:48
+#: addons/enterprise_courses/main.php:344
+#: addons/enterprise_courses/main.php:353
+msgid "Go to Cart"
+msgstr "Vai al carrello"
+
+#: addons/course_bundle/cart.php:63
+msgid "Bundle"
+msgstr "Pacchetto"
+
+#: addons/course_bundle/main.php:29 addons/course_bundle/main.php:30
+msgid "Course Bundles"
+msgstr "Pacchetti corsi"
+
+#: addons/course_bundle/main.php:60
+msgid "Bundles"
+msgstr "Pacchetti"
+
+#: addons/course_bundle/my-bundle.php:84
+#: addons/course_bundle/my-bundle.php:137
+msgid "Please, upload bundle image"
+msgstr "Per favore, carica l'immagine del pacchetto"
+
+#: addons/course_bundle/my-bundle.php:102 addons/assignments/main.php:654
+msgid "Invalid file extension"
+msgstr "Estensione file non valida."
+
+#: addons/course_bundle/my-bundle.php:164
+msgid "Bundle saved. Redirecting..."
+msgstr "Pacchetto salvato. Reindirizzamento ..."
+
+#: addons/course_bundle/my-bundle.php:183 addons/assignments/main.php:617
+msgid "Invalid File"
+msgstr "File non valido"
+
+#: addons/course_bundle/my-bundles.php:52
+msgid "Quota exceeded"
+msgstr "Superamento delle quote"
+
+#: addons/udemy/import.php:76
+msgid "Importing Curriculum"
+msgstr "Importazione del curriculum"
+
+#: addons/udemy/import.php:168
+msgid "Get on Udemy"
+msgstr "Ottieni su Udemy"
+
+#: addons/udemy/import.php:284
+#: addons/google_classrooms/admin_view/courses.php:57
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:83
+msgid "Preview"
+msgstr "Anteprima"
+
+#: addons/udemy/main.php:56
+msgid "Client ID"
+msgstr "ID Cliente"
+
+#: addons/udemy/main.php:61
+msgid "Client Secret"
+msgstr "Segreto Cliente"
+
+#: addons/udemy/main.php:66
+msgid "Udemy Rakuten Affiliate script"
+msgstr "Udemy Rakuten Script di affiliazione"
+
+#: addons/udemy/main.php:73
+msgid "Search"
+msgstr "Ricerca"
+
+#: addons/udemy/main.php:82
+msgid "Imported Courses"
+msgstr "Corsi importati"
+
+#: addons/udemy/main.php:109
+msgid "Please, enter Udemy API Credentials"
+msgstr "Inserisci le credenziali dell'API Udemy"
+
+#: addons/udemy/main.php:137 stm-lms-templates/gradebook/course-details.php:46
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+#: addons/udemy/main.php:192
+msgid "Published"
+msgstr "Pubblicato"
+
+#: addons/assignments/main.php:404
+msgid "Number of allowed attachments"
+msgstr "Numero di allegati consentiti"
+
+#: addons/assignments/main.php:409
+msgid "Max file size (Mb)"
+msgstr "Dimensioni massime del file (Mb)"
+
+#: addons/assignments/main.php:428 addons/assignments/main.php:480
+#: addons/assignments/main.php:491
+msgid "Assignment"
+msgstr "Compito"
+
+#: addons/assignments/main.php:440
+msgid "Student Assignment"
+msgstr "Compito Studente"
+
+#: addons/assignments/main.php:441
+#: stm-lms-templates/account/private/parts/assignments_btn.php:11
+msgid "Student Assignments"
+msgstr "Compiti degli studenti"
+
+#: addons/assignments/main.php:495
+msgid "# of try"
+msgstr "# di prova"
+
+#: addons/assignments/main.php:499
+msgid "Start Date"
+msgstr "Data di inizio"
+
+#: addons/assignments/main.php:503
+msgid "End Date"
+msgstr "Data di scadenza"
+
+#: addons/assignments/main.php:507
+#: addons/google_classrooms/admin_view/courses.php:26
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:8
+msgid "Status"
+msgstr "Stato"
+
+#: addons/assignments/main.php:509
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:30
+msgid "Passed"
+msgstr "Superato"
+
+#: addons/assignments/main.php:510
+msgid "Not passed"
+msgstr "Non passato"
+
+#: addons/assignments/main.php:515
+msgid "Editor Comment"
+msgstr "Editore Commento"
+
+#: addons/assignments/main.php:519
+msgid "Assignment ID (dont change)"
+msgstr "ID compito (non modificare)"
+
+#: addons/assignments/main.php:523
+msgid "Student ID (dont change)"
+msgstr "ID studente (non cambiare)"
+
+#: addons/assignments/main.php:527
+msgid "Course ID (dont change)"
+msgstr "ID corso (non cambiare)"
+
+#: addons/assignments/main.php:640
+msgid "File is too large. Split it up to several archives."
+msgstr "Il file è troppo grande. Dividilo in più cartelle."
+
+#: addons/assignments/main.php:671
+msgid "You are out of file limit."
+msgstr "Sei fuori limite di file."
+
+#: addons/assignments/main.php:858
+msgid "Check new assignment, send by student."
+msgstr "Controlla il nuovo compito inviato dallo studente."
+
+#: addons/assignments/main.php:859
+msgid "New assignment"
+msgstr "Nuovo compito"
+
+#: addons/assignments/user_assignment.class.php:116
+msgid "Your assignment was checked"
+msgstr "Il tuo compito è stato controllato"
+
+#: addons/assignments/user_assignment.class.php:117
+msgid "Assignment status change."
+msgstr "Modifica stato del compito."
+
+#: addons/online_testing/main.php:47
+msgid "How to use"
+msgstr "Modalità d'uso"
+
+#: addons/online_testing/main.php:68
+msgid "Close"
+msgstr "Chiudi"
+
+#: addons/sequential_drip_content/main.php:53
+msgid "Lock lessons sequentially"
+msgstr "Blocca le lezioni in sequenza"
+
+#: addons/sequential_drip_content/main.php:58
+msgid "Lock lesson before it starts"
+msgstr "Blocca la lezione prima che inizi"
+
+#: addons/sequential_drip_content/main.php:106
+msgid "Lesson start date"
+msgstr "Data di inizio della lezione"
+
+#: addons/sequential_drip_content/main.php:116
+msgid "Lesson start time"
+msgstr "Orario di inizio della lezione"
+
+#: addons/sequential_drip_content/main.php:281
+msgid "Lesson Start Date"
+msgstr "Data inizio lezione"
+
+#: addons/sequential_drip_content/main.php:287
+msgid "Lesson Start Time"
+msgstr "Ora di inizio della lezione"
+
+#: addons/shareware/main.php:45
+msgid "Number of free lessons"
+msgstr "Numero di lezioni gratuite"
+
+#: addons/shareware/main.php:58
+msgid "Trial Course"
+msgstr "Corso di prova"
+
+#: addons/prerequisite/main.php:22
+msgid "Course Prerequisites"
+msgstr "Corso Prerequisiti"
+
+#: addons/prerequisite/main.php:31 addons/enterprise_courses/main.php:624
+#: stm-lms-templates/manage_course/parts/tabs.php:7
+#: stm-lms-templates/course/udemy/parts/tabs.php:7
+#: stm-lms-templates/course/classic/parts/tabs.php:7
+#: stm-lms-templates/manage_course/forms/js/wizard.php:53
+#: stm-lms-templates/manage_course/forms/js/wizard.php:61
+#: stm-lms-templates/manage_course/forms/js/wizard.php:69
+msgid "Curriculum"
+msgstr "Curriculum"
+
+#: addons/prerequisite/main.php:36
+#: stm-lms-templates/manage_course/global/prerequisites.php:10
+msgid "Prerequisite Courses"
+msgstr "Corsi Prerequisito"
+
+#: addons/prerequisite/main.php:40
+#: stm-lms-templates/manage_course/global/prerequisites.php:20
+msgid "Prerequisite Courses Passing Percent (%)"
+msgstr "Percentuale superamento corsi prerequisiti (%)"
+
+#: addons/google_classrooms/main.php:116
+msgid "Not a JSON file"
+msgstr "Non è un file JSON"
+
+#: addons/google_classrooms/main.php:125 addons/google_classrooms/main.php:135
+msgid "Wrong JSON file"
+msgstr "File JSON errato"
+
+#: addons/google_classrooms/main.php:144
+msgid "JSON Loaded, reloading..."
+msgstr "JSON caricato, ricaricamento in corso..."
+
+#: addons/google_classrooms/main.php:325
+msgid "Only logged in students in a specific classroom can see the code"
+msgstr ""
+"Solo gli studenti che hanno effettuato l'accesso in una classe specifica "
+"possono vedere il codice"
+
+#: addons/google_classrooms/main.php:330
+msgid "Enable popup"
+msgstr "Abilita popup"
+
+#: addons/google_classrooms/main.php:334
+msgid "Popup Title"
+msgstr "Titolo popup"
+
+#: addons/google_classrooms/main.php:342
+msgid "Popup Editor"
+msgstr "Editor popup"
+
+#: addons/google_classrooms/main.php:350
+msgid "Popup Image"
+msgstr "Immagine popup"
+
+#: addons/google_classrooms/main.php:358
+msgid "Popup Auditory base URL"
+msgstr "Popup Auditorio URL di base "
+
+#: addons/google_classrooms/main.php:462
+msgid "Google Classroom view"
+msgstr "Visuale Google Classroom"
+
+#: addons/google_classrooms/auditory.php:62
+#: addons/google_classrooms/auditory.php:63
+#: addons/google_classrooms/frontend_view/google_classroom.php:9
+msgid "Classrooms"
+msgstr "Aule"
+
+#: addons/google_classrooms/auditory.php:76
+#: addons/google_classrooms/auditory.php:77
+msgid "Classroom Auditory"
+msgstr "Auditorio della classe"
+
+#: addons/point_system/settings.php:55
+#: addons/multi_instructors/settings.php:36
+msgid "Interface"
+msgstr "Interfaccia"
+
+#: addons/point_system/settings.php:59
+msgid "Point Image"
+msgstr "Immagine Punto"
+
+#: addons/point_system/settings.php:63
+#: addons/multi_instructors/settings.php:40
+msgid "Point Label"
+msgstr "Etichetta punto"
+
+#: addons/point_system/settings.php:67
+msgid "Point Rate"
+msgstr "Valore punto"
+
+#: addons/point_system/settings.php:68
+msgid "Point rate relative to price (Ex.: 100 - means 100 points equal 1$)"
+msgstr ""
+"Valore del punto rispetto al prezzo (Es.: 100 - significa 100 punti uguali a "
+"1€)"
+
+#: addons/point_system/settings.php:73
+msgid "Enable Affiliate Points"
+msgstr "Abilita punti affiliati"
+
+#: addons/point_system/settings.php:74
+msgid ""
+"Your users can share their affiliate link, and get points for activity of "
+"users, they invited."
+msgstr ""
+"I tuoi utenti possono condividere il loro link di affiliazione e ottenere "
+"punti per l'attività degli utenti che hanno invitato."
+
+#: addons/point_system/settings.php:78
+msgid "Affiliate Points percent (%)"
+msgstr "Percentuale punti di affiliazione (%)"
+
+#: addons/point_system/settings.php:79
+msgid "Number of percent, user will receive from affiliate"
+msgstr "Numero di percentuale che l'utente riceverà dall'affiliato"
+
+#: addons/point_system/settings.php:85
+#: stm-lms-templates/points/distribution.php:9
+msgid "Points Distribution"
+msgstr "Distribuzione dei Punti"
+
+#: addons/point_system/points.php:8
+msgid "User registered"
+msgstr "Utente registrato"
+
+#: addons/point_system/points.php:9
+msgid "Register on site to get start points."
+msgstr "Registrati sul sito per ottenere punti di partenza."
+
+#: addons/point_system/points.php:10 addons/point_system/points.php:84
+msgid "Once only"
+msgstr "Solo una volta"
+
+#: addons/point_system/points.php:14
+msgid "Course purchased"
+msgstr "Corso acquistato"
+
+#: addons/point_system/points.php:15
+msgid "Purchase Course on site."
+msgstr "Acquista Corso sul sito."
+
+#: addons/point_system/points.php:16 addons/point_system/points.php:22
+#: addons/point_system/points.php:28 addons/point_system/points.php:34
+#: addons/point_system/points.php:40 addons/point_system/points.php:46
+#: addons/point_system/points.php:52 addons/point_system/points.php:58
+#: addons/point_system/points.php:91
+msgid "Repeated"
+msgstr "Ripetuto"
+
+#: addons/point_system/points.php:20
+msgid "Assignment Passed"
+msgstr "Compito superato"
+
+#: addons/point_system/points.php:21
+msgid "Pass Assignment with approved label from Instructor."
+msgstr "Compito superato con etichetta approvata dall'insegnante."
+
+#: addons/point_system/points.php:26
+msgid "Certificate Received"
+msgstr "Attestato ricevuto"
+
+#: addons/point_system/points.php:27
+msgid ""
+"Complete course with minimum threshold, and download certificate from your "
+"account."
+msgstr ""
+"Completa il corso con la soglia minima e scarica l'attestato dal tuo account."
+
+#: addons/point_system/points.php:32
+msgid "Quiz Passed"
+msgstr "Quiz passato"
+
+#: addons/point_system/points.php:33
+msgid "Complete quiz with minimum threshold."
+msgstr "Completa il quiz con la soglia minima."
+
+#: addons/point_system/points.php:38
+msgid "Quiz Passed Perfectly"
+msgstr "Quiz superato perfettamente"
+
+#: addons/point_system/points.php:39
+msgid "Complete quiz with 100% progress."
+msgstr "Completa il quiz con il progresso del 100%."
+
+#: addons/point_system/points.php:44
+msgid "Lesson Passed"
+msgstr "Lezione passata"
+
+#: addons/point_system/points.php:45
+msgid "Complete lesson in a course."
+msgstr "Completa lezione in un corso."
+
+#: addons/point_system/points.php:50
+msgid "Group Joined"
+msgstr "Unito al gruppo"
+
+#: addons/point_system/points.php:51
+msgid "Become a member of a group."
+msgstr "Diventa un membro di un gruppo."
+
+#: addons/point_system/points.php:56
+msgid "Friendship accepted"
+msgstr "Amicizia accettata"
+
+#: addons/point_system/points.php:57
+msgid "Accept a friendship from another student."
+msgstr "Accetta un'amicizia da un altro studente."
+
+#: addons/point_system/points.php:62
+msgid "Course Bought"
+msgstr "Corso acquistato"
+
+#: addons/point_system/points.php:82
+msgid "User registered (Affiliate)"
+msgstr "Utente registrato (affiliato)"
+
+#: addons/point_system/points.php:83 addons/point_system/points.php:90
+msgid "Share your affiliate link ang get points for users, using your link."
+msgstr ""
+"Condividi il tuo link di affiliazione e ottieni punti per utenti utilizzando "
+"il link."
+
+#: addons/point_system/points.php:89
+msgid "Course purchased (Affiliate)"
+msgstr "Corso acquistato (Affiliato)"
+
+#: addons/enterprise_courses/main.php:130
+msgid "Number of allowed members in group"
+msgstr "Numero di membri ammessi nel gruppo"
+
+#: addons/enterprise_courses/main.php:209
+#: addons/enterprise_courses/main.php:532
+msgid "Log in"
+msgstr "Accedi"
+
+#: addons/enterprise_courses/main.php:225
+msgid "Specify group name"
+msgstr "Specifica il nome del gruppo"
+
+#: addons/enterprise_courses/main.php:233
+msgid "Error. Try again"
+msgstr "Errore. Riprova"
+
+#: addons/enterprise_courses/main.php:369
+msgid "New group invite"
+msgstr "Nuovo invito al gruppo"
+
+#: addons/enterprise_courses/main.php:370
+#, php-format
+msgid ""
+"You were added to group: \"%s\". Now you can check new courses, bought by "
+"group."
+msgstr ""
+"Sei stato aggiunto al gruppo: \"%s\". Ora puoi controllare i nuovi corsi, "
+"acquistati dal gruppo."
+
+#: addons/enterprise_courses/main.php:384
+#, php-format
+msgid "Login: %s; Password: %s; Site URL: %s"
+msgstr "Accesso: %s; Password: %s; URL del sito: %s"
+
+#: addons/enterprise_courses/main.php:520
+msgid "Invalid CSV File"
+msgstr "File CSV non valido"
+
+#: addons/enterprise_courses/main.php:541
+msgid "Wrong CSV Format"
+msgstr "Formato CSV errato"
+
+#: addons/enterprise_courses/main.php:590
+msgid "Enterprise Group"
+msgstr "Gruppo Aziendale"
+
+#: addons/enterprise_courses/main.php:591
+#: stm-lms-templates/account/private/parts/groups_btn.php:10
+msgid "Enterprise Groups"
+msgstr "Gruppi Aziendali"
+
+#: addons/enterprise_courses/main.php:609
+msgid "Group Settings"
+msgstr "Impostazioni Gruppo"
+
+#: addons/enterprise_courses/main.php:613
+msgid "Enterprise Settings"
+msgstr "Impostazioni Aziendali"
+
+#: addons/enterprise_courses/main.php:628
+msgid "Author ID"
+msgstr "ID Autore"
+
+#: addons/enterprise_courses/main.php:632
+msgid "Emails"
+msgstr "Email"
+
+#: addons/enterprise_courses/main.php:640
+msgid "Enterprise Courses"
+msgstr "Corsi Aziendali"
+
+#: addons/enterprise_courses/main.php:644
+msgid "Enterprise price"
+msgstr "Prezzo aziendale"
+
+#: addons/enterprise_courses/main.php:664
+#, php-format
+msgid "%sEnterprise%s for group %s"
+msgstr "%sAzienda%s per il gruppo %s"
+
+#: addons/enterprise_courses/main.php:807
+#, php-format
+msgid "Enterprise for %s"
+msgstr "Impresa per %s"
+
+#: addons/enterprise_courses/main.php:1067
+#: addons/enterprise_courses/main.php:1096
+#: addons/enterprise_courses/main.php:1122
+#, php-format
+msgid "Hello %s"
+msgstr "Ciao %s"
+
+#: addons/live_streams/main.php:30
+msgctxt "post type general name"
+msgid "Live Streams"
+msgstr "Streaming in diretta"
+
+#: addons/live_streams/main.php:31
+msgctxt "post type singular name"
+msgid "Live Stream"
+msgstr "Streaming in diretta"
+
+#: addons/live_streams/main.php:32
+msgctxt "admin menu"
+msgid "Live Streams"
+msgstr "Streaming in diretta"
+
+#: addons/live_streams/main.php:33
+msgctxt "add new on admin bar"
+msgid "Live Stream"
+msgstr "Streaming in diretta"
+
+#: addons/live_streams/main.php:34
+msgctxt "live_stream"
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: addons/live_streams/main.php:35
+msgid "Add New Live Stream"
+msgstr "Aggiungi nuovo streaming in diretta"
+
+#: addons/live_streams/main.php:36
+msgid "New Live Stream"
+msgstr "Nuovo streaming in diretta"
+
+#: addons/live_streams/main.php:37
+msgid "Edit Live Stream"
+msgstr "Modifica Streaming in diretta"
+
+#: addons/live_streams/main.php:38
+msgid "View Live Stream"
+msgstr "Visualizza Streaming in diretta"
+
+#: addons/live_streams/main.php:39
+msgid "All Live Streams"
+msgstr "Tutti gli Streaming in diretta"
+
+#: addons/live_streams/main.php:40
+msgid "Search Live Streams"
+msgstr "Cerca Streaming in diretta"
+
+#: addons/live_streams/main.php:41
+msgid "Parent Live Streams:"
+msgstr "Streaming in diretta principale:"
+
+#: addons/live_streams/main.php:42
+msgid "No Live Streams found."
+msgstr "Nessuno streaming in diretta trovato."
+
+#: addons/live_streams/main.php:43
+msgid "No Live Streams found in Trash."
+msgstr "Nessuno Streaming in diretta trovato nel Cestino."
+
+#: addons/live_streams/main.php:69 addons/live_streams/main.php:76
+msgid "Stream"
+msgstr "Streaming"
+
+#: addons/live_streams/main.php:80
+msgid "Stream Start Date"
+msgstr "Data di inizio Streaming"
+
+#: addons/live_streams/main.php:86
+msgid "Stream Start Time"
+msgstr "Ora di inizio Streaming"
+
+#: addons/live_streams/main.php:92
+msgid "Stream End Date"
+msgstr "Data di fine Streaming"
+
+#: addons/live_streams/main.php:98
+msgid "Stream End Time"
+msgstr "Ora di fine Streaming"
+
+#: addons/live_streams/main.php:131
+msgid "Stream end date"
+msgstr "Data di fine Streaming"
+
+#: addons/live_streams/main.php:141
+msgid "Stream end time"
+msgstr "Ora di fine streaming"
+
+#: wizard/templates/main.php:5
+msgid "Masterstudy LMS Pro Addon requires MasterStudy LMS"
+msgstr "Il componente aggiuntivo Masterstudy LMS Pro richiede MasterStudy LMS"
+
+#: wizard/templates/main.php:15 wizard/templates/notice.php:8
+msgid "Install"
+msgstr "Installa"
+
+#: wizard/templates/notice.php:3
+msgid ""
+"Please install MasterStudy LMS – Learning Management System  from <a href="
+"\"https://wordpress.org/plugins/masterstudy-lms-learning-management-system/"
+"\">WordPress.org</a>"
+msgstr ""
+"Installa MasterStudy LMS – Sistema di Gestione Apprendimento da <a href="
+"\"https://wordpress.org/plugins/masterstudy-lms-learning-management-system/"
+"\">WordPress.org</a>"
+
+#: stm-lms-templates/certificate/checker.php:26
+msgid "Enter certificate code"
+msgstr "Inserisci il codice del certificato"
+
+#: stm-lms-templates/certificate/checker.php:31
+msgid "Check Code"
+msgstr "Conferma Codice"
+
+#: stm-lms-templates/sequential_drip_content/main.php:30
+#: stm-lms-templates/stream/main.php:109
+#, php-format
+msgid "%s starts in"
+msgstr "%s inizia tra"
+
+#: stm-lms-templates/enterprise_groups/buy.php:16
+msgid "For Business"
+msgstr "Per Azienda"
+
+#: stm-lms-templates/enterprise_groups/buy.php:23
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:12
+msgid "Buy for group"
+msgstr "Acquista per gruppo"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:6
+msgid "Add new group"
+msgstr "Aggiungi nuovo Gruppo"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:10
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:56
+msgid "Add Group"
+msgstr "Aggiungi Gruppo"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:14
+msgid "Enter group name"
+msgstr "Inserisci il nome del gruppo"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:21
+msgid "Add users"
+msgstr "Aggiungi utenti"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:32
+msgid "Enter new user e-mail"
+msgstr "Inserisci una nuova e-mail utente"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:50
+msgid "Add group"
+msgstr "Aggiungi gruppo"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:51
+msgid "Edit group"
+msgstr "Modifica Gruppo"
+
+#: stm-lms-templates/enterprise_groups/group.php:14
+msgid "Set as admin"
+msgstr "Imposta come amministratore"
+
+#: stm-lms-templates/enterprise_groups/group.php:18
+msgid "Remove from group"
+msgstr "Rimuovi dal gruppo"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:13
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:17
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:40
+msgid "Choose Group:"
+msgstr "Scegli gruppo:"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:31
+#, php-format
+msgid "Bought at %s"
+msgstr "Acquistato a %s"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:42
+#, php-format
+msgid ""
+"You do not have any groups yet. %sCreate a group%s and add group members."
+msgstr "Non hai ancora nessun gruppo. %sCrea un gruppo%s e aggiungi i membri."
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:52
+#, php-format
+msgid "Add to cart %s"
+msgstr "Aggiungi al carrello %s"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:68
+msgid "Group name:"
+msgstr "Nome Gruppo:"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:69
+msgid "Enter group name..."
+msgstr "Inserisci il nome del gruppo..."
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:76
+#, php-format
+msgid "Add users: <span>(Max : %s)</span>"
+msgstr "Aggiungi utenti: <span>(Max:%s)</span>"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:77
+msgid "Enter member E-mail..."
+msgstr "Inserisci e-mail del membro..."
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:88
+msgid "Create group"
+msgstr "Crea gruppo"
+
+#: stm-lms-templates/enterprise_groups/groups.php:3
+msgid "My Groups"
+msgstr "I miei gruppi"
+
+#: stm-lms-templates/enterprise_groups/groups.php:20
+msgid "No groups found."
+msgstr "Nessun gruppo trovato."
+
+#: stm-lms-templates/enterprise_groups/groups.php:34
+msgid "Create Groups"
+msgstr "Crea gruppi"
+
+#: stm-lms-templates/enterprise_groups/groups.php:41
+msgid "Import Groups (csv)"
+msgstr "Importa Gruppi (csv)"
+
+#: stm-lms-templates/enterprise_groups/user_courses.php:19
+msgid "Add Course"
+msgstr "Aggiungi Corso"
+
+#: stm-lms-templates/enterprise_groups/user_courses.php:22
+msgid "Remove Course"
+msgstr "Rimuovi corso"
+
+#: stm-lms-templates/modals/prerequisite.php:6
+msgid "Prerequisite courses"
+msgstr "Corsi Prerequisiti"
+
+#: stm-lms-templates/modals/prerequisite.php:7
+msgid ""
+"A prerequisite is a specific course  that you must complete before you can "
+"take another course at the next grade level."
+msgstr ""
+"Un corso prerequisito è un corso specifico che è necessario completare prima "
+"di poter seguire un altro corso al livello di grado successivo."
+
+#: stm-lms-templates/points/buy.php:16
+#, php-format
+msgid "Do you really want to buy %s for %s?"
+msgstr "Vuoi davvero acquistare %s per %s?"
+
+#: stm-lms-templates/points/buy.php:42
+#, php-format
+msgid "You need %s. %s"
+msgstr "Hai bisogno di %s. %s"
+
+#: stm-lms-templates/points/buy.php:48
+#, php-format
+msgid "You have %s. %s"
+msgstr "Hai %s. %s"
+
+#: stm-lms-templates/points/history.php:18
+#, php-format
+msgid "Your %s"
+msgstr "Il tuo %s"
+
+#: stm-lms-templates/points/history.php:21
+msgid "How to get more?"
+msgstr "Come ottenere di più?"
+
+#: stm-lms-templates/points/history.php:29
+msgid "You have"
+msgstr "Hai"
+
+#: stm-lms-templates/points/history.php:41
+#: stm-lms-templates/points/admin/actions.php:8
+msgid "Event"
+msgstr "Evento"
+
+#: stm-lms-templates/points/history.php:42
+#: stm-lms-templates/points/admin/actions.php:9
+msgid "Origin"
+msgstr "Origine"
+
+#: stm-lms-templates/points/history.php:43
+#: stm-lms-templates/points/admin/actions.php:10
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:6
+msgid "Date"
+msgstr "Data"
+
+#: stm-lms-templates/points/history.php:60
+#: stm-lms-templates/points/admin/actions.php:42
+#, php-format
+msgid "Total %s "
+msgstr "Totale: %s"
+
+#: stm-lms-templates/points/distribution.php:15
+#: addons/google_classrooms/admin_view/courses.php:24
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:4
+msgid "Name"
+msgstr "Nome"
+
+#: stm-lms-templates/points/distribution.php:16
+#: stm-lms-templates/manage_course/parts/tabs.php:6
+#: stm-lms-templates/course/udemy/parts/tabs.php:6
+#: stm-lms-templates/course/classic/parts/tabs.php:6
+msgid "Description"
+msgstr "Descrizione"
+
+#: stm-lms-templates/points/distribution.php:17
+#: stm-lms-templates/points/admin/stats.php:29
+msgid "Points"
+msgstr "Punti"
+
+#: stm-lms-templates/gradebook/students-details.php:8
+msgid "Load Students Statistics"
+msgstr "Carica le statistiche degli studenti"
+
+#: stm-lms-templates/gradebook/students-details.php:13
+msgid "Students Statistics"
+msgstr "Statistica degli studenti"
+
+#: stm-lms-templates/gradebook/students-details.php:30
+msgid "Started: "
+msgstr "Iniziato:"
+
+#: stm-lms-templates/gradebook/students-details.php:38
+msgid "Lessons Passed"
+msgstr "Lezioni passate"
+
+#: stm-lms-templates/gradebook/students-details.php:49
+msgid "Quizzes Passed"
+msgstr "Quiz superati"
+
+#: stm-lms-templates/gradebook/students-details.php:60
+msgid "Quizzes Failed"
+msgstr "Quiz non superati"
+
+#: stm-lms-templates/gradebook/students-details.php:72
+msgid "Progress"
+msgstr "Avanzamento"
+
+#: stm-lms-templates/gradebook/course-details.php:4
+msgid "Course students"
+msgstr "Studenti del corso"
+
+#: stm-lms-templates/gradebook/course-details.php:8
+msgid "Course average progress"
+msgstr "Progresso medio del corso"
+
+#: stm-lms-templates/gradebook/course-details.php:12
+msgid "Course passed quizzes"
+msgstr "Quiz superati del corso"
+
+#: stm-lms-templates/gradebook/course-details.php:16
+msgid "Course passed lessons"
+msgstr "Lezioni superate del corso"
+
+#: stm-lms-templates/gradebook/course-details.php:20
+msgid "Course enrolled by subscription"
+msgstr "Iscritto al corso tramite abbonamento"
+
+#: stm-lms-templates/multi_instructor/add_teacher_template.php:7
+#: stm-lms-templates/course/parts/assignment_parts/comment.php:16
+#: stm-lms-templates/bundle/parts/panel_info/teacher.php:14
+#: stm-lms-templates/manage_course/parts/panel_info/teacher.php:21
+msgid "Teacher"
+msgstr "Insegnante"
+
+#: stm-lms-templates/multi_instructor/add_teacher_template.php:17
+msgid "Add co-instructor"
+msgstr "Aggiungi co-istruttore"
+
+#: stm-lms-templates/manage_course/single.php:110
+msgid "Publish Course"
+msgstr "Pubblica corso"
+
+#: stm-lms-templates/manage_course/single.php:111
+msgid "Update Course"
+msgstr "Aggiorna Corso"
+
+#: stm-lms-templates/global/subscription.php:16
+#: stm-lms-templates/global/subscription.php:26
+msgid "- Or -"
+msgstr "- Oppure -"
+
+#: stm-lms-templates/global/subscription.php:23
+#: stm-lms-templates/global/subscription.php:30
+#: stm-lms-templates/global/buy-button/mixed.php:196
+#: stm-lms-templates/global/buy-button/mixed.php:204
+msgid "Enroll with Membership"
+msgstr "Iscriviti con abbonamento"
+
+#: stm-lms-templates/global/buy-button-start.php:15
+#: stm-lms-templates/global/buy-button/mixed.php:53
+msgid "Enroll course"
+msgstr "Iscriviti al corso"
+
+#: stm-lms-templates/global/buy-button-start.php:23
+#: stm-lms-templates/global/buy-button/mixed.php:61
+msgid "Start course"
+msgstr "Inizia corso"
+
+#: stm-lms-templates/global/buy-button-buy.php:39
+#: stm-lms-templates/bundle/parts/buy.php:21
+#: stm-lms-templates/bundle/parts/buy.php:46
+msgid "Get now"
+msgstr "Ottieni ora"
+
+#: stm-lms-templates/global/prerequisite.php:58
+msgid "Free"
+msgstr "Gratis"
+
+#: stm-lms-templates/global/prerequisite.php:70
+#: stm-lms-templates/manage_course/parts/info.php:10
+#: stm-lms-templates/course/udemy/parts/info.php:14
+msgid "Enrolled"
+msgstr "Iscritti"
+
+#: stm-lms-templates/global/prerequisite.php:75
+msgid "Login"
+msgstr "Accesso"
+
+#: stm-lms-templates/global/prerequisite.php:79
+msgid "What is Prerequisite courses"
+msgstr "Che cosa sono i corsi Prerequisiti"
+
+#: stm-lms-templates/global/affiliate-button.php:42
+#, php-format
+msgid "%s%% off"
+msgstr "Sconto del %s%%"
+
+#: stm-lms-templates/bundles/my_bundles.php:20
+#: stm-lms-templates/account/private/parts/bundles_btn.php:6
+msgid "Manage Bundles"
+msgstr "Gestisci i pacchetti"
+
+#: stm-lms-templates/bundles/my_bundles.php:24
+msgid "Add new Bundle"
+msgstr "Aggiungi nuovo pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle.php:20
+msgid "Please enter bundle name"
+msgstr "Inserisci il nome del pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle.php:21
+msgid "Please enter bundle description"
+msgstr "Inserisci la descrizione del pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle.php:22
+msgid "Please add courses in bundle"
+msgstr "Aggiungi i corsi nel pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle.php:23
+msgid "Please enter bundle price"
+msgstr "Inserire prezzo del pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle.php:44
+msgid "Add Bundle"
+msgstr "Aggiungi pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle.php:58
+msgid "Save Bundle"
+msgstr "Salva pacchetto"
+
+#: addons/zoom_conference/admin_views/install_zoom_plugin.php:3
+msgid "You need to install Zoom Video Conferencing on WordPress plugin"
+msgstr "Devi installare Zoom Video Conferencing sul plugin WordPress"
+
+#: addons/zoom_conference/admin_views/install_zoom_plugin.php:4
+msgid "Install plugin"
+msgstr "Installa plugin"
+
+#: addons/zoom_conference/admin_views/install_zoom_plugin.php:5
+msgid "Installing..."
+msgstr "Installazione..."
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:37
+#: stm-lms-templates/account/public/select_google_classroom_auditory.php:13
+msgid "Select auditory"
+msgstr "Seleziona auditorio"
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:68
+msgid "Course code"
+msgstr "Codice del corso"
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:73
+msgid "Copy"
+msgstr "Copia"
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:77
+msgid "Copied"
+msgstr "Copiato"
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:85
+msgid "Only logged in students in a specific classroom can see the code "
+msgstr ""
+"Solo gli studenti che hanno effettuato l'accesso in una classe specifica "
+"possono vedere il codice"
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:92
+msgid "Read more"
+msgstr "Leggi di piu"
+
+#: addons/google_classrooms/frontend_view/popup.php:62
+msgid "Type your classname"
+msgstr "Digita il nome della tua lezione"
+
+#: addons/google_classrooms/admin_view/token.php:29
+msgid "Load Credentials"
+msgstr "Carica credenziali"
+
+#: addons/google_classrooms/admin_view/token.php:45
+msgid "Delete Credentials"
+msgstr "Elimina credenziali"
+
+#: addons/google_classrooms/admin_view/token.php:49
+msgid "Get Access Token"
+msgstr "Recupera Token Accesso"
+
+#: addons/google_classrooms/admin_view/token.php:58
+msgid "Revoke Access Token"
+msgstr "Revoca token di accesso"
+
+#: addons/google_classrooms/admin_view/courses.php:4
+msgid "Loading Courses..."
+msgstr "Caricamento Corsi..."
+
+#: addons/google_classrooms/admin_view/courses.php:11
+msgid "Import all"
+msgstr "Importa tutto"
+
+#: addons/google_classrooms/admin_view/courses.php:15
+msgid "Publish all imported"
+msgstr "Pubblica tutto importato"
+
+#: addons/google_classrooms/admin_view/courses.php:25
+msgid "Auditory"
+msgstr "Auditorio"
+
+#: addons/google_classrooms/admin_view/courses.php:27
+msgid "Import"
+msgstr "Importa"
+
+#: addons/google_classrooms/admin_view/courses.php:36
+msgid "Not Imported Yet"
+msgstr "Non ancora importato"
+
+#: addons/google_classrooms/admin_view/courses.php:48
+msgid "Import Course"
+msgstr "Importa Corso"
+
+#: addons/google_classrooms/admin_view/courses.php:64
+#: stm-lms-templates/bundles/card/vue/top.php:24
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:55
+msgid "Edit"
+msgstr "Modifica"
+
+#: addons/google_classrooms/admin_view/courses.php:73
+#: stm-lms-templates/bundles/card/vue/top.php:17
+msgid "Publish"
+msgstr "Pubblica"
+
+#: addons/google_classrooms/admin_view/google_api_classroom.php:15
+msgid "Google Classrooms archive page"
+msgstr "Pagina di archivio di Google Classrooms"
+
+#: addons/google_classrooms/admin_view/google_api_classroom.php:25
+msgid "View Page"
+msgstr "Visualizza Pagina"
+
+#: addons/google_classrooms/admin_view/google_api_classroom.php:50
+msgid "Google Classrooms Settings"
+msgstr "Impostazioni di Google Classrooms"
+
+#: stm-lms-templates/course/udemy/sidebar.php:20
+msgid "30-Day Money-Back Guarantee"
+msgstr "Garanzia di rimborso valida per 30 giorni"
+
+#: stm-lms-templates/bundle/parts/courses.php:9
+msgid "Courses in this bundle:"
+msgstr "Corsi in questo pacchetto:"
+
+#: stm-lms-templates/points/admin/actions.php:1
+msgid "Loading..."
+msgstr "Caricamento..."
+
+#: stm-lms-templates/points/admin/actions.php:12
+msgid "Actions"
+msgstr "Azioni"
+
+#: stm-lms-templates/points/admin/stats.php:7
+msgid "Do you really want to delete this record?"
+msgstr "Sei sicuro di voler eliminare questa registrazione?"
+
+#: stm-lms-templates/points/admin/stats.php:19
+msgid "Search by user"
+msgstr "Ricerca per utente"
+
+#: stm-lms-templates/points/admin/stats.php:23
+msgid "Student Points"
+msgstr "Punti studenti"
+
+#: stm-lms-templates/points/admin/stats.php:28
+msgid "User"
+msgstr "Utente"
+
+#: stm-lms-templates/points/admin/stats.php:30
+msgid "History"
+msgstr "Cronologia"
+
+#: stm-lms-templates/account/public/select_google_classroom_auditory.php:11
+msgid "Select your auditory"
+msgstr "Seleziona il tuo auditorio"
+
+#: stm-lms-templates/manage_course/parts/info.php:11
+msgid "0 students"
+msgstr "0 studenti"
+
+#: stm-lms-templates/manage_course/parts/info.php:19
+#: stm-lms-templates/course/udemy/parts/info.php:21
+msgid "Duration"
+msgstr "Durata"
+
+#: stm-lms-templates/manage_course/parts/info.php:29
+#: stm-lms-templates/course/udemy/parts/info.php:30
+msgid "Lectures"
+msgstr "Lezioni"
+
+#: stm-lms-templates/manage_course/parts/info.php:38
+#: stm-lms-templates/course/udemy/parts/info.php:38
+#: stm-lms-templates/manage_course/forms/html/lesson.php:33
+#: stm-lms-templates/course/udemy/parts/tabs/curriculum.php:29
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:55
+msgid "Video"
+msgstr "Video"
+
+#: stm-lms-templates/manage_course/parts/info.php:49
+#: stm-lms-templates/course/udemy/parts/info.php:46
+msgid "Beginner"
+msgstr "Principiante"
+
+#: stm-lms-templates/manage_course/parts/info.php:50
+#: stm-lms-templates/course/udemy/parts/info.php:47
+msgid "Intermediate"
+msgstr "Intermedio"
+
+#: stm-lms-templates/manage_course/parts/info.php:51
+#: stm-lms-templates/course/udemy/parts/info.php:48
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: stm-lms-templates/manage_course/parts/info.php:56
+#: stm-lms-templates/course/udemy/parts/info.php:50
+msgid "Level"
+msgstr "Livello"
+
+#: stm-lms-templates/manage_course/parts/tabs.php:8
+#: stm-lms-templates/course/udemy/parts/tabs.php:8
+#: stm-lms-templates/course/classic/parts/tabs.php:8
+#: stm-lms-templates/manage_course/parts/tabs/faq.php:17
+msgid "FAQ"
+msgstr "FAQ"
+
+#: stm-lms-templates/manage_course/parts/tabs.php:9
+#: stm-lms-templates/course/classic/parts/tabs.php:9
+#: stm-lms-templates/manage_course/forms/js/wizard.php:85
+msgid "Announcement"
+msgstr "Comunicazione"
+
+#: stm-lms-templates/manage_course/global/wish-list.php:14
+#: stm-lms-templates/manage_course/global/wish-list.php:19
+msgid "Add to Wishlist"
+msgstr "Aggiungi a lista desideri"
+
+#: stm-lms-templates/manage_course/global/wish-list.php:16
+msgid "Wishlisted"
+msgstr "Inserito in lista desideri"
+
+#: stm-lms-templates/manage_course/global/enterprise.php:6
+msgid "Enterprise Price"
+msgstr "Prezzo aziendale"
+
+#: stm-lms-templates/global/buy-button/mixed.php:125
+msgid "Get course"
+msgstr "Ottieni corso"
+
+#: stm-lms-templates/global/buy-button/mixed.php:153
+msgid "One Time Payment"
+msgstr "Pagamento unico"
+
+#: stm-lms-templates/global/buy-button/mixed.php:216
+#, php-format
+msgid "Available in \"%s\" plan"
+msgstr "Disponibile nel piano \"%s\""
+
+#: stm-lms-templates/bundles/my-bundle/title.php:4
+msgid "Bundle name"
+msgstr "Nome del pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle/title.php:10
+msgid "Enter bundle name"
+msgstr "Inserisci il nome del pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle/price.php:4
+#, php-format
+msgid "Bundle price (%s)"
+msgstr "Prezzo del pacchetto (%s)"
+
+#: stm-lms-templates/bundles/my-bundle/price.php:10
+msgid "Enter bundle price"
+msgstr "Inserire prezzo del pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle/description.php:15
+msgid "Bundle description"
+msgstr "Descrizione del pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:3
+msgid "Select Course"
+msgstr "Seleziona Corso"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:12
+msgid "Select course"
+msgstr "Seleziona corso"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:16
+msgid "+ Add course"
+msgstr "+ Aggiungi corso"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:43
+#, php-format
+msgid "You have no courses yet. Please %s add some courses %s to create bundle"
+msgstr ""
+"Non hai ancora corsi. Ti preghiamo di %s aggiungere alcuni corsi%s per "
+"creare un pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:54
+#, php-format
+msgid "Maximum courses in bundle : %s"
+msgstr "Numero massimo di corsi nel pacchetto : %s"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:71
+msgid "Total"
+msgstr "Totale"
+
+#: stm-lms-templates/bundles/my-bundle/image.php:4
+msgid "Bundle image"
+msgstr "Immagine del pacchetto"
+
+#: stm-lms-templates/bundles/my-bundle/image.php:18
+msgid "Upload image"
+msgstr "Carica immagine"
+
+#: stm-lms-templates/course/udemy/parts/info.php:15
+#, php-format
+msgid "%s student"
+msgid_plural "%s students"
+msgstr[0] "%s studente"
+msgstr[1] "%s studenti"
+
+#: stm-lms-templates/course/udemy/parts/tabs.php:9
+#: stm-lms-templates/course/classic/parts/tabs.php:10
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:18
+msgid "Includes"
+msgstr "Include"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:23
+#, php-format
+msgid "%s hours on-demand video"
+msgstr "%s ore di video su richiesta"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:31
+#, php-format
+msgid "%s article"
+msgid_plural "%s articles"
+msgstr[0] "%s articolo"
+msgstr[1] "%s articoli"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:37
+msgid "Full lifetime access"
+msgstr "Completo accesso a vita"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:42
+msgid "Access on mobile and TV"
+msgstr "Accesso su cellulare e TV"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:48
+msgid "Certificate of Completion"
+msgstr "Attestato di completamento"
+
+#: stm-lms-templates/course/parts/student_assignments/progress.php:29
+#: stm-lms-templates/course/parts/student_assignments/passed.php:28
+#: stm-lms-templates/course/parts/student_assignments/on_review.php:28
+#: stm-lms-templates/course/parts/student_assignments/unpassed.php:28
+msgid "Delete File?"
+msgstr "Eliminare il file?"
+
+#: stm-lms-templates/course/parts/student_assignments/progress.php:55
+msgid "Autosaving"
+msgstr "Salvataggio automatico"
+
+#: stm-lms-templates/course/parts/student_assignments/progress.php:65
+msgid "Send Assignment"
+msgstr "Invia compito"
+
+#: stm-lms-templates/course/parts/student_assignments/passed.php:42
+msgid "You passed assignment."
+msgstr "Compito superato."
+
+#: stm-lms-templates/course/parts/student_assignments/new.php:27
+msgid "Start now"
+msgstr "Inizia adesso"
+
+#: stm-lms-templates/course/parts/student_assignments/on_review.php:41
+msgid "Your assignment pending review"
+msgstr "Il tuo compito è in attesa di revisione"
+
+#: stm-lms-templates/course/parts/student_assignments/unpassed.php:42
+#, php-format
+msgid "You failed assignment. %sRetake%s"
+msgstr "Non hai superato il compito. %sRipeti%s"
+
+#: stm-lms-templates/course/parts/assignment_parts/file_loader.php:14
+msgid "Attach files"
+msgstr "Allega file"
+
+#: stm-lms-templates/course/parts/assignment_parts/task.php:16
+msgid "All Requirements"
+msgstr "Tutti i requisiti"
+
+#: stm-lms-templates/bundle/parts/panel_info/rate.php:13
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:34
+#: stm-lms-templates/manage_course/parts/panel_info/rate.php:8
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:31
+#: stm-lms-templates/course/udemy/parts/panel_info/rate.php:13
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:35
+#: stm-lms-templates/course/classic/parts/panel_info/rate.php:15
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Valutati %s di 5"
+
+#: stm-lms-templates/bundle/parts/panel_info/rate.php:16
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:37
+#: stm-lms-templates/manage_course/parts/panel_info/rate.php:11
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:34
+#: stm-lms-templates/course/udemy/parts/panel_info/rate.php:16
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:38
+msgid "out of 5"
+msgstr "di 5"
+
+#: stm-lms-templates/bundle/parts/panel_info/rate.php:23
+#: stm-lms-templates/manage_course/parts/panel_info/rate.php:18
+#: stm-lms-templates/course/classic/parts/panel_info/rate.php:23
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s recensione"
+msgstr[1] "%s recensioni"
+
+#: stm-lms-templates/bundle/parts/panel_info/categories.php:11
+#: stm-lms-templates/manage_course/parts/panel_info/categories.php:10
+msgid "Category:"
+msgstr "Categoria:"
+
+#: stm-lms-templates/courses/udemy/parts/course_info.php:82
+msgid "Preview this course"
+msgstr "Vedi un'anteprima di questo corso"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:14
+#: stm-lms-templates/account/private/parts/create_announcement_btn.php:10
+msgid "Create Announcement"
+msgstr "Crea comunicazione"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:21
+msgid "Choose Course"
+msgstr "Scegli corso"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:33
+msgid "Message for Course Students"
+msgstr "Messaggio per gli studenti del corso"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:47
+msgid "Create"
+msgstr "Crea"
+
+#: stm-lms-templates/account/private/parts/cancel_subscription_btn.php:9
+msgid "Cancel subscription"
+msgstr "Cancella iscrizione"
+
+#: stm-lms-templates/account/private/parts/certificates.php:25
+msgid "My Certificates"
+msgstr "I miei certificati"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:18
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:5
+msgid "Course"
+msgstr "Corso"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:21
+msgid "Certificate"
+msgstr "Certificato"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:37
+msgid "Download"
+msgstr "Scarica"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:44
+msgid "Copy code"
+msgstr "Copia codice"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:55
+msgid "You do not have a certificate yet."
+msgstr "Non hai ancora un attestato."
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:56
+msgid ""
+"Get started easy, select a course here, pass it and get your first "
+"certificate"
+msgstr ""
+"Inizia subito, seleziona un corso qui, passalo e ottieni il tuo primo "
+"attestato"
+
+#: stm-lms-templates/account/private/parts/my_certificates_btn.php:10
+msgid "My certificates"
+msgstr "I miei certificati"
+
+#: stm-lms-templates/account/private/parts/gradebook_btn.php:10
+msgid "Gradebook"
+msgstr "Registro dei voti"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:16
+msgid "Welcome to Wizard"
+msgstr "Benvenuto in Wizard"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:17
+msgid "A simple tour about all fields included in course"
+msgstr "Un semplice tour su tutti i campi inclusi nel corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:18
+msgid "Simple help with adding courses"
+msgstr "Aiuto semplice con l'aggiunta di corsi"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:23
+msgid "Title"
+msgstr "﻿Titolo"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:24
+msgid "Adding a course title"
+msgstr "Aggiungi il titolo di un corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:25
+msgid "Add a title"
+msgstr "Aggiungi un titolo"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:30
+msgid "Category"
+msgstr "Categoria"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:31
+msgid "Adding course category"
+msgstr "Aggiungi categoria corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:32
+msgid "Add a category"
+msgstr "Aggiungi una categoria"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:37
+msgid "Image"
+msgstr "Immagine"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:38
+msgid "Adding course image"
+msgstr "Aggiungi immagine corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:39
+msgid "Add an image"
+msgstr "Aggiungi un'immagine"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:45
+#: stm-lms-templates/manage_course/forms/html/lesson.php:11
+#: stm-lms-templates/manage_course/forms/html/quiz.php:10
+msgid "Content"
+msgstr "Contenuto"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:46
+msgid "Adding course description"
+msgstr "Aggiungi descrizione corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:47
+msgid "Add course description"
+msgstr "Aggiungi descrizione corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:54
+msgid "Add a course Curriculum"
+msgstr "Aggiungi un curriculum corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:55
+msgid "Add curriculum Section and hit enter after adding Section name"
+msgstr ""
+"Aggiungi una sezione nel programma e premi Invio dopo aver aggiunto il nome "
+"della sezione"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:62
+msgid "Add a course Lesson"
+msgstr "Aggiungi una lezione corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:63
+msgid "Add curriculum Lesson and hit enter after adding Lesson name"
+msgstr ""
+"Aggiungi una lezione nel programma e premi invio dopo aver aggiunto il nome "
+"della lezione"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:70
+msgid "Add a course Quiz"
+msgstr "Aggiungi un quiz corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:71
+msgid "Add curriculum Quiz and hit enter after adding Quiz name"
+msgstr ""
+"Aggiungi quiz nel programma e premi invio dopo aver aggiunto il nome del quiz"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:77
+msgid "Course FAQ"
+msgstr "Domande frequenti sul corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:78
+msgid "Add a course FAQ"
+msgstr "Aggiungi FAQ corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:79
+msgid ""
+"FAQ is an accordion of FAQ items. Add FAQ title, then hit enter. After "
+"adding FAQ item, you can add description for it. Add as many FAQ items as "
+"you need."
+msgstr ""
+"Le FAQ sono legate agli elementi FAQ. Aggiungi un titolo FAQ, poi premi "
+"invio. Dopo aver aggiunto un elemento FAQ, puoi aggiungerne una descrizione. "
+"Aggiungi tutti gli elementi FAQ necessari. "
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:86
+msgid "Add a course announcement"
+msgstr "Aggiungi una comunicazione corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:87
+msgid "Enter Announcement for students."
+msgstr "Inserisci un Annuncio per gli studenti."
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:93
+msgid "Pricing"
+msgstr "Prezzo"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:94
+msgid "Adding course price"
+msgstr "Aggiungi prezzo corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:95
+msgid "Add course prices"
+msgstr "Aggiungi prezzi corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:100
+#: stm-lms-templates/manage_course/forms/js/wizard.php:107
+#: stm-lms-templates/manage_course/forms/js/wizard.php:114
+msgid "Info"
+msgstr "Informazioni"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:101
+msgid "Adding course duration"
+msgstr "Aggiungi durata corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:102
+msgid "Add course duration"
+msgstr "Aggiungi la durata del corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:108
+msgid "Adding course video duration"
+msgstr "Aggiungere durata video del corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:109
+msgid "Add course video duration"
+msgstr "Aggiungi la durata dei video del corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:115
+msgid "Adding course level"
+msgstr "Aggiungi livello corso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:116
+msgid "Add course level"
+msgstr "Aggiungi livello del corso"
+
+#: stm-lms-templates/manage_course/forms/js/image.php:14
+msgid "Upload course Image"
+msgstr "Carica immagine corso"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:16
+msgid "Lesson Settings"
+msgstr "Impostazioni lezione"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:30
+msgid "Lesson type"
+msgstr "Tipo di lezione"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:32
+msgid "Text"
+msgstr "Testo"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:34
+msgid "Slide"
+msgstr "Slide"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:45
+msgid "Lesson video Poster"
+msgstr "Poster del video della lezione"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:56
+msgid "Lesson video URL"
+msgstr "URL video lezione"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:63
+msgid "Lesson duration"
+msgstr "Durata lezione"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:71
+msgid "Lesson preview"
+msgstr "Anteprima lezione"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:82
+msgid "Lesson Front-End description"
+msgstr "Descrizione interfaccia lezione"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:92
+#: stm-lms-templates/manage_course/forms/html/assignment.php:11
+#: stm-lms-templates/manage_course/forms/html/quiz.php:96
+msgid "Save Changes"
+msgstr "Salva modifiche"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:93
+#: stm-lms-templates/manage_course/forms/html/assignment.php:13
+#: stm-lms-templates/manage_course/forms/html/quiz.php:99
+msgid "Cancel"
+msgstr "Annulla"
+
+#: stm-lms-templates/manage_course/forms/html/price.php:5
+#, php-format
+msgid "Add Price* (%s)"
+msgstr "Aggiungi prezzo* (%s)"
+
+#: stm-lms-templates/manage_course/forms/html/price.php:6
+#, php-format
+msgid "Add Sale Price (%s)"
+msgstr "Aggiungi prezzo di vendita (%s)"
+
+#: stm-lms-templates/manage_course/forms/html/price.php:16
+msgid "Enroll now"
+msgstr "Iscriviti subito"
+
+#: stm-lms-templates/manage_course/forms/html/price.php:19
+msgid "Add Prices"
+msgstr "Aggiungi prezzi"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:15
+msgid "Quiz Questions"
+msgstr "Domande quiz"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:20
+msgid "Quiz Settings"
+msgstr "Impostazioni quiz"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:43
+msgid "Quiz description"
+msgstr "Descrizione quiz"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:50
+msgid "Quiz duration"
+msgstr "Durata quiz"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:53
+msgid "Enter quiz duration"
+msgstr "Inserisci durata quiz"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:55
+msgid "Minutes"
+msgstr "Minuti"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:56
+msgid "Hours"
+msgstr "Ore"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:57
+msgid "Days"
+msgstr "Giorni"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:65
+msgid "Show correct answer"
+msgstr "Mostra risposta corretta"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:77
+msgid "Passing grade (%)"
+msgstr "Sufficienza (%)"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:84
+msgid "Points total cut after re-take (%)"
+msgstr "Punti totali ridotti dopo la ripetizione (%)"
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:41
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:38
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:42
+#, php-format
+msgid "%s Ratings"
+msgstr "%s valutazioni"
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:48
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:45
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:49
+msgid "Detailed Rating"
+msgstr "Valutazione dettagliata"
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:53
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:50
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:54
+#, php-format
+msgid "Stars %s"
+msgstr "Stelle %s"
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:96
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:97
+msgid "Show more"
+msgstr "Mostra altro"
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:101
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:102
+msgid "Be the first to add a review."
+msgstr "Scrivi una recensione per primo."
+
+#: stm-lms-templates/manage_course/parts/panel_info/add_new_category.php:8
+msgid "Add category"
+msgstr "Aggiungi categoria"
+
+#: stm-lms-templates/manage_course/parts/panel_info/add_new_category.php:16
+msgid "Enter new category name"
+msgstr "Immettere una nuova categoria"
+
+#: stm-lms-templates/manage_course/parts/panel_info/add_new_category.php:21
+msgid "Choose parent category"
+msgstr "Scegli la categoria principale"
+
+#: stm-lms-templates/bundles/card/vue/top.php:10
+msgid "Draft"
+msgstr "Bozza"
+
+#: stm-lms-templates/bundles/card/vue/top.php:31
+msgid "Delete"
+msgstr "Elimina"
+
+#: stm-lms-templates/bundles/card/php/top.php:15
+#, php-format
+msgid "%s Courses"
+msgstr "%s corsi"
+
+#: stm-lms-templates/course/udemy/parts/tabs/curriculum.php:22
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:34
+msgid "Quiz"
+msgstr "Quiz"
+
+#: stm-lms-templates/course/udemy/parts/tabs/curriculum.php:25
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:28
+msgid "Text Lesson"
+msgstr "Testo Lezione"
+
+#: stm-lms-templates/course/udemy/parts/panel_info/teacher.php:16
+msgid "Instructor:"
+msgstr "Istruttore :"
+
+#: stm-lms-templates/course/udemy/parts/panel_info/languages.php:18
+msgid "More"
+msgstr "Atro"
+
+#: stm-lms-templates/course/udemy/parts/panel_info/rate.php:23
+#, php-format
+msgid "%s review on Udemy"
+msgid_plural "%s reviews on Udemy"
+msgstr[0] "%s recensione su Udemy"
+msgstr[1] "%s recensioni su Udemy"
+
+#: stm-lms-templates/course/udemy/parts/panel_info/enrolled.php:14
+#, php-format
+msgid "%s student enrolled"
+msgid_plural "%s students enrolled"
+msgstr[0] "%s studenti iscritti"
+msgstr[1] "%s studenti iscritti"
+
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:36
+#, php-format
+msgid "%s question"
+msgid_plural "%s questions"
+msgstr[0] "%s domanda"
+msgstr[1] "%s domande"
+
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:50
+msgid "Slides"
+msgstr "Diapositive"
+
+#: stm-lms-templates/course/classic/parts/tabs/announcement.php:9
+msgid "No announcements at this moment."
+msgstr "Nessun annuncio in questo momento."
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:15
+msgid "Courses"
+msgstr "Corsi"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:18
+msgid "Add New course"
+msgstr "Aggiungi nuovo corso"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:27
+msgid "Available featured Quotes:"
+msgstr "Citazioni in primo piano disponibili:"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:31
+msgid "Done"
+msgstr "Fatto"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:35
+msgid "Upgrade"
+msgstr "Aggiorna"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:56
+msgid "View"
+msgstr "Visualizza"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:108
+msgid "Make Featured"
+msgstr "Metti in Evidenza"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:114
+msgid "Remove from Featured"
+msgstr "Rimuovi da in evidenza"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:3
+msgid "Search assignment"
+msgstr "Cerca assegnazione"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:6
+msgid "Enter assignment name"
+msgstr "Inserisci il nome del compito"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:18
+msgid "Loading data..."
+msgstr "Caricamento dati..."
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:46
+msgid "Nothing found."
+msgstr "Niente trovato."
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/publish.php:18
+msgid "Approved"
+msgstr "Approvato"
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/publish.php:24
+msgid "Rejected"
+msgstr "Rifiutato"
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/pending.php:14
+msgid "Your comment"
+msgstr "Il tuo commento"
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/pending.php:20
+msgid "Approve"
+msgstr "Approva"
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/pending.php:24
+msgid "Reject"
+msgstr "Rifiuta"
+
+#: stm-lms-templates/account/private/parts/points/my-points.php:19
+msgid "Earnings History"
+msgstr "Cronologia dei guadagni"
+
+#: stm-lms-templates/account/private/parts/points/affiliate_link.php:16
+msgid "Copy Affiliate link"
+msgstr "Copia link affiliato"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:17
+#, php-format
+msgid "Total: %s"
+msgstr "Totale: %s"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:25
+#, php-format
+msgid "Non passed: %s"
+msgstr "Non superato: %s"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:33
+#, php-format
+msgid "Passed: %s"
+msgstr "Superato: %s"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:41
+#, php-format
+msgid "Pending: %s"
+msgstr "In sospeso: %s"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:7
+msgid "Attempts"
+msgstr "Tentativi"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:25
+msgid "Non passed"
+msgstr "Non superato"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:35
+msgid "Pending"
+msgstr "In sospeso"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:43
+msgid "Nothing found"
+msgstr "Nessun risultato"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/sort.php:2
+msgid "Sort by"
+msgstr "Ordina per"
+
+#. Name of the plugin
+msgid "MasterStudy LMS Learning Management System PRO"
+msgstr "MasterStudy LMS Learning Management System PRO"
+
+#. Description of the plugin
+msgid ""
+"Create brilliant lessons with videos, graphs, images, slides and any other "
+"attachments thanks to flexible and user-friendly lesson management tool "
+"powered by WYSIWYG editor."
+msgstr ""
+"Crea geniali lezioni con video, grafici, immagini, slide e altri allegati "
+"grazie ad uno strumento di gestione delle lezioni flessibile ed user-"
+"friendly dotato di editor WYSIWYG."
+
+#. URI of the plugin
+msgid "http://masterstudy.stylemixthemes.com/lms-plugin/"
+msgstr "http://masterstudy.stylemixthemes.com/lms-plugin/"
+
+#. Author of the plugin
+msgid "StylemixThemes"
+msgstr "StylemixThemes"
+
+#. Author URI of the plugin
+msgid "https://stylemixthemes.com/"
+msgstr "https://stylemixthemes.com/"

@@ -1,0 +1,75 @@
+/* line 5, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+#header.transparent_header .header_2 .loading:before {
+  border-color: rgba(255, 255, 255, 0.5); }
+
+/* line 8, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+#header.transparent_header .header_2 .header_top_bar {
+  border-bottom: 0; }
+  /* line 10, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+  #header.transparent_header .header_2 .header_top_bar .top_bar_info li {
+    color: rgba(255, 255, 255, 0.5); }
+  /* line 13, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+  #header.transparent_header .header_2 .header_top_bar .header_2_top_bar__inner ul.header-menu li a {
+    color: rgba(255, 255, 255, 0.5); }
+
+/* line 18, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+#header.transparent_header .header_2 .header_top .stm_courses_search {
+  padding-right: 0;
+  padding-left: 20px;
+  margin-right: 30px;
+  background-color: #eee; }
+  /* line 23, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+  #header.transparent_header .header_2 .header_top .stm_courses_search input {
+    border-color: #fff;
+    background-color: #fff; }
+
+/* line 28, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+#header.transparent_header .header_2 .header_top .stm_lms_categories {
+  margin-right: 20px; }
+  /* line 36, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+  #header.transparent_header .header_2 .header_top .stm_lms_categories_dropdown {
+    margin-top: 10px; }
+
+/* line 41, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+#header.transparent_header .header_2 .header_top .stm_header_links .stm_lms_bi_link {
+  color: #fff; }
+  /* line 43, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+  #header.transparent_header .header_2 .header_top .stm_header_links .stm_lms_bi_link i {
+    color: #fff; }
+
+/* line 48, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+#header.transparent_header .header_2 .header_top .stm_lms_log_in {
+  color: #fff; }
+
+/* line 52, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+#header.transparent_header .header_2 .header_top .stm_lms_wishlist_button i {
+  color: #fff; }
+
+/* line 59, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+#header.transparent_header .header_2 .right-unit .stm_lms_settings_button i {
+  color: #fff; }
+
+/* line 64, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+#header.transparent_header .header_2 .stm_lms_account_dropdown .dropdown button {
+  color: #fff; }
+  /* line 66, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+  #header.transparent_header .header_2 .stm_lms_account_dropdown .dropdown button i {
+    color: #fff; }
+
+@media (max-width: 991px) {
+  /* line 75, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+  #header.transparent_header .header_2.header_default {
+    background-color: #273044; }
+    /* line 77, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+    #header.transparent_header .header_2.header_default .logo_colored_fixed {
+      display: none !important; }
+    /* line 80, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+    #header.transparent_header .header_2.header_default .logo_transparent_static {
+      display: block !important;
+      visibility: visible !important; }
+  /* line 85, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+  #header.transparent_header .header_2 .header_top .stm_lms_categories {
+    margin-right: 0; }
+  /* line 88, assets/scss/vc_modules/headers_transparent/header_2_transparent.scss */
+  #header.transparent_header .header_2 .header_main_menu_wrapper .header-menu > li > a {
+    color: #273044; } }

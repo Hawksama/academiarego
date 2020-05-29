@@ -1,0 +1,54 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.stm_contact{
+    position: relative;
+    margin: 0 0 44px 0;
+}
+
+.stm_contact_image {
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.stm_contact_image img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.stm_contact_info{
+    position: relative;
+    overflow: hidden;
+    & .name {
+        margin: 0;
+    }
+}
+
+.stm_contact_job{
+    font-size: 12px;
+    color: $grey-lt !important;
+    margin: 0 0 7px 0;
+}
+
+.stm_contact_row{
+    font-size: 13px;
+    line-height: 22px;
+    & a {
+        color: $grey-text;
+        &:hover {
+            color: $blue-link;
+        }
+    }
+}
+
+.stm_contact_row strong{
+    color: #333333;
+}
+
+@include breakpoint(tabletunder) {
+    .stm_contact_image {
+        float: none;
+        margin: 0 0 15px;
+    }
+}

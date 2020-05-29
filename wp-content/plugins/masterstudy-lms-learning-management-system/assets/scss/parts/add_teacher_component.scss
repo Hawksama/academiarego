@@ -1,0 +1,130 @@
+@import "../components/colors";
+
+.stm_lms_add_teacher {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &__plus {
+
+    }
+
+    .meta-unit.teacher {
+        position: relative;
+        min-height: 42px;
+        margin-bottom: 0;
+        margin-right: 20px;
+        opacity: 1 !important;
+
+        .lnricons-cross {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            width: 17px;
+            height: 17px;
+            margin: 0;
+            padding: 0;
+            background-color: #aaa;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $main_color;
+            }
+        }
+    }
+
+    .stm_lms_manage_add_instructor {
+
+        margin-right: 40px;
+
+        &_list {
+            position: relative;
+        }
+
+        &__plus {
+            color: $main_color;
+            font-size: 20px;
+            cursor: pointer;
+
+            i {
+                color: #aaa;
+            }
+
+            span {
+                position: relative;
+                top: -4px;
+                font-size: 13px;
+                color: #aaa;
+            }
+
+            &:hover {
+                i {
+                    color: $main_color;
+                }
+            }
+        }
+
+        &__list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            width: 230px;
+            margin-top: 10px;
+            box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+            z-index: 99;
+
+            visibility: hidden;
+            opacity: 0;
+
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: -10px;
+                left: 0;
+                right: 0;
+                height: 10px;
+
+            }
+        }
+
+        &__user {
+            padding: 5px 15px;
+            cursor: pointer;
+            transition: .3s ease;
+
+            &:hover {
+                background-color: $main_color;
+                color: #fff;
+            }
+        }
+
+        &__inst {
+            .teacher {
+                padding-right: 30px;
+                outline: rgba(0, 0, 0, .1) dashed 2px;
+
+                .value {
+                    max-width: 150px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        &:hover {
+            .stm_lms_manage_add_instructor__list {
+                opacity: 1;
+                visibility: visible;
+                transition: .3s ease;
+            }
+        }
+
+    }
+}

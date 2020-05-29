@@ -1,0 +1,296 @@
+@mixin rounded($radius: 2px){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin bordered($top-color: #EEE, $right-color: #EEE, $bottom-color: #EEE, $left-color: #EEE){
+    border-top: solid 1px $top-color;
+    border-left: solid 1px $left-color;
+    border-right: solid 1px $right-color;
+    border-bottom: solid 1px $bottom-color;
+}
+
+@mixin transformY(){
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@mixin noTransform(){
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+@mixin transformX(){
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+@mixin transform($arguments){
+    -webkit-transform: $arguments;
+    -moz-transform: $arguments;
+    -o-transform: $arguments;
+    -ms-transform: $arguments;
+    transform: $arguments;
+}
+
+@mixin background-gradient($start, $end){
+    background: -moz-linear-gradient(90deg, $start 0%, $end 100%);
+    background: -webkit-linear-gradient(90deg, $start 0%, $end 100%);
+    background: -o-linear-gradient(90deg, $start 0%, $end 100%);
+    background: -ms-linear-gradient(90deg, $start 0%, $end 100%);
+    background: linear-gradient(180deg, $start 0%, $end 100%);
+}
+
+@mixin box-shadow($x: 0, $y: 0, $blur: 10px, $color: #666){
+    -webkit-box-shadow: $arguments;
+    -moz-box-shadow: $arguments;
+    box-shadow: $arguments;
+}
+
+@mixin drop-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px, $alpha: rgba(0, 0, 0, 0.1)){
+    -webkit-box-shadow: $x-axis $y-axis $blur $alpha;
+    -moz-box-shadow: $x-axis $y-axis $blur rgba(0, 0, 0, $alpha);
+    box-shadow: $x-axis $y-axis $blur rgba(0, 0, 0, $alpha);
+}
+
+@mixin inner-shadow($horizontal:0, $vertical:1px, $blur:2px, $alpha: 0.4){
+    -webkit-box-shadow: inset $horizontal $vertical $blur rgba(0, 0, 0, $alpha);
+    -moz-box-shadow: inset $horizontal $vertical $blur rgba(0, 0, 0, $alpha);
+    box-shadow: inset $horizontal $vertical $blur rgba(0, 0, 0, $alpha);
+}
+
+@mixin bw-gradient($color: #F5F5F5, $start: 0, $stop: 255){
+    background: $color;
+    background: -webkit-gradient(linear,
+            left bottom,
+            left top,
+            color-stop(0, rgb($start,$start,$start)),
+            color-stop(1, rgb($stop,$stop,$stop)));
+    background: -ms-linear-gradient(bottom,
+            rgb($start,$start,$start) 0%,
+            rgb($stop,$stop,$stop) 100%);
+    background: -moz-linear-gradient(center bottom,
+            rgb($start,$start,$start) 0%,
+            rgb($stop,$stop,$stop) 100%);
+    background: -o-linear-gradient(rgb($stop,$stop,$stop),
+            rgb($start,$start,$start));
+}
+
+@mixin background-clip($argument: padding-box){
+    -moz-background-clip: $argument;
+    -webkit-background-clip: $argument;
+    background-clip: $argument;
+}
+
+@mixin opacity($opacity: 0.5){
+    -moz-opacity: $opacity;
+    -khtml-opacity: $opacity;
+    -webkit-opacity: $opacity;
+    opacity: $opacity;
+    -ms-filter: #{"progid:DXImageTransform.Microsoft.Alpha(opacity=${opperc})"};
+    filter: #{"alpha(opacity=${opperc})"};
+}
+
+@mixin user-select($argument: none){
+    -webkit-user-select: $argument;
+    -moz-user-select: $argument;
+    -ms-user-select: $argument;
+    user-select: $argument;
+}
+
+@mixin box-sizing($sizing: border-box){
+    -ms-box-sizing: $sizing;
+    -moz-box-sizing: $sizing;
+    -webkit-box-sizing: $sizing;
+    box-sizing: $sizing;
+}
+
+@mixin transition($name, $duration:0.5s, $ease:ease-out){
+    -webkit-transition: $name $duration $ease;
+    -moz-transition: $name $duration $ease;
+    -o-transition: $name $duration $ease;
+    transition: $name $duration $ease;
+}
+
+@mixin scale($ratio:1.5){
+    @include transform(scale($ratio));
+}
+
+@mixin rotation($deg:5deg){
+    @include transform(rotate($deg));
+}
+
+@mixin pseudo($position,$width,$height){
+    content: '';
+    display: block;
+    position: $position;
+    width: $width;
+    height: $height;
+    z-index: 10;
+}
+
+@mixin set_bg($img-name, $position, $repeat, $type: 'png'){
+    background-image: url('../img/' + $img-name + '.' + $type);
+    background-position: $position;
+    background-repeat: $repeat;
+}
+
+@mixin fa(){
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+@mixin antialiased(){
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin absoluted(){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+@mixin clearing(){
+    content: '';
+    clear: both;
+    display: block;
+}
+
+@mixin breakpoint($point) {
+    @if $point == laptop {
+        @media (max-width: 1440px) { @content ; }
+    }
+    @else if $point == onlyLaptop {
+        @media (max-width: 1440px) and (min-width: 1100px) { @content ; }
+    }
+    @else if $point == xs {
+        @media (max-width: 767px) { @content ; }
+    }
+    @else if $point == sm {
+        @media (max-width:991px) and (min-width:768px) { @content ; }
+    }
+    @else if $point == sm-xs {
+        @media (max-width:991px) { @content ; }
+    }
+    @else if $point == md {
+        @media (max-width:1199px) and (min-width:992px) { @content ; }
+    }
+    @else if $point == mobile {
+        @media (max-width:515px) { @content ; }
+    }
+
+    @else if $point == underLaptop {
+        @media (min-width: 1500px) { @content ; }
+    }
+    @else if $point == afterLaptop {
+        @media (max-width: 1500px) { @content ; }
+    }
+    @else if $point == tablet {
+        @media (max-width: 1024px) { @content ; }
+    }
+    @else if $point == tabletland {
+        @media (max-width: 1025px) and (min-width: 992px)  { @content ; }
+    }
+    @else if $point == tabletunder {
+        @media (max-width: 1023px) { @content ; }
+    }
+    @else if $point == tabletonly {
+        @media (max-width: 769px) { @content ; }
+    }
+    @else if $point == mobile {
+        @media (max-width: 550px)  { @content ; }
+    }
+    @else if $point == tabletized {
+        @media (max-width: 769px) and (min-width: 425px)  { @content ; }
+    }
+    @else if $point == mobilized {
+        @media (max-width: 425px) { @content ; }
+    }
+    @else if $point == iphone5portrait {
+        @media (max-width: 570px) and (min-width: 551px)  { @content ; }
+    }
+    @else if $point == min {
+        @media (max-width: 360px) { @content ; }
+    }
+    @else {
+        @media (max-width: $point) { @content ; }
+    }
+}
+
+@mixin typostyles() {
+    ul {
+        margin: 30px 0;
+        padding-left: 0;
+        list-style: none;
+        li {
+            position: relative;
+            margin: 0 0 10px;
+            padding-left: 20px;
+            &:before {
+                position: absolute;
+                top: 12px;
+                left: 0;
+                content: '';
+                display: block;
+                width: 10px;
+                height: 1px;
+                background-color: #333;
+            }
+            ul {
+                margin: 10px 0 0;
+                li {
+                    margin: 0 0 10px;
+                    &:before {
+                        top: 11px;
+                    }
+                }
+            }
+        }
+    }
+    ol {
+        margin: 30px 0;
+        padding-left: 25px;
+        li {
+            margin: 0 0 10px;
+            ol {
+                margin: 10px 0 0;
+                padding-left: 20px;
+                li {
+                    margin: 0 0 10px;
+                }
+            }
+        }
+    }
+    dl {
+        margin: 30px 0;
+    }
+    table {
+        margin: 30px 0;
+    }
+    pre {
+        margin: 0 0 30px;
+    }
+    .woocommerce {
+        ul {
+            li {
+                padding-left: 0;
+                &:before {
+                    display: none;
+                }
+            }
+        }
+    }
+}

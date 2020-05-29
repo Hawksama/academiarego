@@ -1,0 +1,72 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.stm_lms_recent_courses {
+    max-width: 1720px;
+    margin: 0 auto;
+    &__terms {
+        display: flex;
+
+        flex-wrap: wrap;
+        margin: 15px 0 52px;
+        justify-content: center;
+    }
+    &__term {
+        padding: 5px 15px;
+        margin: 0 7px;
+        line-height: 30px;
+        border-radius: 20px;
+        background-color: #fff;
+        cursor: pointer;
+        transition: .3s ease;
+        &.active {
+            color: #fff !important;
+            background-color: #195ec8;
+        }
+        &:hover {
+            color: #777777;
+        }
+    }
+    &__all {
+        margin: 30px 0 0;
+    }
+    .stm_lms_courses__grid {
+        justify-content: center;
+        .stm_lms_courses__single {
+            transition: .3s ease;
+            transform: translateY(0);
+            opacity: 1;
+            &:hover {
+                z-index: 9999;
+            }
+            &:nth-child(7n),
+            &:first-child:not(:last-child) {
+                .stm_lms_courses__single--info {
+                    left: 0;
+                    right: -100px;
+                }
+            }
+            &:nth-child(6n),
+            &:last-child:not(:first-child) {
+                .stm_lms_courses__single--info {
+                    right: 0;
+                    left: -100px;
+                }
+            }
+        }
+        &.loading {
+            .stm_lms_courses__single {
+                transform: translateY(10px);
+                opacity: 0;
+            }
+        }
+    }
+}
+
+@include breakpoint(tablet) {
+    .stm_lms_recent_courses__term {
+        padding: 7px 30px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+}

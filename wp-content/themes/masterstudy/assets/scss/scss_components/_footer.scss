@@ -1,0 +1,222 @@
+@import "../scss_components/mixins";
+
+#footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 15;
+    & .widget_title {
+        & h3 {
+            margin: 0 0 25px;
+            color: $white;
+            text-transform: uppercase;
+        }
+    }
+    .widget_stm_lms_popular_courses {
+        li {
+            min-height: auto;
+            margin-bottom: 20px !important;
+        }
+        .rating,
+        .stm_featured_product_price {
+            display: none;
+        }
+        img {
+            max-width: 50px;
+        }
+    }
+}
+
+body.home #footer_bottom {
+    border-top: 0 !important;
+}
+
+#footer_top {
+    padding: 63px 0 30px;
+    color: $grey;
+}
+
+#footer_bottom {
+    padding: 63px 0 25px;
+    color: $white;
+    & .widget_title h3 {
+        margin-bottom: 21px;
+    }
+}
+
+#footer_copyright {
+    border-top: 1px solid #5e676b;
+    padding: 23px 0 20px;
+    & .footer_logo {
+        max-width: 25px;
+        margin-right: 20px;
+    }
+    & .copyright_text {
+        margin-top: 1px;
+        color: $white;
+        & a {
+            color: $white;
+            text-decoration: underline !important;
+            &:hover {
+                color: $orange-dk;
+            }
+        }
+    }
+}
+
+.footer_menu {
+    list-style: none;
+    padding: 0;
+    & li {
+        float: left;
+        margin: 1px 20px 0 0;
+        &.current-menu-item {
+            & a {
+                color: #fd7635;
+            }
+        }
+        & a {
+            text-transform: uppercase;
+            color: $white;
+            &:hover {
+                color: #fd7635;
+            }
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.copyright_socials {
+    & ul {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 50px;
+        & li {
+            display: inline-block;
+            margin-bottom: 0;
+            &:last-child a {
+                padding-right: 0;
+            }
+            &:first-child a {
+                padding-left: 0;
+            }
+            & a {
+                display: block;
+                padding: 0 10px;
+                font-size: 16px;
+                color: $white;
+                &:hover {
+                    color: #fd7635;
+                }
+            }
+        }
+    }
+}
+
+.widget_pages ul.style_2 li {
+    a {
+        display: block;
+        span {
+            display: block;
+            padding-bottom: 3px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 13px;
+            padding-right: 5px;
+        }
+    }
+}
+
+/*After Less*/
+.cols_1 {
+    margin: 0 -15px;
+}
+
+.cols_1 aside {
+    float: left;
+    padding: 0 15px 15px;
+    width: 100%;
+}
+
+.cols_1 aside:nth-child(1n+1) {
+    clear: both;
+}
+
+.cols_2 {
+    margin: 0 -15px;
+}
+
+.cols_2 aside {
+    float: left;
+    padding: 0 15px 15px;
+    width: 50%;
+}
+
+.cols_2 aside:nth-child(2n+1) {
+    clear: both;
+}
+
+.cols_3 {
+    margin: 0 -15px;
+}
+
+.cols_3 aside {
+    float: left;
+    padding: 0 15px 15px;
+    width: 33.333333333333%;
+}
+
+.cols_3 aside:nth-child(3n+1) {
+    clear: both;
+}
+
+.cols_4 {
+    margin: 0 -15px;
+}
+
+.cols_4 aside {
+    float: left;
+    padding: 0 15px 15px;
+    width: 25%;
+}
+
+.cols_4 aside:nth-child(4n+1) {
+    clear: both;
+}
+
+.footer_widgets_wrapper.text-normal {
+    .widget_title h3 {
+        text-transform: none !important;
+    }
+}
+
+.socials_widget_wrapper__text {
+    margin: 0;
+    a {
+        display: inline-block;
+        vertical-align: top;
+        margin: 15px 15px 0 0;
+        font-size: 20px;
+        color: #aaa;
+    }
+}
+
+@include breakpoint(tabletunder) {
+    #footer_copyright .copyright_text,
+    .widget_pages ul.style_2 li a .h6,
+    .widget_contacts ul li .text,
+    .widget_contacts ul li .text a,
+    .textwidget {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@include breakpoint(mobile) {
+    .widget_pages ul.style_2 li {
+        width: 100%;
+    }
+}

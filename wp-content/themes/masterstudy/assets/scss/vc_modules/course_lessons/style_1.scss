@@ -1,0 +1,149 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.course_title {
+    margin: 0 0 20px;
+}
+
+.course_lessons_section {
+    margin-bottom: 37px;
+    & p {
+        margin-bottom: 10px;
+    }
+}
+
+.course_table {
+    width: 100%;
+    margin-bottom: 0;
+    & tr {
+        border: 0;
+        & td {
+            &.number {
+                width: 30px;
+                opacity: 0;
+                text-align: center;
+                vertical-align: middle;
+                color: $grey-lt;
+                &.number-visible {
+                    opacity: 1;
+                }
+                &.belowten {
+                    width: 30px;
+                    padding: 0 7px;
+                }
+                &.overthousand {
+                    width: 40px;
+                    padding: 0 5px;
+                }
+            }
+            &.icon {
+                padding: 0 5px;
+                vertical-align: middle;
+                font-size: 16px;
+                width: 33px;
+                color: #457992;
+            }
+            &.title {
+                padding-right: 10px;
+                color: $grey-text;
+                & i {
+                    margin: 0 5px;
+                    vertical-align: top;
+                    position: relative;
+                    top: 2px;
+                }
+            }
+            &.stm_badge {
+                text-align: right;
+                padding-right: 20px;
+                // 				width: 70px;
+                & .badge_unit {
+                    display: inline-block;
+                    min-width: 63px;
+                    padding: 0 4px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: $white;
+                    text-align: center;
+                    background-color: $blue-link;
+                    border-radius: 3px;
+                    &:first-letter {
+                        text-transform: uppercase;
+                    }
+                    &.free {
+                        background-color: $green;
+                    }
+                    &.quiz {
+                        background-color: $orange-dk;
+                    }
+                    &.exam {
+                        background-color: #d94da6;
+                    }
+                    &.video {
+                        background-color: #1EC1D9;
+                    }
+                    &.test {
+                        background-color: #f13e3e;
+                    }
+                    &.private {
+                        background-color: #E35C49;
+                    }
+                }
+            }
+            & .meta {
+                display: inline-block;
+                text-align: right;
+                /*
+width: 120px;
+                max-width: 120px;
+*/
+                padding-left: 15px;
+                font-size: 14px;
+                color: $grey-text;
+                vertical-align: middle;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                & i {
+                    margin-right: 5px;
+                    font-size: 18px;
+                    color: $grey-lt;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(655px) {
+    td.title {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .course_title {
+        line-height: 1.7;
+    }
+    .course-title-holder {
+        i, .stm_badge {
+            display: none;
+        }
+    }
+    .course-panel-body {
+        padding: 0;
+    }
+    .course_table tr td.stm_badge {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        text-align: left;
+        .badge_unit {
+            margin: 0 15px 0 0;
+        }
+        .meta {
+            padding: 0 15px 0 0;
+            text-align: left;
+            i {
+                display: none;
+            }
+        }
+    }
+}

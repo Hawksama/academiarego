@@ -1,0 +1,182 @@
+.stm_buddypress_instructors {
+    padding: 87px 0 82px;
+    background-color: #111f2d;
+
+    &__title {
+        margin: 0 0 10px;
+        padding: 0 15px;
+        text-align: center;
+        color: #fff;
+    }
+
+    &__subtitle {
+        padding: 0 15px;
+        text-align: center;
+        color: #fff;
+        opacity: .7;
+        font-size: 18px;
+    }
+
+    &__list {
+        margin: 70px 0 0;
+        padding: 0 15px;
+    }
+
+    .stm_lms_instructors_carousel {
+        &__single {
+            width: 270px;
+            color: #fff;
+            margin: 0 auto;
+
+            &_avatar {
+                position: relative;
+
+                img {
+                    border-radius: 10px;
+                }
+
+                .stm_lms_user_info_top__socials {
+                    position: absolute;
+                    bottom: 25px;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+
+                    a {
+                        display: inline-block;
+                        vertical-align: top;
+                        width: 35px;
+                        height: 35px;
+                        margin: 0 5px;
+                        font-size: 0;
+                        text-align: center;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        opacity: 0;
+                        transform: translateY(5px);
+                        transition: .3s ease;
+
+                        &:nth-child(2) {
+                            transition-delay: 0.1s;
+                        }
+
+                        &:nth-child(3) {
+                            transition-delay: 0.2s;
+                        }
+
+                        &:nth-child(4) {
+                            transition-delay: 0.3s;
+                        }
+
+                        i {
+                            font-size: 18px;
+                            line-height: 35px;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .stm_lms_user_info_top__socials {
+                        a {
+                            transform: translateY(0);
+                            opacity: 1;
+
+                            &:nth-child(2) {
+                                transition-delay: 0.1s;
+                            }
+
+                            &:nth-child(3) {
+                                transition-delay: 0.2s;
+                            }
+
+                            &:nth-child(4) {
+                                transition-delay: 0.3s;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &_name_activity {
+                display: flex;
+                margin: 28px 0 10px;
+            }
+
+            &_name {
+                margin-right: 10px;
+                color: #fff;
+                flex-grow: 1;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            &_activity {
+                margin-left: auto;
+                color: #aaa;
+                font-size: 13px;
+                white-space: nowrap;
+
+                i {
+                    position: relative;
+                    top: 1px;
+                    font-size: 16px;
+                }
+            }
+
+            &_position_rate {
+                display: flex;
+            }
+
+            &_position {
+                flex-grow: 1;
+                opacity: .6;
+            }
+
+            .stm-lms-user_rating {
+                .star-rating {
+                    position: relative;
+                    top: 3px;
+                    margin: 0;
+                    width: 75px;
+                    vertical-align: top;
+                    background-size: 15px 15px;
+                    height: 15px;
+
+                    > span {
+                        background-size: 15px 15px;
+                        height: 15px;
+                    }
+                }
+
+                .stm-lms-user_rating__total,
+                .rating {
+                    display: none;
+                }
+            }
+
+
+        }
+    }
+
+    .owl-carousel {
+        .owl-dots {
+            margin: 75px 0 0;
+        }
+        .owl-dot {
+            width: 10px;
+            height: 10px;
+            border: 0;
+            background-color: #d2d2d2;
+
+            &.active {
+                background-color: #1a92e6;
+                transform: scale(1.3);
+            }
+        }
+    }
+
+}

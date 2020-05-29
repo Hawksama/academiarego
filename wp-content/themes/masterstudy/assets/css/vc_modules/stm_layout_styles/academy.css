@@ -1,0 +1,100 @@
+/* line 4, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+.form-control {
+  border-radius: 5px; }
+
+/* line 8, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+.select2-container--default .select2-selection--single {
+  height: 40px; }
+  /* line 10, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 40px;
+    font-size: 14px;
+    color: #273144;
+    font-weight: 400;
+    letter-spacing: -0.6px; }
+  /* line 17, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+  .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px;
+    width: 40px; }
+    /* line 20, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
+      line-height: 40px; }
+      /* line 22, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+      .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
+        top: -2px !important;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 6px 5px 0 5px !important;
+        border-color: #0050b4 transparent transparent transparent !important;
+        transform: none !important; }
+
+/* line 35, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+.stm_lms_courses_carousel {
+  max-width: 1740px !important; }
+
+/* line 39, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+.stm_lms_courses_carousel__buttons {
+  margin: 0 !important; }
+  /* line 41, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+  .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button {
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    height: 92px;
+    width: 48px;
+    margin-top: -15px;
+    border: 0;
+    line-height: 92px;
+    border-radius: 23px;
+    font-size: 24px;
+    background-color: transparent;
+    z-index: 2000; }
+    /* line 55, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+    .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button i:before {
+      content: '';
+      display: block;
+      margin-left: 9px;
+      width: 17px;
+      height: 17px;
+      border-bottom: 1px solid #273044;
+      border-left: 1px solid #273044;
+      transform: rotate(45deg);
+      transition: .3s ease; }
+    /* line 69, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+    .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button:hover i:before {
+      border-bottom-color: #fff;
+      border-left-color: #fff; }
+    /* line 75, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+    .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button_next {
+      left: auto;
+      right: 7px; }
+      /* line 79, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+      .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button_next i:before {
+        margin-left: 0;
+        margin-right: 8px;
+        transform: rotate(-135deg); }
+
+/* line 89, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+body.has_envato_iframe {
+  position: relative;
+  top: 50px !important; }
+
+/* line 94, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+.stm_lms_courses__single .stm_lms_courses__single__inner .star-rating {
+  margin-top: 4px; }
+
+/* line 98, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+.btn {
+  font-weight: 600;
+  letter-spacing: -0.5px; }
+
+@media (max-width: 1800px) {
+  /* line 104, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+  .stm_lms_courses_carousel .stm_lms_courses__grid,
+  .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel .stm_lms_instructors__grid {
+    padding: 0 4px; }
+  /* line 108, assets/scss/vc_modules/stm_layout_styles/academy.scss */
+  .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button_next,
+  .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button_prev {
+    display: none !important; } }

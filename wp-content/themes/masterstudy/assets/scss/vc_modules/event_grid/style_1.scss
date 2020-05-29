@@ -1,0 +1,61 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.event-col {
+    & .multiseparator {
+        margin: 46px 0 50px;
+    }
+    & .event_archive_item {
+        display: inline-block;
+        max-width: 100%;
+        vertical-align: top;
+        & > a {
+            display: block;
+            &:hover {
+                & .title {
+                    color: $blue-link;
+                }
+                & .event_img:after {
+                    opacity: 1;
+                }
+            }
+        }
+        & .title {
+            margin: 27px 0 20px;
+            font-size: 15px;
+            line-height: 19px;
+        }
+        & .event_img {
+            position: relative;
+            display: inline-block;
+            max-width: 100%;
+            overflow: hidden;
+            &:after {
+                @include pseudo(absolute, 100%, 100%);
+                top: 0;
+                left: 0;
+                opacity: 0;
+                background: rgba(0,0,0,0.25);
+            }
+        }
+        & .event_start {
+            margin-bottom: 2px;
+            color: $grey-lt;
+            font-size: 13px;
+            & i {
+                margin-right: 4px;
+                font-size: 15px;
+                color: $orange-dk;
+            }
+        }
+        & .event_location {
+            color: $grey-lt;
+            font-size: 13px;
+            & i {
+                margin-right: 5px;
+                font-size: 17px;
+                color: $orange-dk;
+            }
+        }
+    }
+}

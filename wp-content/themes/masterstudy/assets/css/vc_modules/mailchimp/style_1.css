@@ -1,0 +1,6 @@
+@media (max-width: 515px) {
+  /* line 7, assets/scss/vc_modules/mailchimp/style_1.scss */
+  .widget_mailchimp .stm_mailchimp_unit .button {
+    position: static;
+    margin: 10px 0 0;
+    width: 100%; } }

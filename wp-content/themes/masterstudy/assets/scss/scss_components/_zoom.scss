@@ -1,0 +1,68 @@
+.stm_zoom_grid_container {
+    .stm_zoom_grid {
+        &__item {
+            text-align: center;
+            .info {
+                position: relative;
+                background: #fff;
+                padding-bottom: 20px;
+                .title {
+                    h3 {
+                        font-size: 18px !important;
+                        font-weight: 700 !important;
+                        line-height: 26px !important;
+                    }
+                }
+                .zoom_date {
+                    position: absolute;
+                    top: -127px;
+                    left: 10px;
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    padding: 35px 20px;
+                    line-height: 22px;
+                    background: #a7d320;
+                    border-radius: 4px;
+                    .year {
+                        font-weight: 400;
+                    }
+                }
+                .zoom_host {
+                    .host_info {
+                        width: 100%;
+                        flex: 0 0 100%;
+                        .host_title {
+                            color: #a7d320;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2n) {
+                .zoom_date {
+                    background: #2dd675 !important;
+                }
+                .host_title {
+                    color: #2dd675 !important;
+                }
+            }
+            &:nth-child(2n + 1) {
+                .zoom_date {
+                    background: #8464ea !important;
+                }
+                .host_title {
+                    color: #8464ea !important;
+                }
+            }
+            &:nth-child(3n + 1) {
+                .zoom_date {
+                    background: #a7d320 !important;
+                }
+                .host_title {
+                    color: #a7d320 !important;
+                }
+            }
+        }
+    }
+}

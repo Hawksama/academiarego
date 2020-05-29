@@ -1,0 +1,112 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.form-control {
+    border-radius: 5px;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 40px;
+    .select2-selection__rendered {
+        line-height: 40px;
+        font-size: 14px;
+        color: #273144;
+        font-weight: 400;
+        letter-spacing: -0.6px;
+    }
+    .select2-selection__arrow {
+        height: 38px;
+        width: 40px;
+        b {
+            line-height: 40px;
+            &:after {
+                top: -2px !important;
+                width: 0;
+                height: 0;
+                border-style: solid ;
+                border-width: 6px 5px 0 5px !important;
+                border-color: $blue-dk transparent transparent transparent !important;
+                transform: none !important;
+            }
+        }
+    }
+}
+
+.stm_lms_courses_carousel {
+    max-width: 1740px !important;
+}
+
+.stm_lms_courses_carousel__buttons {
+    margin: 0 !important;
+    .stm_lms_courses_carousel__button {
+        position: absolute;
+        top: 50%;
+        left: 7px;
+        height: 92px;
+        width: 48px;
+        margin-top: -15px;
+        border: 0;
+        line-height: 92px;
+        border-radius: 23px;
+        font-size: 24px;
+        background-color: transparent;
+        z-index: 2000;
+        i {
+            &:before {
+                content: '';
+                display: block;
+                margin-left: 9px;
+                width: 17px;
+                height: 17px;
+                border-bottom: 1px solid #273044;
+                border-left: 1px solid #273044;
+                transform: rotate(45deg);
+                transition: .3s ease;
+            }
+        }
+        &:hover {
+            i {
+                &:before {
+                    border-bottom-color: #fff;
+                    border-left-color: #fff;
+                }
+            }
+        }
+        &_next {
+            left: auto;
+            right: 7px;
+            i {
+                &:before {
+                    margin-left: 0;
+                    margin-right: 8px;
+                    transform: rotate(-135deg);
+                }
+            }
+        }
+    }
+}
+
+body.has_envato_iframe {
+    position: relative;
+    top: 50px !important;
+}
+
+.stm_lms_courses__single .stm_lms_courses__single__inner .star-rating {
+    margin-top: 4px;
+}
+
+.btn {
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+@media (max-width: 1800px) {
+    .stm_lms_courses_carousel .stm_lms_courses__grid,
+    .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel .stm_lms_instructors__grid {
+        padding: 0 4px;
+    }
+    .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button_next,
+    .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button_prev {
+        display: none !important;
+    }
+}

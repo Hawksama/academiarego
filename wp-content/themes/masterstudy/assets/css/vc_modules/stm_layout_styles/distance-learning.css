@@ -1,0 +1,248 @@
+/* line 6, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+body.home #wrapper #main {
+  background-color: #f2f6fb; }
+
+/* line 12, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.post_list_main_section_wrapper .post_list_content_unit {
+  margin-bottom: 10px; }
+  /* line 14, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .post_list_main_section_wrapper .post_list_content_unit .post_list_featured_image {
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .3s; }
+    /* line 20, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .post_list_main_section_wrapper .post_list_content_unit .post_list_featured_image img {
+      border-radius: 10px; }
+    /* line 24, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .post_list_main_section_wrapper .post_list_content_unit .post_list_featured_image a:before, .post_list_main_section_wrapper .post_list_content_unit .post_list_featured_image a:after {
+      display: none !important; }
+    /* line 28, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .post_list_main_section_wrapper .post_list_content_unit .post_list_featured_image:hover {
+      transform: translateY(-10px); }
+  /* line 34, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .post_list_main_section_wrapper .post_list_content_unit .post_list_inner_content_unit .post_list_item_title {
+    font-weight: 700; }
+  /* line 37, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .post_list_main_section_wrapper .post_list_content_unit .post_list_inner_content_unit .post_list_item_excerpt {
+    font-size: 13px; }
+  /* line 40, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .post_list_main_section_wrapper .post_list_content_unit .post_list_inner_content_unit .short_separator {
+    display: none; }
+
+/* line 48, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel {
+  position: relative; }
+  /* line 50, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel__top {
+    margin-bottom: 70px; }
+    /* line 52, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel__top h3 {
+      font-size: 45px;
+      line-height: 45px;
+      margin-top: 0; }
+    /* line 57, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel__top a {
+      display: none; }
+  /* line 61, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel .stm_lms_courses__single--image {
+    overflow: hidden; }
+    /* line 63, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel .stm_lms_courses__single--image img {
+      transition: .3s; }
+    /* line 67, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel .stm_lms_courses__single--image:hover img {
+      transform: scale(1.05); }
+  /* line 72, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel__buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-top: 0; }
+    /* line 77, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button {
+      width: 40px;
+      height: 40px;
+      border-radius: 4px;
+      background: none;
+      line-height: 38px;
+      border-color: #2dd675; }
+      /* line 84, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+      .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button i {
+        color: #2dd675; }
+      /* line 87, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+      .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button_next {
+        margin-left: 10px; }
+      /* line 90, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+      .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button:hover {
+        background: #2dd675; }
+        /* line 92, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+        .stm_lms_courses_carousel_wrapper .stm_lms_courses_carousel__buttons .stm_lms_courses_carousel__button:hover i {
+          color: #fff; }
+
+/* line 101, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.stm_lms_courses__grid_4 .stm_lms_courses__single--image .stm_lms_lazy_image {
+  padding-bottom: 59%; }
+
+/* line 106, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.stm_lms_courses_categories.style_4 {
+  flex-wrap: wrap !important; }
+  /* line 108, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .stm_lms_courses_categories.style_4 .stm_lms_courses_category {
+    width: calc(33.3% - 10px) !important;
+    flex: 0 0 calc(33.3% - 10px);
+    margin-bottom: 10px !important;
+    min-height: 170px !important; }
+    @media (max-width: 991px) {
+      /* line 108, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+      .stm_lms_courses_categories.style_4 .stm_lms_courses_category {
+        width: calc(50% - 10px) !important;
+        flex: 0 0 calc(50% - 10px); } }
+    /* line 118, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .stm_lms_courses_categories.style_4 .stm_lms_courses_category a h4 {
+      line-height: 20px; }
+      @media (max-width: 600px) {
+        /* line 118, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+        .stm_lms_courses_categories.style_4 .stm_lms_courses_category a h4 {
+          white-space: normal;
+          min-height: 40px; } }
+    /* line 125, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .stm_lms_courses_categories.style_4 .stm_lms_courses_category a i {
+      font-size: 44px !important; }
+
+/* line 135, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.vc_btn3-container .vc_btn3-style-outline.vc_btn3-size-lg {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .7px;
+  min-width: 190px;
+  border-width: 1px !important; }
+
+/* line 145, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.wpb_text_column, .wpb_text_column p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #848484; }
+
+/* line 151, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.vc_btn3.vc_btn3-size-lg {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: .7px;
+  padding-left: 33px;
+  padding-right: 33px; }
+
+@media (min-width: 1200px) {
+  /* line 162, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .vc_col-sm-7 .stm_video_wrapper {
+    padding-right: 70px; } }
+
+/* line 169, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.stm_video_wrapper .stm_video_preview {
+  overflow: hidden;
+  border-radius: 10px; }
+  /* line 172, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .stm_video_wrapper .stm_video_preview:after {
+    border: 4px #2dd675 solid;
+    width: 112px;
+    height: 112px;
+    background-color: #2dd675;
+    margin-top: -56px;
+    margin-left: -56px;
+    transition: .3s; }
+  /* line 181, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .stm_video_wrapper .stm_video_preview:before {
+    z-index: 11;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid white;
+    margin-top: -14px; }
+  /* line 189, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .stm_video_wrapper .stm_video_preview:hover:after {
+    background: none; }
+
+/* line 196, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.stm_subscribe .stm_subscribe_title {
+  text-transform: none;
+  letter-spacing: .3px;
+  font-weight: 300; }
+
+/* line 201, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.stm_subscribe .success_message {
+  color: #fff; }
+
+/* line 206, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+body.home #main {
+  padding-bottom: 0 !important; }
+
+/* line 210, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+#footer_top {
+  padding-top: 83px;
+  padding-bottom: 0; }
+  /* line 214, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  #footer_top .widget_title h3 {
+    font-size: 20px;
+    margin-bottom: 15px !important; }
+
+/* line 226, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.widget_pages .style_1 li a {
+  padding: 5px 0 5px 18px !important; }
+  /* line 228, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .widget_pages .style_1 li a .h6 {
+    font-size: 15px;
+    text-transform: none; }
+  /* line 232, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .widget_pages .style_1 li a:after {
+    top: 8px !important;
+    margin-top: 0 !important;
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 50%;
+    content: '';
+    background: #fff !important; }
+  /* line 242, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .widget_pages .style_1 li a:hover:after {
+    background: #eab830 !important; }
+
+/* line 252, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.widget_socials .front a {
+  background: #00aad1 !important; }
+
+/* line 258, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+body .header_top_bar .header_top_bar_socs ul li a:hover {
+  color: #000; }
+
+@media (max-width: 1200px) {
+  /* line 263, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  body .tablet_background_none {
+    background: none !important; } }
+
+/* line 268, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+html body.skin_custom_color .header-menu-mobile .header-menu > li.opened > a {
+  color: #fff !important; }
+
+/* line 272, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+html body.skin_custom_color .header-menu-mobile .header-menu > li.opened .arrow i {
+  color: #fff !important; }
+
+/* line 280, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+.stm_zoom_grid_container .stm_zoom_grid.per_row_3 .stm_zoom_grid__item {
+  transition: .3s; }
+  /* line 282, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .stm_zoom_grid_container .stm_zoom_grid.per_row_3 .stm_zoom_grid__item:hover {
+    transform: translateY(-10px); }
+  /* line 285, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+  .stm_zoom_grid_container .stm_zoom_grid.per_row_3 .stm_zoom_grid__item img {
+    width: 100%; }
+  @media (max-width: 991px) {
+    /* line 280, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .stm_zoom_grid_container .stm_zoom_grid.per_row_3 .stm_zoom_grid__item {
+      width: 50% !important;
+      flex: 0 0 50% !important; } }
+  @media (max-width: 640px) {
+    /* line 280, assets/scss/vc_modules/stm_layout_styles/distance-learning.scss */
+    .stm_zoom_grid_container .stm_zoom_grid.per_row_3 .stm_zoom_grid__item {
+      width: 100% !important;
+      flex: 0 0 100% !important; } }

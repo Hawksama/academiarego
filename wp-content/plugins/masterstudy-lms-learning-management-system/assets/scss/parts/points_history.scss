@@ -1,0 +1,149 @@
+@import "../components/mixins";
+@import "../components/colors";
+
+#stm_lms_points_history {
+    margin: 30px 0 50px;
+}
+
+.stm_lms_points_history__head {
+    display: flex;
+    align-items: center;
+    margin: 0 0 55px;
+    .left {
+        margin-right: 30px;
+        h2 {
+            margin-bottom: 10px;
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+        a {
+            border-bottom: 1px solid $main_color;
+        }
+    }
+    .right {
+        margin-left: auto;
+        .stm-lms-my-points {
+            min-height: 50px;
+            position: relative;
+            top: -6px;
+            margin: 0;
+            padding: 0 25px 0 60px;
+            background-color: transparent;
+            img {
+                left: 0;
+                top: 50%;
+                margin-top: -25px;
+                max-width: 50px;
+            }
+            .points-inner {
+                padding: 2px 0 0;
+                span {
+                    margin: 0 0 3px;
+                    font-size: 14px;
+                    line-height: 18px;
+                    font-weight: 700;
+                }
+                label {
+                    font-size: 28px;
+                    line-height: 28px;
+                    font-weight: 700;
+                    color: $dark;
+                }
+            }
+        }
+    }
+}
+
+.stm_lms_points_history_table {
+    &.loading {
+        > * {
+            opacity: 0.3;
+        }
+    }
+
+    table {
+        thead {
+            tr {
+                border: 2px solid #eff0f2;
+                background-color: #eff0f2;
+
+                th {
+                    padding: 10px 15px;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                border: 2px solid #eff0f2;
+
+                &:hover {
+                    td {
+                        background-color: #fafbfb;
+                    }
+                }
+
+                td {
+                    padding: 10px 15px;
+                    border: 0;
+                    transition: .3s ease;
+
+                    &.point-label {
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+
+                    &.point-title {
+                        a {
+                            color: #aaaaaa;
+                            font-size: 13px;
+                        }
+                        &:hover {
+                            a {
+                                color: #2a3045;
+                            }
+                        }
+                    }
+
+                    &.point-time {
+                        color: #aaaaaa;
+                        font-size: 13px;
+                    }
+
+                    &.point-score {
+                        color: #2a3045;
+                        font-weight: 500;
+                    }
+
+                }
+            }
+        }
+
+        tfoot {
+            tr {
+                border: 2px solid #eff0f2;
+                background-color: #eff0f2;
+
+                td {
+                    padding: 10px 15px;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+
+                    &.point-sum-label {
+                        font-weight: 700;
+                    }
+
+                    &.points-sum {
+                        font-weight: 700;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

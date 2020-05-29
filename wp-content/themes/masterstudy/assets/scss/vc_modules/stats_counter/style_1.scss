@@ -1,0 +1,22 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+// Counter
+.stats_counter {
+    & .stats_counter_title {
+        text-transform: uppercase;
+    }
+    &.with_border_right {
+        position: relative;
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -35px;
+            bottom: -15px;
+            right: -15px;
+            width: 1px;
+            background-color: #ddd;
+        }
+    }
+}

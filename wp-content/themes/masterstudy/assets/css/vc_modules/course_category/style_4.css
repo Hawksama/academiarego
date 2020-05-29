@@ -1,0 +1,74 @@
+/* line 4, assets/scss/vc_modules/course_category/style_4.scss */
+.stm_lms_courses_categories.style_4 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: -10px 0 7px;
+  padding-top: 10px;
+  overflow-x: auto; }
+  /* line 11, assets/scss/vc_modules/course_category/style_4.scss */
+  .stm_lms_courses_categories.style_4 .stm_lms_courses_category {
+    width: calc(20% - 10px);
+    padding: 15px;
+    margin: 0 0 33px;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease;
+    border-radius: 10px; }
+    /* line 21, assets/scss/vc_modules/course_category/style_4.scss */
+    .stm_lms_courses_categories.style_4 .stm_lms_courses_category > a {
+      text-align: center; }
+      /* line 23, assets/scss/vc_modules/course_category/style_4.scss */
+      .stm_lms_courses_categories.style_4 .stm_lms_courses_category > a i {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 64px;
+        color: #fff; }
+      /* line 29, assets/scss/vc_modules/course_category/style_4.scss */
+      .stm_lms_courses_categories.style_4 .stm_lms_courses_category > a h4 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff; }
+    /* line 35, assets/scss/vc_modules/course_category/style_4.scss */
+    .stm_lms_courses_categories.style_4 .stm_lms_courses_category:hover {
+      transform: translateY(-10px); }
+
+@media (max-width: 769px) {
+  /* line 42, assets/scss/vc_modules/course_category/style_4.scss */
+  .stm_lms_courses_categories.style_4 {
+    display: block;
+    white-space: nowrap;
+    font-size: 0; }
+    /* line 46, assets/scss/vc_modules/course_category/style_4.scss */
+    .stm_lms_courses_categories.style_4 .stm_lms_courses_category {
+      display: inline-block;
+      margin: 0 10px;
+      width: calc(50% - 20px); }
+      /* line 50, assets/scss/vc_modules/course_category/style_4.scss */
+      .stm_lms_courses_categories.style_4 .stm_lms_courses_category > a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 190px; }
+        /* line 57, assets/scss/vc_modules/course_category/style_4.scss */
+        .stm_lms_courses_categories.style_4 .stm_lms_courses_category > a i {
+          width: 100%; }
+        /* line 60, assets/scss/vc_modules/course_category/style_4.scss */
+        .stm_lms_courses_categories.style_4 .stm_lms_courses_category > a h4 {
+          width: 100%; } }
+
+@media (max-width: 515px) {
+  /* line 70, assets/scss/vc_modules/course_category/style_4.scss */
+  .stm_lms_courses_categories.style_4 .stm_lms_courses_category {
+    width: calc(100% - 30px);
+    margin: 0 30px; }
+    /* line 73, assets/scss/vc_modules/course_category/style_4.scss */
+    .stm_lms_courses_categories.style_4 .stm_lms_courses_category:first-child {
+      margin-left: 15px; }
+    /* line 76, assets/scss/vc_modules/course_category/style_4.scss */
+    .stm_lms_courses_categories.style_4 .stm_lms_courses_category:last-child {
+      margin-right: 15px; } }

@@ -1,0 +1,140 @@
+/* line 4, assets/scss/vc_modules/course_lessons/style_1.scss */
+.course_title {
+  margin: 0 0 20px; }
+
+/* line 8, assets/scss/vc_modules/course_lessons/style_1.scss */
+.course_lessons_section {
+  margin-bottom: 37px; }
+  /* line 10, assets/scss/vc_modules/course_lessons/style_1.scss */
+  .course_lessons_section p {
+    margin-bottom: 10px; }
+
+/* line 15, assets/scss/vc_modules/course_lessons/style_1.scss */
+.course_table {
+  width: 100%;
+  margin-bottom: 0; }
+  /* line 18, assets/scss/vc_modules/course_lessons/style_1.scss */
+  .course_table tr {
+    border: 0; }
+    /* line 21, assets/scss/vc_modules/course_lessons/style_1.scss */
+    .course_table tr td.number {
+      width: 30px;
+      opacity: 0;
+      text-align: center;
+      vertical-align: middle;
+      color: #aaa; }
+      /* line 27, assets/scss/vc_modules/course_lessons/style_1.scss */
+      .course_table tr td.number.number-visible {
+        opacity: 1; }
+      /* line 30, assets/scss/vc_modules/course_lessons/style_1.scss */
+      .course_table tr td.number.belowten {
+        width: 30px;
+        padding: 0 7px; }
+      /* line 34, assets/scss/vc_modules/course_lessons/style_1.scss */
+      .course_table tr td.number.overthousand {
+        width: 40px;
+        padding: 0 5px; }
+    /* line 39, assets/scss/vc_modules/course_lessons/style_1.scss */
+    .course_table tr td.icon {
+      padding: 0 5px;
+      vertical-align: middle;
+      font-size: 16px;
+      width: 33px;
+      color: #457992; }
+    /* line 46, assets/scss/vc_modules/course_lessons/style_1.scss */
+    .course_table tr td.title {
+      padding-right: 10px;
+      color: #555; }
+      /* line 49, assets/scss/vc_modules/course_lessons/style_1.scss */
+      .course_table tr td.title i {
+        margin: 0 5px;
+        vertical-align: top;
+        position: relative;
+        top: 2px; }
+    /* line 56, assets/scss/vc_modules/course_lessons/style_1.scss */
+    .course_table tr td.stm_badge {
+      text-align: right;
+      padding-right: 20px; }
+      /* line 60, assets/scss/vc_modules/course_lessons/style_1.scss */
+      .course_table tr td.stm_badge .badge_unit {
+        display: inline-block;
+        min-width: 63px;
+        padding: 0 4px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        background-color: #48a7d4;
+        border-radius: 3px; }
+        /* line 70, assets/scss/vc_modules/course_lessons/style_1.scss */
+        .course_table tr td.stm_badge .badge_unit:first-letter {
+          text-transform: uppercase; }
+        /* line 73, assets/scss/vc_modules/course_lessons/style_1.scss */
+        .course_table tr td.stm_badge .badge_unit.free {
+          background-color: #10c45c; }
+        /* line 76, assets/scss/vc_modules/course_lessons/style_1.scss */
+        .course_table tr td.stm_badge .badge_unit.quiz {
+          background-color: #eab830; }
+        /* line 79, assets/scss/vc_modules/course_lessons/style_1.scss */
+        .course_table tr td.stm_badge .badge_unit.exam {
+          background-color: #d94da6; }
+        /* line 82, assets/scss/vc_modules/course_lessons/style_1.scss */
+        .course_table tr td.stm_badge .badge_unit.video {
+          background-color: #1EC1D9; }
+        /* line 85, assets/scss/vc_modules/course_lessons/style_1.scss */
+        .course_table tr td.stm_badge .badge_unit.test {
+          background-color: #f13e3e; }
+        /* line 88, assets/scss/vc_modules/course_lessons/style_1.scss */
+        .course_table tr td.stm_badge .badge_unit.private {
+          background-color: #E35C49; }
+    /* line 93, assets/scss/vc_modules/course_lessons/style_1.scss */
+    .course_table tr td .meta {
+      display: inline-block;
+      text-align: right;
+      /*
+width: 120px;
+                max-width: 120px;
+*/
+      padding-left: 15px;
+      font-size: 14px;
+      color: #555;
+      vertical-align: middle;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+      /* line 107, assets/scss/vc_modules/course_lessons/style_1.scss */
+      .course_table tr td .meta i {
+        margin-right: 5px;
+        font-size: 18px;
+        color: #aaa;
+        vertical-align: middle; }
+
+@media (max-width: 655px) {
+  /* line 119, assets/scss/vc_modules/course_lessons/style_1.scss */
+  td.title {
+    padding-left: 15px !important;
+    padding-right: 15px !important; }
+  /* line 123, assets/scss/vc_modules/course_lessons/style_1.scss */
+  .course_title {
+    line-height: 1.7; }
+  /* line 127, assets/scss/vc_modules/course_lessons/style_1.scss */
+  .course-title-holder i, .course-title-holder .stm_badge {
+    display: none; }
+  /* line 131, assets/scss/vc_modules/course_lessons/style_1.scss */
+  .course-panel-body {
+    padding: 0; }
+  /* line 134, assets/scss/vc_modules/course_lessons/style_1.scss */
+  .course_table tr td.stm_badge {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-align: left; }
+    /* line 138, assets/scss/vc_modules/course_lessons/style_1.scss */
+    .course_table tr td.stm_badge .badge_unit {
+      margin: 0 15px 0 0; }
+    /* line 141, assets/scss/vc_modules/course_lessons/style_1.scss */
+    .course_table tr td.stm_badge .meta {
+      padding: 0 15px 0 0;
+      text-align: left; }
+      /* line 144, assets/scss/vc_modules/course_lessons/style_1.scss */
+      .course_table tr td.stm_badge .meta i {
+        display: none; } }

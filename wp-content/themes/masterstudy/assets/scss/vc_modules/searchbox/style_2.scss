@@ -1,0 +1,46 @@
+@import "../../scss_components/mixins";
+@import "../../scss_components/base_variables";
+
+.stm_searchbox.style_2 {
+    margin: 0 0 40px;
+    form {
+        position: relative;
+        max-width: 610px;
+        margin: 0 auto;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.18);
+        overflow: hidden;
+        border-radius: 5px;
+        input {
+            padding-left: 30px !important;
+            height: 60px;
+            padding-right: 150px !important;
+            background-color: #fff;
+            border-radius: 5px;
+            border: none;
+            overflow: hidden;
+        }
+        button[type="submit"] {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 150px;
+            line-height: 60px;
+            right: 0;
+            font-size: 18px;
+            border: 0;
+            background-color: $d_green;
+            outline: none;
+            border-radius: 0 5px 5px 0;
+            span {
+                color: #fff;
+                font-size: 14px;
+                font-weight: 700;
+                text-transform: uppercase;
+                display: block;
+                i {
+                    display: none;
+                }
+            }
+        }
+    }
+}

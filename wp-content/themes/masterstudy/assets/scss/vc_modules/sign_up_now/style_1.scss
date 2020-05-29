@@ -1,0 +1,45 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+// Sign up now form
+.stm_sign_up_now {
+    padding: 0 31px;
+    & .stm_sign_up_now_inner {
+        padding: 51px 67px 3px;
+        position: relative;
+        background-color: $white;
+        text-align: center;
+        border-radius: 4px;
+        & h2 {
+            margin: 0 0 25px;
+            word-spacing: 1px;
+        }
+    }
+    .stm_sign_up_form {
+
+    }
+    & .wpcf7-form .form-group {
+        margin-bottom: 15px;
+    }
+    & .form-control {
+        text-align: center;
+        height: 47px;
+        line-height: 47px;
+        font-size: 13px;
+        color: $grey-lt;
+        &:focus {
+            color: $grey-text;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        &:active {
+        }
+    }
+    & .ajax-loader {
+        display: block;
+        margin: 5px auto !important;
+    }
+    & input[type="submit"] {
+        margin: 6px auto 0;
+    }
+}

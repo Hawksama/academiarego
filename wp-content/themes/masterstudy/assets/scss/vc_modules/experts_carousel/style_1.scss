@@ -1,0 +1,107 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+// Experts styles
+.experts_carousel_unit {
+    margin: 0 -15px;
+    .expert-single-slide {
+        padding: 0 15px;
+    }
+}
+
+.st_experts {
+    & hr {
+        margin: 10px 0;
+    }
+
+    &.experts_list {
+        margin-bottom: 30px;
+    }
+
+    & .media {
+        padding: 29px;
+        border: 1px solid $grey-lt-ultra;
+        & .media-body {
+            width: inherit;
+        }
+    }
+
+    & .expert-media {
+        width: 155px;
+        padding-right: 26px;
+        & img {
+            margin-bottom: 11px;
+        }
+    }
+
+    & .expert_inner_title_link {
+        &:hover {
+            & .expert_inner_title {
+                color: $blue-link;
+            }
+        }
+    }
+
+    & .expert_inner_title {
+        margin-top: 0;
+        font-size: 18px;
+    }
+
+    & .expert_certified {
+        & .orange {
+            text-transform: uppercase;
+        }
+    }
+
+    & .expert_job {
+        text-transform: uppercase;
+        color: #b8bfc9;
+        font-size: 12px;
+    }
+
+    & .expert_excerpt p {
+        margin-bottom: 15px;
+    }
+
+    & .expert_socials {
+        margin: 0;
+        & .fab {
+            color: $white;
+        }
+        & a {
+            position: relative;
+            display: block;
+            margin-bottom: 11px;
+            float: left;
+            width: 32.25px;
+            height: 32px;
+            text-align: center;
+            line-height: 32px;
+            z-index: 5;
+            &.expert-social-facebook {
+                background-color: $facebook;
+            }
+            &.expert-social-twitter {
+                background-color: $twitter;
+            }
+            &.expert-social-google-plus {
+                background-color: $google-plus;
+            }
+            &.expert-social-linkedin {
+                background-color: $linkedin;
+            }
+            &.expert-social-youtube-play {
+                background-color: $youtube;
+            }
+            &:hover {
+                margin-top: -11px;
+                height: 43px;
+                z-index: 6;
+            }
+        }
+    }
+}
+
+.experts_control_bar_top {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,159 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.stm_lms_single_course_carousel_wrapper {
+	position: relative;
+	padding: 26px 0 59px;
+
+	.stm_lms_single_course_carousel {
+		.stm_lms_single_course_carousel_item {
+			display: flex;
+			flex-wrap: wrap;
+
+			&__image {
+				width: 43.1%;
+
+				img {
+					border-radius: 10px;
+				}
+			}
+
+			&__content {
+				margin-left: auto;
+				padding-top: 18px;
+				width: 51.5%;
+
+				.single_product_after_title {
+					margin-bottom: 19px;
+				}
+
+				h2 {
+					margin-bottom: 27px;
+				}
+
+				.stm_lms_courses__single--info_meta {
+					display: flex;
+					justify-content: flex-start;
+					margin: 0 0 25px;
+
+					.stm_lms_course__meta {
+						margin-right: 30px;
+						font-size: 15px;
+						text-transform: capitalize;
+
+						i {
+							position: relative;
+							top: 1px;
+							font-size: 14px;
+							margin-right: 5px;
+						}
+					}
+				}
+
+				.stm_lms_courses__single__buttons {
+					display: flex;
+					align-items: center;
+
+					> .btn {
+						margin-bottom: 0 !important;
+					}
+
+					.stm-lms-buy-buttons {
+						margin: 0;
+						flex-grow: 1;
+
+						.stm_lms_mixed_button {
+							margin: 0 10px 0 0;
+						}
+
+						.btn {
+							display: inline-block;
+							width: auto;
+							padding: 17px 20px 16px;
+							margin: 0;
+							vertical-align: top;
+
+							span {
+								letter-spacing: -0.7px;
+							}
+
+							&_big {
+								padding-top: 23px;
+
+								span {
+									margin-right: 30px;
+								}
+							}
+						}
+
+						.btn-subscription,
+						.or {
+							display: none;
+						}
+					}
+
+					.stm-lms-wishlist {
+						margin: 0 0 0 34px;
+
+						i {
+							text-indent: 0;
+
+							&.far {
+								color: #273044;
+								opacity: .6;
+								transition: .3s;
+
+								+ span {
+									opacity: .6;
+									transition: .3s;
+								}
+							}
+						}
+
+						&:hover {
+							i.far {
+								color: #fff;
+								opacity: 1;
+
+								+ span {
+									opacity: 1;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.stm_lms_single_course_carousel {
+	.stm-lms-buy-buttons-enterprise {
+		display: none !important;
+	}
+}
+
+@include breakpoint(tabletonly) {
+	.stm_lms_single_course_carousel_wrapper .stm_lms_single_course_carousel {
+		.stm_lms_single_course_carousel_item__image {
+			width: auto;
+			margin-bottom: 30px;
+		}
+
+		.stm_lms_single_course_carousel_item__content {
+			width: 100%;
+		}
+
+	}
+}
+
+@include breakpoint(mobile) {
+	.stm_lms_courses__single__buttons {
+		flex-wrap: wrap;
+
+		.stm-lms-wishlist {
+			width: 100%;
+			margin: 20px 0 0 !important;
+		}
+	}
+}

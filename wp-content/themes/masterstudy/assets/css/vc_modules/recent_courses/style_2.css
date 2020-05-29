@@ -1,0 +1,59 @@
+/* line 4, assets/scss/vc_modules/recent_courses/style_2.scss */
+.stm_lms_recent_courses {
+  max-width: 1720px;
+  margin: 0 auto; }
+  /* line 7, assets/scss/vc_modules/recent_courses/style_2.scss */
+  .stm_lms_recent_courses__terms {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 52px;
+    justify-content: center; }
+  /* line 14, assets/scss/vc_modules/recent_courses/style_2.scss */
+  .stm_lms_recent_courses__term {
+    padding: 5px 15px;
+    margin: 0 7px;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .3s ease; }
+    /* line 22, assets/scss/vc_modules/recent_courses/style_2.scss */
+    .stm_lms_recent_courses__term.active {
+      color: #fff !important;
+      background-color: #195ec8; }
+    /* line 26, assets/scss/vc_modules/recent_courses/style_2.scss */
+    .stm_lms_recent_courses__term:hover {
+      color: #777777; }
+  /* line 30, assets/scss/vc_modules/recent_courses/style_2.scss */
+  .stm_lms_recent_courses__all {
+    margin: 30px 0 0; }
+  /* line 33, assets/scss/vc_modules/recent_courses/style_2.scss */
+  .stm_lms_recent_courses .stm_lms_courses__grid {
+    justify-content: center; }
+    /* line 35, assets/scss/vc_modules/recent_courses/style_2.scss */
+    .stm_lms_recent_courses .stm_lms_courses__grid .stm_lms_courses__single {
+      transition: .3s ease;
+      transform: translateY(0);
+      opacity: 1; }
+      /* line 39, assets/scss/vc_modules/recent_courses/style_2.scss */
+      .stm_lms_recent_courses .stm_lms_courses__grid .stm_lms_courses__single:hover {
+        z-index: 9999; }
+      /* line 44, assets/scss/vc_modules/recent_courses/style_2.scss */
+      .stm_lms_recent_courses .stm_lms_courses__grid .stm_lms_courses__single:nth-child(7n) .stm_lms_courses__single--info, .stm_lms_recent_courses .stm_lms_courses__grid .stm_lms_courses__single:first-child:not(:last-child) .stm_lms_courses__single--info {
+        left: 0;
+        right: -100px; }
+      /* line 51, assets/scss/vc_modules/recent_courses/style_2.scss */
+      .stm_lms_recent_courses .stm_lms_courses__grid .stm_lms_courses__single:nth-child(6n) .stm_lms_courses__single--info, .stm_lms_recent_courses .stm_lms_courses__grid .stm_lms_courses__single:last-child:not(:first-child) .stm_lms_courses__single--info {
+        right: 0;
+        left: -100px; }
+    /* line 58, assets/scss/vc_modules/recent_courses/style_2.scss */
+    .stm_lms_recent_courses .stm_lms_courses__grid.loading .stm_lms_courses__single {
+      transform: translateY(10px);
+      opacity: 0; }
+
+@media (max-width: 1024px) {
+  /* line 67, assets/scss/vc_modules/recent_courses/style_2.scss */
+  .stm_lms_recent_courses__term {
+    padding: 7px 30px;
+    margin-bottom: 15px;
+    font-size: 18px; } }

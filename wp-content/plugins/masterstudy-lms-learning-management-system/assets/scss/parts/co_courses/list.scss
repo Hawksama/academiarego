@@ -1,0 +1,11 @@
+.stm_lms_instructor_co_courses {
+    margin: 27px 0 35px;
+    .stm_lms_instructor_courses__grid {
+        &.loading {
+            opacity: 0.5;
+            &:before {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+/* line 6, assets/scss/vc_modules/stats_counter/style_1.scss */
+.stats_counter .stats_counter_title {
+  text-transform: uppercase; }
+
+/* line 9, assets/scss/vc_modules/stats_counter/style_1.scss */
+.stats_counter.with_border_right {
+  position: relative; }
+  /* line 11, assets/scss/vc_modules/stats_counter/style_1.scss */
+  .stats_counter.with_border_right:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -35px;
+    bottom: -15px;
+    right: -15px;
+    width: 1px;
+    background-color: #ddd; }

@@ -1,0 +1,683 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: STM Configurations\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-07 10:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: post_type/post_type.class.php:28
+msgid "Add New"
+msgstr ""
+
+#: post_type/post_type.class.php:35
+msgid " found"
+msgstr ""
+
+#: post_type/post_type.class.php:36
+msgid "  found in Trash"
+msgstr ""
+
+#: post_type/post_type.class.php:70
+msgid "Options"
+msgstr ""
+
+#: post_type/post_type.class.php:183
+msgid "Add"
+msgstr ""
+
+#: post_type/post_type.class.php:365
+msgid "Choose Image"
+msgstr ""
+
+#: post_type/post_type.class.php:366
+msgid "Remove Image"
+msgstr ""
+
+#: post_type/post_type.class.php:373
+msgid "Select image"
+msgstr ""
+
+#: post_type/post_type.class.php:375
+msgid "Attach"
+msgstr ""
+
+#: post_type/post_type.php:9 post_type/post_type.php:37
+msgid "Testimonial"
+msgstr ""
+
+#: post_type/post_type.php:10
+msgid "Testimonials"
+msgstr ""
+
+#: post_type/post_type.php:14 redux-framework/options-init.php:940
+msgid "Sidebar"
+msgstr ""
+
+#: post_type/post_type.php:15 redux-framework/options-init.php:801
+msgid "Sidebars"
+msgstr ""
+
+#: post_type/post_type.php:19 post_type/post_type.php:20
+#: post_type/post_type.php:478 post_type/post_type.php:479
+#: redux-framework/options-init.php:839
+msgid "Teachers"
+msgstr ""
+
+#: post_type/post_type.php:24 post_type/post_type.php:483
+#: redux-framework/options-init.php:893
+msgid "Gallery"
+msgstr ""
+
+#: post_type/post_type.php:25 post_type/post_type.php:484
+msgid "Galleries"
+msgstr ""
+
+#: post_type/post_type.php:29 post_type/post_type.php:30
+#: post_type/post_type.php:488 post_type/post_type.php:489
+#: redux-framework/options-init.php:866 redux-framework/options-init.php:957
+msgid "Events"
+msgstr ""
+
+#: post_type/post_type.php:75
+msgid "Categories"
+msgstr ""
+
+#: post_type/post_type.php:87
+msgid "Participant"
+msgstr ""
+
+#: post_type/post_type.php:113
+msgid "Course Teacher"
+msgstr ""
+
+#: post_type/post_type.php:117
+msgid "Teacher"
+msgstr ""
+
+#: post_type/post_type.php:127
+msgid "Course Details"
+msgstr ""
+
+#: post_type/post_type.php:131
+msgid "Status"
+msgstr ""
+
+#: post_type/post_type.php:134
+msgid "No Status"
+msgstr ""
+
+#: post_type/post_type.php:135
+msgid "Hot"
+msgstr ""
+
+#: post_type/post_type.php:136
+msgid "Special"
+msgstr ""
+
+#: post_type/post_type.php:137
+msgid "New"
+msgstr ""
+
+#: post_type/post_type.php:141
+msgid "Duration"
+msgstr ""
+
+#: post_type/post_type.php:145
+msgid "Lectures"
+msgstr ""
+
+#: post_type/post_type.php:149
+msgid "Video"
+msgstr ""
+
+#: post_type/post_type.php:153
+msgid "Certificate"
+msgstr ""
+
+#: post_type/post_type.php:160
+msgid "Course Link"
+msgstr ""
+
+#: post_type/post_type.php:164
+msgid "URL"
+msgstr ""
+
+#: post_type/post_type.php:180
+msgid "Page Options"
+msgstr ""
+
+#: post_type/post_type.php:183
+msgid "Transparent Header"
+msgstr ""
+
+#: post_type/post_type.php:211
+msgid "Title Box"
+msgstr ""
+
+#: post_type/post_type.php:215
+msgid "Title"
+msgstr ""
+
+#: post_type/post_type.php:218 post_type/post_type.php:276
+msgid "Show"
+msgstr ""
+
+#: post_type/post_type.php:219 post_type/post_type.php:277
+msgid "Hide"
+msgstr ""
+
+#: post_type/post_type.php:223
+msgid "Sub Title"
+msgstr ""
+
+#: post_type/post_type.php:227
+msgid "Background Color"
+msgstr ""
+
+#: post_type/post_type.php:231
+msgid "Font Color"
+msgstr ""
+
+#: post_type/post_type.php:235
+msgid "Line Color"
+msgstr ""
+
+#: post_type/post_type.php:239
+msgid "Sub Title Font Color"
+msgstr ""
+
+#: post_type/post_type.php:243
+msgid "Custom Background Image"
+msgstr ""
+
+#: post_type/post_type.php:247
+msgid "Background Position"
+msgstr ""
+
+#: post_type/post_type.php:251
+msgid "Background Repeat"
+msgstr ""
+
+#: post_type/post_type.php:254
+msgid "Repeat"
+msgstr ""
+
+#: post_type/post_type.php:255
+msgid "No Repeat"
+msgstr ""
+
+#: post_type/post_type.php:256
+msgid "Repeat-X"
+msgstr ""
+
+#: post_type/post_type.php:257
+msgid "Repeat-Y"
+msgstr ""
+
+#: post_type/post_type.php:261
+msgid "Overlay"
+msgstr ""
+
+#: post_type/post_type.php:265
+msgid "Small"
+msgstr ""
+
+#: post_type/post_type.php:269 post_type/post_type.php:273
+msgid "Breadcrumbs"
+msgstr ""
+
+#: post_type/post_type.php:281
+msgid "Breadcrumbs Color"
+msgstr ""
+
+#: post_type/post_type.php:341
+msgid "Testimonial Info"
+msgstr ""
+
+#: post_type/post_type.php:344
+msgid "Name"
+msgstr ""
+
+#: post_type/post_type.php:348
+msgid "Profession"
+msgstr ""
+
+#: post_type/post_type.php:354
+msgid "Expert Info"
+msgstr ""
+
+#: post_type/post_type.php:357
+msgid "Teacher Sphere"
+msgstr ""
+
+#: post_type/post_type.php:361
+msgid "Teacher Certified By"
+msgstr ""
+
+#: post_type/post_type.php:367
+msgid "Expert Socials"
+msgstr ""
+
+#: post_type/post_type.php:370
+msgid "Facebook"
+msgstr ""
+
+#: post_type/post_type.php:374
+msgid "Twitter"
+msgstr ""
+
+#: post_type/post_type.php:378
+msgid "Google +"
+msgstr ""
+
+#: post_type/post_type.php:382
+msgid "LinkedIn"
+msgstr ""
+
+#: post_type/post_type.php:386
+msgid "Youtube"
+msgstr ""
+
+#: post_type/post_type.php:392
+msgid "Event Info"
+msgstr ""
+
+#: post_type/post_type.php:395
+msgid "Event Start"
+msgstr ""
+
+#: post_type/post_type.php:399
+msgid "Event End"
+msgstr ""
+
+#: post_type/post_type.php:403
+msgid "Event Location"
+msgstr ""
+
+#: post_type/post_type.php:407
+msgid "Event Price"
+msgstr ""
+
+#: post_type/post_type.php:413
+msgid "Participant Info"
+msgstr ""
+
+#: post_type/post_type.php:416
+msgid "Email"
+msgstr ""
+
+#: post_type/post_type.php:420
+msgid "Phone"
+msgstr ""
+
+#: post_type/post_type.php:424
+msgid "Event ID"
+msgstr ""
+
+#: post_type/post_type.php:500
+msgid "Custom Post Type Renaming Settings"
+msgstr ""
+
+#: post_type/post_type.php:508
+msgid "\" title (admin panel tab name)"
+msgstr ""
+
+#: post_type/post_type.php:516
+msgid "\" plural title"
+msgstr ""
+
+#: post_type/post_type.php:524
+msgid "\" rewrite (URL text)"
+msgstr ""
+
+#: post_type/post_type.php:534
+msgid ""
+"NOTE: After you change the rewrite field values, you'll need to refresh "
+"permalinks under Settings -> Permalinks"
+msgstr ""
+
+#: post_type/post_type.php:537
+msgid "Save settings"
+msgstr ""
+
+#: theme/mailchimp.php:9
+msgid "Enter a valid email"
+msgstr ""
+
+#: redux-framework/options-init.php:29 redux-framework/options-init.php:30
+msgid "Theme Options"
+msgstr ""
+
+#: redux-framework/options-init.php:85
+msgid "General"
+msgstr ""
+
+#: redux-framework/options-init.php:93
+msgid "Site Logo"
+msgstr ""
+
+#: redux-framework/options-init.php:95
+msgid "Upload your logo file here."
+msgstr ""
+
+#: redux-framework/options-init.php:101
+msgid "White-text Logo"
+msgstr ""
+
+#: redux-framework/options-init.php:103
+msgid ""
+"For our transparent header options, we need your logo to be in white to "
+"stand out."
+msgstr ""
+
+#: redux-framework/options-init.php:108
+msgid "Logo Typography"
+msgstr ""
+
+#: redux-framework/options-init.php:124
+msgid ""
+"Select custom font for your logo (choose these parametrs if you want to "
+"display Blogname instead of logo image)."
+msgstr ""
+
+#: redux-framework/options-init.php:134
+msgid "Logo Width (px)"
+msgstr ""
+
+#: redux-framework/options-init.php:140
+msgid "Menu margin top (px)"
+msgstr ""
+
+#: redux-framework/options-init.php:147
+msgid "Main Content Paddings"
+msgstr ""
+
+#: redux-framework/options-init.php:153
+msgid "Enable preloader."
+msgstr ""
+
+#: redux-framework/options-init.php:160
+msgid "Site Favicon"
+msgstr ""
+
+#: redux-framework/options-init.php:162
+msgid "Upload a 16px x 16px .png or .gif image here"
+msgstr ""
+
+#: redux-framework/options-init.php:168
+msgid "Header"
+msgstr ""
+
+#: redux-framework/options-init.php:176
+msgid "Header Style Options"
+msgstr ""
+
+#: redux-framework/options-init.php:177
+msgid "Select your header style option"
+msgstr ""
+
+#: redux-framework/options-init.php:179
+msgid "Offline Courses"
+msgstr ""
+
+#: redux-framework/options-init.php:180
+msgid "Online Courses"
+msgstr ""
+
+#: redux-framework/options-init.php:181
+msgid "Academy"
+msgstr ""
+
+#: redux-framework/options-init.php:182
+msgid "Logo Centered"
+msgstr ""
+
+#: redux-framework/options-init.php:189
+msgid "Enable fixed header on scroll."
+msgstr ""
+
+#: redux-framework/options-init.php:197
+msgid "Show LMS Wishlist"
+msgstr ""
+
+#: redux-framework/options-init.php:204
+msgid "Show Search Icon"
+msgstr ""
+
+#: redux-framework/options-init.php:211 redux-framework/options-init.php:227
+#: redux-framework/options-init.php:274
+msgid "Show Socials"
+msgstr ""
+
+#: redux-framework/options-init.php:220
+msgid "Show WPML Switcher"
+msgstr ""
+
+#: redux-framework/options-init.php:234
+msgid "Show Search"
+msgstr ""
+
+#: redux-framework/options-init.php:241
+msgid "Show Popup links"
+msgstr ""
+
+#: redux-framework/options-init.php:254 redux-framework/options-init.php:266
+msgid "Course Categories"
+msgstr ""
+
+#: redux-framework/options-init.php:281 redux-framework/options-init.php:436
+msgid "Phone number"
+msgstr ""
+
+#: redux-framework/options-init.php:288 redux-framework/options-init.php:327
+msgid "Top Bar"
+msgstr ""
+
+#: redux-framework/options-init.php:294
+msgid "Enable Top Bar"
+msgstr ""
+
+#: redux-framework/options-init.php:302
+msgid "Show login url"
+msgstr ""
+
+#: redux-framework/options-init.php:309
+msgid "Enable Top Bar Social Media icons"
+msgstr ""
+
+#: redux-framework/options-init.php:315
+msgid "Enable Top Bar WPML switcher(if WPML Plugin installed)"
+msgstr ""
+
+#: redux-framework/options-init.php:321
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: redux-framework/options-init.php:343
+msgid "Select custom font for your top bar text."
+msgstr ""
+
+#: redux-framework/options-init.php:354
+msgid "Select Social Media Icons to display"
+msgstr ""
+
+#: redux-framework/options-init.php:355
+msgid ""
+"The urls for your social media icons will be taken from Social Media "
+"settings tab."
+msgstr ""
+
+#: redux-framework/options-init.php:411
+msgid "Address"
+msgstr ""
+
+#: redux-framework/options-init.php:413
+msgid "1010 Moon ave, New York, NY US"
+msgstr ""
+
+#: redux-framework/options-init.php:418
+msgid "Show address on mobile"
+msgstr ""
+
+#: redux-framework/options-init.php:424
+msgid "Working Hours"
+msgstr ""
+
+#: redux-framework/options-init.php:425
+msgid "Mon - Sat 8.00 - 18.00"
+msgstr ""
+
+#: redux-framework/options-init.php:430
+msgid "Show Working hours on mobile"
+msgstr ""
+
+#: redux-framework/options-init.php:437
+msgid "+1 212-226-3126"
+msgstr ""
+
+#: redux-framework/options-init.php:442
+msgid "Show Phone on mobile"
+msgstr ""
+
+#: redux-framework/options-init.php:449
+msgid "Styling"
+msgstr ""
+
+#: redux-framework/options-init.php:457
+msgid "Color Skin"
+msgstr ""
+
+#: redux-framework/options-init.php:459
+msgid "Default"
+msgstr ""
+
+#: redux-framework/options-init.php:460
+msgid "Custom color"
+msgstr ""
+
+#: redux-framework/options-init.php:468
+msgid "Primary Color"
+msgstr ""
+
+#: redux-framework/options-init.php:645
+msgid "Secondary Color"
+msgstr ""
+
+#: redux-framework/options-init.php:776
+msgid "Link Color"
+msgstr ""
+
+#: redux-framework/options-init.php:787
+msgid "Button Border Radius (px)"
+msgstr ""
+
+#: redux-framework/options-init.php:794
+msgid "Button Paddings"
+msgstr ""
+
+#: redux-framework/options-init.php:810 redux-framework/options-init.php:929
+msgid "Grid view"
+msgstr ""
+
+#: redux-framework/options-init.php:811 redux-framework/options-init.php:930
+msgid "List view"
+msgstr ""
+
+#: redux-framework/options-init.php:814
+msgid "Blog Layout"
+msgstr ""
+
+#: redux-framework/options-init.php:821
+msgid "Blog Sidebar"
+msgstr ""
+
+#: redux-framework/options-init.php:827
+msgid "Blog Sidebar - Position"
+msgstr ""
+
+#: redux-framework/options-init.php:829 redux-framework/options-init.php:856
+#: redux-framework/options-init.php:883 redux-framework/options-init.php:910
+#: redux-framework/options-init.php:948
+msgid "Left"
+msgstr ""
+
+#: redux-framework/options-init.php:830 redux-framework/options-init.php:857
+#: redux-framework/options-init.php:884 redux-framework/options-init.php:911
+msgid "No Sidebar"
+msgstr ""
+
+#: redux-framework/options-init.php:831 redux-framework/options-init.php:858
+#: redux-framework/options-init.php:885 redux-framework/options-init.php:912
+#: redux-framework/options-init.php:949
+msgid "Right"
+msgstr ""
+
+#: redux-framework/options-init.php:849
+msgid "Teachers Sidebar"
+msgstr ""
+
+#: redux-framework/options-init.php:854
+msgid "Teachers Sidebar - Position"
+msgstr ""
+
+#: redux-framework/options-init.php:876
+msgid "Events Sidebar"
+msgstr ""
+
+#: redux-framework/options-init.php:881
+msgid "Events Sidebar - Position"
+msgstr ""
+
+#: redux-framework/options-init.php:903
+msgid "Gallery Sidebar"
+msgstr ""
+
+#: redux-framework/options-init.php:908
+msgid "Gallery Sidebar - Position"
+msgstr ""
+
+#: redux-framework/options-init.php:920
+msgid "Shop"
+msgstr ""
+
+#: redux-framework/options-init.php:933
+msgid "Shop Layout"
+msgstr ""
+
+#: redux-framework/options-init.php:946
+msgid "Sidebar - Position"
+msgstr ""
+
+#: redux-framework/options-init.php:965
+msgid "Paypal Email"
+msgstr ""
+
+#: redux-framework/options-init.php:970
+msgid "Currency"
+msgstr ""
+
+#. Name of the plugin
+msgid "STM Configurations"
+msgstr ""
+
+#. Description of the plugin
+msgid "Configurations plugin for the Masterstudy theme"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://stylemixthemes.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "StylemixThemes"
+msgstr ""

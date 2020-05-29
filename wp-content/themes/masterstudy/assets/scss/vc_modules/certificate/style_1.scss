@@ -1,0 +1,50 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.certificate {
+    & .certificate-frame {
+        position: relative;
+        background-color: transparent;
+        @include set_bg('../../../img/' + frame, 50% 50% , no-repeat);
+        background-size: contain;
+        padding: 45px;
+        &:after {
+            @include pseudo(absolute, 100%, 100%);
+            top: 15px;
+            left: 0;
+            @include set_bg('../../../img/' + frame-border, 50% 0 , no-repeat);
+
+            //background-color: red;
+            background-size: contain;
+        }
+        & .certificate-holder {
+            width: auto;
+            max-width: 773px;
+            margin: 0 auto;
+            position: relative;
+            padding: 5px;
+
+            &:after {
+                @include pseudo(absolute, 50%, 100%);
+                top: 0;
+                left: 0;
+                background-color: #2b1e1e;
+                z-index: 0;
+            }
+            &:before {
+                @include pseudo(absolute, 50%, 100%);
+                top: 0;
+                right: 0;
+                background-color: #b24444;
+                z-index: 0;
+            }
+            & img {
+                position: relative;
+                z-index: 10;
+            }
+        }
+    }
+    & .title {
+        margin-top: 34px;
+    }
+}

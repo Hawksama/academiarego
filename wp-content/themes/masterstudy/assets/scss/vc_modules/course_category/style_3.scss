@@ -1,0 +1,58 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.stm_lms_courses_categories.style_3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 7px;
+    .stm_lms_courses_category {
+        width: calc(25% - 20px);
+        margin: 0 0 33px;
+        > a {
+            position: relative;
+            padding: 16px 32px;
+            display: block;
+            border: 1px solid #e4e6e8;
+            border-radius: 33px;
+            background-color: #f6f8fa;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            i, h4 {
+                display: inline-block;
+                vertical-align: middle;
+                transition: .3s ease;
+            }
+            i {
+                min-width: 42px;
+                text-align: left;
+                font-size: 30px;
+                color: #273044;
+            }
+            h4 {
+                position: relative;
+                top: 2px;
+                margin: 0;
+                font-weight: 400;
+            }
+            &:hover {
+                i, h4 {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(tabletonly) {
+    .stm_lms_courses_categories.style_3 .stm_lms_courses_category {
+        width: calc(50% - 20px);
+    }
+}
+
+@include breakpoint(mobile) {
+    .stm_lms_courses_categories.style_3 .stm_lms_courses_category {
+        width: 100%;
+    }
+}

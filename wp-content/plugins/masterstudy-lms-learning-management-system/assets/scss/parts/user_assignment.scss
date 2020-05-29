@@ -1,0 +1,145 @@
+@import "../../scss/components/mixins";
+@import "../../scss/components/colors";
+
+body.single-user-assignment {
+    background-color: #eef1f7;
+    #main {
+        background-color: #eef1f7;
+        padding: 0 0 40px;
+    }
+}
+
+.stm_lms_assignment__edit {
+    margin-bottom: 40px;
+    padding: 30px;
+    box-shadow: 0px 8px 22px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    .inner {
+        padding: 40px 40px 15px;
+        background-color: #f6f8fb;
+    }
+}
+
+.user_assingment_actions {
+    margin: 30px 0 0;
+    text-align: center;
+    .btn {
+        position: relative;
+        min-width: 175px;
+        padding-left: 65px;
+        padding-right: 20px;
+        text-align: left;
+        i {
+            position: absolute;
+            left: 25px;
+            top: 15px;
+            font-size: 20px;
+        }
+        &.approve {
+            margin-right: 30px;
+            background-color: $green;
+        }
+        &.reject {
+            background-color: $red;
+            i {
+                left: 30px;
+                font-size: 23px;
+            }
+        }
+    }
+    &.loading {
+        min-height: auto;
+        &:before {
+            top: 9px;
+        }
+        .btn {
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+}
+
+.editor_comment{
+    padding: 30px;
+    margin: 0 0 40px;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 2;
+    p {
+        margin-bottom: 10px;
+    }
+    > *:last-child {
+        margin-bottom: 0;
+    }
+
+    .assignment_status_wrapper {
+        margin: 20px 0 0;
+        .assignment_status {
+            color: #ccc !important;
+        }
+    }
+
+    #mceu_10,
+    #mceu_11,
+    #mceu_12,
+    #insert-media-button {
+        display: none;
+    }
+
+    &__title {
+        font-size: 24px;
+        line-height: 2.29;
+        letter-spacing: -0.96px;
+        text-align: center;
+    }
+}
+
+.assignment_files {
+    margin: 30px 0 0;
+    .assignment_file {
+        position: relative;
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        vertical-align: top;
+        padding: 8px 23px 9px 44px;
+        border-radius: 19px;
+        background-color: #ffffff;
+        &:last-child {
+            margin-right: 0;
+        }
+        i {
+            position: absolute;
+            top: 12px;
+            left: 20px;
+            font-size: 15px;
+            color: $main_color;
+        }
+    }
+}
+
+.stm-lms-wrapper--assignments {
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+#stm_lms_user_assignment {
+    > h2 {
+        margin: 30px 0;
+    }
+
+    .assignment_approved_content {
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #273044;
+        h2 {
+            font-size: 50px;
+            font-weight: 200;
+            line-height: 1.1;
+            letter-spacing: -2px;
+        }
+    }
+
+}

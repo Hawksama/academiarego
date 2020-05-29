@@ -1,0 +1,28 @@
+@import "../../scss_components/mixins";
+@import "../../scss_components/base_variables";
+
+.stm_searchbox {
+    margin: 0 0 40px;
+    form {
+        position: relative;
+        max-width: 610px;
+        margin: 0 auto;
+        input {
+            padding-left: 30px !important;
+            height: 60px;
+            padding-right: 50px !important;
+        }
+        button[type="submit"] {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 50px;
+            line-height: 63px;
+            right: 0;
+            color: $blue-dk;
+            font-size: 18px;
+            border: 0;
+            background-color: transparent;
+        }
+    }
+}

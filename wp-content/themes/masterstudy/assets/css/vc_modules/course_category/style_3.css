@@ -1,0 +1,51 @@
+/* line 4, assets/scss/vc_modules/course_category/style_3.scss */
+.stm_lms_courses_categories.style_3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 7px; }
+  /* line 9, assets/scss/vc_modules/course_category/style_3.scss */
+  .stm_lms_courses_categories.style_3 .stm_lms_courses_category {
+    width: calc(25% - 20px);
+    margin: 0 0 33px; }
+    /* line 12, assets/scss/vc_modules/course_category/style_3.scss */
+    .stm_lms_courses_categories.style_3 .stm_lms_courses_category > a {
+      position: relative;
+      padding: 16px 32px;
+      display: block;
+      border: 1px solid #e4e6e8;
+      border-radius: 33px;
+      background-color: #f6f8fa;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+      /* line 22, assets/scss/vc_modules/course_category/style_3.scss */
+      .stm_lms_courses_categories.style_3 .stm_lms_courses_category > a i, .stm_lms_courses_categories.style_3 .stm_lms_courses_category > a h4 {
+        display: inline-block;
+        vertical-align: middle;
+        transition: .3s ease; }
+      /* line 27, assets/scss/vc_modules/course_category/style_3.scss */
+      .stm_lms_courses_categories.style_3 .stm_lms_courses_category > a i {
+        min-width: 42px;
+        text-align: left;
+        font-size: 30px;
+        color: #273044; }
+      /* line 33, assets/scss/vc_modules/course_category/style_3.scss */
+      .stm_lms_courses_categories.style_3 .stm_lms_courses_category > a h4 {
+        position: relative;
+        top: 2px;
+        margin: 0;
+        font-weight: 400; }
+      /* line 40, assets/scss/vc_modules/course_category/style_3.scss */
+      .stm_lms_courses_categories.style_3 .stm_lms_courses_category > a:hover i, .stm_lms_courses_categories.style_3 .stm_lms_courses_category > a:hover h4 {
+        color: #fff; }
+
+@media (max-width: 769px) {
+  /* line 49, assets/scss/vc_modules/course_category/style_3.scss */
+  .stm_lms_courses_categories.style_3 .stm_lms_courses_category {
+    width: calc(50% - 20px); } }
+
+@media (max-width: 515px) {
+  /* line 55, assets/scss/vc_modules/course_category/style_3.scss */
+  .stm_lms_courses_categories.style_3 .stm_lms_courses_category {
+    width: 100%; } }

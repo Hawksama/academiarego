@@ -1,0 +1,59 @@
+@import "../components/mixins";
+@import "../components/colors";
+
+.stm-lms-my-points {
+    position: relative;
+    margin: 0 0 30px;
+    padding: 15px 20px 15px 70px;
+    background-color: #f1f1f1;
+    text-align: left;
+    border-radius: 5px;
+    img,
+    i {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        margin: -17px 0 0;
+        font-size: 32px;
+        color: $main_color;
+    }
+    img {
+        max-width: 40px;
+    }
+    .points-inner {
+        overflow: hidden;
+        span {
+            display: block;
+            margin-bottom: -3px;
+            color: $dark;
+            font-weight: 700;
+            span {
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                margin: 1px 0 0 4px;
+                padding: 2px;
+                text-align: center;
+                vertical-align: top;
+                border-radius: 50%;
+                background-color: $main_color;
+                color: #fff;
+                font-size: 9px;
+                line-height: 14px;
+            }
+        }
+
+        a {
+            font-size: 12px;
+            color: #aaa;
+            border-bottom: 1px solid #aaa;
+            &:hover {
+                border-bottom-color: $main_color;
+            }
+            span {
+                display: inline;
+                font-weight: 400;
+            }
+        }
+    }
+}

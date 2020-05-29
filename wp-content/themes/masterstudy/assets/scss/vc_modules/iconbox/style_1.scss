@@ -1,0 +1,94 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+// Icon box
+/* Due to icon margins */
+.icon_box {
+    position: relative;
+    top: 0;
+    padding: 30px 32px 50px 32px;
+    & .fa-icon-stm_icon_book {
+        margin-left: -5px;
+    }
+    & p {
+        margin-bottom: 10px;
+        transition: .3s ease;
+        opacity: .6;
+    }
+    &.dark {
+        & a {
+            color: $grey-text;
+            border: 0;
+            text-decoration: none;
+            &:hover {
+                color: $blue-link;
+                border-color: $blue-link;
+            }
+        }
+    }
+    &:hover {
+        p {
+            opacity: 1;
+        }
+    }
+}
+
+.overflowed_content {
+    position: relative;
+    z-index: 22;
+    & .icon_box {
+        &:hover {
+            top: -25px;
+            &:after {
+                @include pseudo(absolute, 100%, 25px);
+                top: 100%;
+                left: 0;
+            }
+        }
+    }
+}
+
+.stm_icon_box_hover_top,
+.stm_icon_box_hover_bottom,
+.stm_icon_box_hover_left,
+.stm_icon_box_hover_right {
+    transition: .3s ease;
+}
+
+.stm_icon_box_hover_top {
+    transform: translateY(0);
+    &:hover {
+        transform: translateY(-7px);
+    }
+}
+
+.stm_icon_box_hover_bottom {
+    transform: translateY(0);
+    &:hover {
+        transform: translateY(7px);
+    }
+}
+
+.stm_icon_box_hover_right {
+    transform: translateX(0);
+    &:hover {
+        transform: translateX(7px);
+    }
+}
+
+.stm_icon_box_hover_left {
+    transform: translateX(0);
+    &:hover {
+        transform: translateX(-7px);
+    }
+}
+
+@include breakpoint(tabletunder) {
+    .icon_box {
+        .icon_text {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}

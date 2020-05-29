@@ -1,0 +1,1256 @@
+@import "../components/colors";
+@import "../components/mixins";
+
+#pmpro_account-change {
+	margin-right: 10px;
+}
+
+.pmpro_btn, .pmpro_btn:link {
+	background-color: transparent;
+	border: 0;
+	color: inherit !important;
+	padding: 0;
+}
+
+.stm-lms-buy-buttons {
+	.btn {
+		margin: 0 10px 10px 0;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.stm-lms-user-memberships {
+	h3 {
+		margin: 0 0 30px;
+	}
+	.pmpro_box {
+		h3 {
+			margin-bottom: 15px !important;
+		}
+	}
+
+	#pmpro_account-membership {
+		margin: 0 0 40px;
+	}
+
+	table {
+		tr {
+			border: 1px solid #e1e2e4;
+
+			td, th {
+				&:last-child {
+					text-align: right;
+				}
+			}
+		}
+
+		thead {
+			tr {
+				th {
+					padding: 14px 20px;
+					background-color: #eef1f7;
+					font-size: 12px;
+					text-transform: uppercase;
+					font-weight: 600;
+				}
+			}
+		}
+
+		tbody {
+			tr {
+				td {
+					padding: 14px 20px;
+				}
+			}
+		}
+	}
+}
+
+.stm_lms_pmpro_title {
+	margin: 0 0 50px;
+}
+
+.stm_lms_plans {
+	display: flex;
+	margin: 0 0 90px;
+	flex-wrap: wrap;
+}
+
+.stm_lms_plan {
+	width: 33.3333%;
+	border-bottom: 1px solid #e5e5e5;
+
+	&__inner {
+		&_top {
+			padding: 21px 10px 20px;
+			min-height: 200px;
+			border-bottom: 1px solid #e5e5e5;
+		}
+
+		&_content {
+			font-weight: 600;
+
+			> div {
+				padding: 15px 30px;
+				text-align: center;
+				border-bottom: 1px solid #e5e5e5;
+			}
+		}
+	}
+
+	&__title {
+		h3 {
+			margin: 0 0 15px;
+		}
+	}
+
+	&__price {
+
+	}
+
+	&__with_btn {
+		display: flex;
+		margin: 0 0 15px;
+		align-items: center;
+		justify-content: space-evenly;
+
+		p.price {
+			margin: 0 15px 0 0;
+			color: $main_color;
+			font-size: 50px;
+			line-height: 70px;
+			font-weight: 600;
+
+			sup {
+				position: relative;
+				top: -15px;
+				margin-right: 5px;
+				font-size: 30px;
+				line-height: 30px;
+			}
+
+			&.price_free {
+			}
+		}
+	}
+
+	&__button {
+	}
+
+	&__period {
+		text-align: center;
+		color: $main_color !important;
+		font-size: 16px;
+		text-transform: lowercase;
+	}
+
+	&__odd {
+		background-color: #eef1f7;
+	}
+
+	&__description {
+		border-bottom: 0 !important;
+
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+
+			li {
+				margin: 0 -30px;
+				padding: 15px 30px;
+				border-bottom: 1px solid #e5e5e5;
+
+				&:first-child {
+					padding-top: 0;
+				}
+
+				&:last-child {
+					padding-bottom: 0;
+					border-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+#pmpro_form {
+	.pmpro_checkout {
+		margin: 0 0 40px;
+
+		tr {
+			padding: 0;
+
+			td, th {
+				padding: 15px 30px;
+			}
+		}
+
+		.pmpro_thead-name {
+			margin: 0;
+		}
+
+		.lp-pmpro-name {
+			h4 {
+				margin-bottom: 10px;
+			}
+		}
+
+		.lp-pmpro-content {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			margin: 0 -15px;
+
+			.lp-pmpro-desc {
+				margin: 0 15px;
+				width: 20%;
+
+				label {
+					display: inline-block;
+					margin-bottom: 10px;
+					margin-right: 5px;
+					font-weight: 400;
+					color: $dark;
+				}
+			}
+		}
+
+		h3.pmpro_thead-name {
+			padding-right: 60px;
+			overflow: hidden;
+		}
+
+		.pmpro_thead-msg {
+			a {
+				font-weight: 400;
+			}
+		}
+	}
+}
+
+#pmpro_cancel,
+#pmpro_account-invoices,
+#pmpro_account-membership {
+	table {
+		tr {
+			th, td {
+				padding: 10px 20px;
+			}
+		}
+	}
+}
+
+#pmpro_invoices_table {
+	tr {
+		th, td {
+			padding: 10px 20px;
+		}
+	}
+}
+
+#nav-below {
+	&.navigation {
+		margin: 40px 0 30px;
+	}
+}
+
+#pmpro_account .pmpro_box {
+	border-top: 0;
+
+	h3 {
+		margin: 0 0 20px;
+	}
+
+	.pmpro_actionlinks {
+		font-size: 13px;
+	}
+}
+
+#pmpro_account-profile {
+	border-top: 1px solid #ccc !important;
+	border-bottom: 1px solid #ccc !important;;
+
+	ul {
+		padding-left: 20px;
+		margin: 0 0 20px !important;
+	}
+}
+
+#pmpro_user_fields,
+#pmpro_payment_information_fields,
+#pmpro_billing_address_fields {
+	.pmpro_checkout-fields {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+		.pmpro_checkout-field {
+			width: 48%;
+
+			label {
+				width: 100%;
+				margin: 0 0 15px;
+				font-weight: 400;
+				color: $dark;
+			}
+
+			input {
+				display: block;
+				max-width: 100%;
+				width: 100%;
+			}
+
+			&-bcity_state_zip {
+				display: flex;
+				flex-wrap: wrap;
+
+				input {
+					width: auto;
+					margin-right: 15px;
+					flex-grow: 1;
+
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+
+		}
+
+		.pmpro_payment-expiration {
+			.select2 {
+				display: inline-block;
+				width: 40% !important;
+				margin-right: 15px;
+
+				&:last-child {
+					margin-left: 15px;
+				}
+			}
+		}
+	}
+}
+
+.stm_lms_billing_buttons {
+	.btn {
+		margin-right: 15px;
+	}
+}
+
+@include breakpoint(tablet) {
+	.stm_lms_plan__inner_top {
+		min-height: 250px;
+	}
+	.stm_lms_plan__with_btn {
+		flex-wrap: wrap;
+
+	}
+}
+
+@include breakpoint(mobile) {
+	.stm_lms_plan__inner_top {
+		min-height: auto;
+	}
+	.stm_lms_plan {
+		width: 100%;
+		margin: 0 0 40px;
+	}
+}
+
+#pmpro_user_fields {
+	.lp-pmpro-td {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+
+		.pmpro_asterisk {
+			display: none;
+		}
+
+		.lp-pmpro-desc {
+			width: 33.333%;
+			margin: 0 0 30px;
+
+			label {
+				margin: 0 0 15px;
+				font-weight: 400;
+			}
+
+			input {
+				width: 100%;
+			}
+		}
+	}
+}
+
+#pmpro_billing_address_fields {
+	tbody {
+		tr {
+			td {
+				.stm_lms_checkout_fields {
+					display: flex;
+					padding: 30px 0;
+					flex-wrap: wrap;
+					justify-content: space-between;
+
+					> div {
+						width: 48%;
+						margin: 0 0 30px;
+
+						label {
+							margin: 0 0 15px;
+							font-weight: 400;
+						}
+
+						input {
+							width: 100%;
+							max-width: 100%;
+						}
+					}
+
+					.pmpro_asterisk {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+#pmpro_payment_information_fields {
+	.stm_lms_pmpro_payment_info {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		.pmpro_asterisk {
+			display: none;
+		}
+
+		> div {
+			width: 48%;
+			margin-bottom: 30px;
+
+			label {
+				margin: 0 0 15px;
+				font-weight: 400;
+				vertical-align: top;
+			}
+
+			input {
+				width: 100%;
+				max-width: 100%;
+			}
+		}
+
+		.pmpro_payment-expiration {
+			width: 50%;
+			flex-wrap: wrap;
+			vertical-align: top;
+
+			label {
+				width: 100%;
+			}
+
+			.select2 {
+				position: relative;
+				top: 0;
+				margin: 0 10px;
+				width: 40% !important;
+			}
+		}
+	}
+}
+
+@include breakpoint(mobile) {
+	#pmpro_user_fields .lp-pmpro-td .lp-pmpro-desc,
+	#pmpro_form .pmpro_checkout .lp-pmpro-content .lp-pmpro-desc {
+		width: 100%;
+	}
+	form.pmpro_form .input {
+		max-width: 100%;
+	}
+}
+
+
+/*GROUPS*/
+.stm_lms_pmpro_head {
+	display: flex;
+	flex-wrap: wrap;
+
+	.stm_lms_pmpro_title {
+		margin-right: 30px;
+		flex-grow: 1;
+	}
+}
+
+.stm_lms_pmpro_groups {
+	display: none;
+
+	&.has-groups {
+		display: block;
+
+		span {
+			display: inline-block;
+			padding: 15px 30px 15px;
+			background-color: #273044;
+			vertical-align: top;
+			font-size: 16px;
+			cursor: pointer;
+			color: #fff;
+			font-weight: 600;
+
+			&.active {
+				background-color: #2c75e4;
+			}
+		}
+	}
+}
+
+.stm_lms_plans {
+	&.has-groups {
+		.stm_lms_plan {
+			display: none;
+
+			&.active {
+				display: block;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.stm_lms_pmpro_head .stm_lms_pmpro_title {
+		font-size: 40px;
+		line-height: 1.4;
+	}
+}
+
+.pmpro_actionlinks {
+	.pmpro_yeslink {
+		padding: 5px 15px;
+		border: 1px solid #2c75e4;
+		background-color: #2c75e4;
+		color: #fff !important;
+		margin-right: 30px;
+
+		&:hover {
+			background-color: transparent;
+			color: #000 !important;
+		}
+	}
+}
+
+
+/*Discount*/
+#pmpro_form .pmpro_checkout {
+	.lp-pmpro-td {
+		.lp-pmpro-content {
+			align-items: flex-start;
+
+			#pmpro_level_cost {
+				width: 50%;
+				margin: 0 15px;
+
+				p {
+					margin-bottom: 15px;
+				}
+
+				.lp-pmpro-desc {
+					margin-bottom: 20px;
+					width: 100%;
+					line-height: 1.3;
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+
+					label {
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			#other_discount_code_p {
+				order: 100;
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+//Multiuser
+$mu_green: #2fbe5b;
+@mixin mu_btn {
+	width: auto;
+	min-width: 195px;
+	padding: 14px 15px;
+	background-color: $mu_green;
+	border: 0;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 4px;
+	&[disabled] {
+		background-color: #dadce0;
+		cursor: not-allowed;
+	}
+}
+
+#pmpro_mmpu_levels {
+	border-bottom: 0;
+
+	#pmpro_mmpu_groups {
+		flex: 2.8 0 0;
+
+		.pmpro_mmpu_group {
+			border: 0;
+			margin: -5px 0 77px;
+			padding: 0;
+
+			h2.pmpro_mmpu_group-name {
+				margin-bottom: 13px;
+			}
+
+			p.pmpro_mmpu_group-type {
+				margin-bottom: 40px;
+			}
+
+			.pmpro_mmpu_level {
+				padding: 39px 30px 37px;
+				margin: 0 0 30px;
+				border: 1px solid #eee;
+				align-items: center;
+				background-color: #fff !important;
+
+				&.inactive,
+				&.active {
+					padding-top: 37px;
+					border-top: 3px solid $main_color;
+				}
+
+				&.inactive {
+					border-top: 3px solid #fd3753;
+				}
+
+				.pmpro_level-action,
+				.pmpro_level-info {
+					padding: 0;
+				}
+
+				.pmpro_level-info {
+					flex: 50% 0 0;
+
+					.pmpro_level-name {
+						font-size: 20px;
+						margin-bottom: 3px;
+					}
+
+					.pmpro_level-price {
+						margin-top: 0;
+						line-height: 1.4;
+					}
+
+					strong {
+						color: $mu_green;
+					}
+				}
+
+				.pmpro_level-action {
+					flex: 30% 0 0;
+					max-width: 160px;
+					margin-left: auto;
+
+					.pmpro_level-select {
+						position: relative;
+						text-align: center;
+						text-transform: uppercase;
+						font-weight: 700;
+						background-color: $main_color;
+						color: #fff;
+						border: 2px solid $main_color;
+						transition: .3s ease;
+
+						input {
+							display: none;
+							opacity: 0;
+							visibility: hidden;
+						}
+
+						&:before {
+							content: '';
+							font-family: "Font Awesome 5 Free";
+							font-weight: 900;
+							position: relative;
+							top: 3px;
+							margin-right: 8px;
+							display: inline-block;
+							vertical-align: top;
+							width: 16px;
+							height: 16px;
+							background-color: #fff;
+							border-radius: 2px;
+							transition: .3s ease;
+						}
+
+						&-selected {
+							background-color: #fff;
+							color: #393939;
+
+							&:before {
+								content: "\f00c";
+								color: #fff;
+								font-size: 12px;
+								line-height: 17px;
+								background-color: $mu_green;
+							}
+						}
+
+						&-removed {
+							background-color: #fff;
+							color: #393939;
+							border-color: #fd3753;
+							&:before {
+								content: "\f00d";
+								color: #fff;
+								font-size: 12px;
+								line-height: 17px;
+								background-color: #fd3753;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.pmpro_mmpu_checkout {
+			margin-bottom: 30px;
+
+			.pmpro_mmpu_level {
+				.pmpro_level-info {
+					display: none;
+				}
+
+				.pmpro_level-action {
+					padding: 0;
+
+					.pmpro_mmpu_checkout-button {
+						@include mu_btn();
+					}
+				}
+			}
+		}
+	}
+
+	#pmpro_mmpu_level_selections {
+		.widget {
+			border: 0;
+			box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.18), inset 0px 3px 0px 0px rgba(56, 91, 206, 0.004);
+			border-radius: 4px;
+			overflow: hidden;
+			padding-bottom: 33px;
+
+			&-title {
+				padding: 24px 40px 13px 40px;
+				background-color: $main_color;
+				border: 0;
+				color: #fff;
+				font-size: 16px;
+				line-height: 18px;
+				font-weight: 700;
+				letter-spacing: 0px;
+				text-transform: uppercase;
+			}
+
+			#pmpro_mmpu_level_summary {
+				padding: 0px 40px;
+				font-size: 15px;
+
+				p {
+					margin-bottom: 10px;
+					color: #273044;
+
+					&:not(:first-child) {
+						margin-top: 13px;
+					}
+
+					&.mmpu_addedlevels {
+						label {
+							color: $mu_green;
+						}
+					}
+
+					&.mmpu_removedlevels {
+						label {
+							color: #fd3753;
+						}
+					}
+				}
+
+				label {
+					text-transform: initial;
+					font-size: 14px;
+				}
+			}
+
+			> p {
+				margin-top: 50px;
+				padding: 0 40px;
+			}
+
+			.pmpro_mmpu_checkout-button {
+				@include mu_btn;
+				width: 100%;
+			}
+		}
+	}
+}
+
+body.pmpro-levels {
+	#nav-below {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	#pmpro_mmpu_levels #pmpro_mmpu_groups .pmpro_mmpu_group .pmpro_mmpu_level .pmpro_level-action {
+		margin: 20px auto;
+	}
+	.pmpro_mmpu_checkout {
+		display: none;
+	}
+}
+
+
+/*ADDS*/
+#wrapper {
+
+	form.pmpro_form #pmpro_processing_message {
+		text-align: left;
+	}
+
+	.pmpro_asterisk {
+		display: none;
+	}
+
+	#pmpro_account_loggedin,
+	.pmpro_message {
+		padding: 19px 30px;
+		background-color: #eef1f7;
+		border: 0;
+		border-left: 4px solid $main_color;
+		border-radius: 0;
+		font-size: 14px;
+		color: #273044;
+	}
+
+	.pmpro_checkout#pmpro_payment_information_fields,
+	.pmpro_checkout#pmpro_billing_address_fields,
+	.pmpro_checkout#pmpro_user_fields,
+	.pmpro_checkout#pmpro_pricing_fields {
+		border: 1px solid #e2e5ec;
+		padding: 0 40px;
+		margin: 35px 0 0;
+
+		hr {
+			display: none;
+		}
+
+		> h3 {
+			position: relative;
+			margin: -1px -41px 30px;
+			padding: 32px 170px 23px 41px;
+			background-color: $main_color;
+			color: #fff;
+			font-size: 36px;
+			line-height: 1.2;
+
+			.pmpro_checkout-h3-msg {
+				display: block;
+				position: absolute;
+				right: 30px;
+				top: 50%;
+				margin-top: -8px;
+				min-height: 40px;
+				font-size: 11px;
+				text-transform: uppercase;
+				font-weight: 700;
+				font-style: normal;
+				vertical-align: top;
+
+				a {
+					margin-left: 10px;
+					padding: 12px 30px;
+					border: 1px solid #fff;
+					border-radius: 4px;
+					color: #fff;
+				}
+			}
+		}
+
+		.pmpro_checkout-fields {
+			display: flex;
+			flex-wrap: wrap;
+
+			> p:not(.levellist) {
+				display: none;
+			}
+
+			p.levellist {
+				font-size: 20px;
+				margin-right: 30px;
+			}
+
+			ul {
+				margin-right: 10%;
+			}
+
+			#pmpro_level_cost {
+				width: calc(100% + 120px);
+				margin: 0 -40px;
+				padding: 20px 40px;
+				border-top: 1px solid #e2e5ec;
+
+				p {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+	}
+
+	.pmpro_checkout#pmpro_payment_information_fields,
+	.pmpro_checkout#pmpro_billing_address_fields,
+	.pmpro_checkout#pmpro_user_fields {
+		padding-bottom: 25px;
+	}
+
+	#ExpirationYear {
+		+ .select2 {
+			margin-left: 14px;
+		}
+	}
+
+	.pmpro_submit {
+		margin: 40px 0 50px;
+
+		hr {
+			display: none;
+		}
+
+		text-align: left;
+
+		#pmpro_submit_span {
+			display: block;
+			margin: 35px 0 0;
+
+			.pmpro_btn {
+				@include mu_btn();
+				color: #fff !important;
+			}
+		}
+	}
+
+	.pmpro_payment-discount-code {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: flex-start;
+
+		label {
+			width: 100% !important;
+			flex: 0 0 100%;
+		}
+
+		#discount_code {
+			position: relative;
+			top: -10px;
+			width: 70%;
+		}
+
+		#discount_code_button {
+			position: relative;
+			top: -10px;
+			@include mu_btn();
+			margin: 0;
+			min-width: auto;
+			padding: 6px 20px;
+			height: 45px;
+			border-radius: 0;
+			text-decoration: none !important;
+		}
+	}
+}
+
+.pmpro-confirmation {
+	#main {
+		.stm_lms_pmpro_message {
+			padding: 40px 30px;
+			margin: 0 0 40px;
+			border: 1px solid #e2e5ec;
+
+			p {
+				&:first-child {
+					font-weight: 700;
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		h3 {
+			float: left;
+			margin: 0 0 10px;
+			font-size: 28px;
+			font-weight: 700;
+		}
+
+		.pmpro_a-print {
+			display: inline-block;
+			padding: 12px 20px;
+			background: none;
+			background-color: $mu_green;
+			color: #fff;
+			font-size: 14px;
+			text-transform: uppercase;
+			font-weight: 700;
+
+			float: right;
+			margin: 0 0 15px;
+			border-radius: 5px;
+
+			&:before {
+				content: "\f02f";
+				margin-right: 9px;
+				font-weight: 900;
+				font-family: "Font Awesome 5 Free";
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+			}
+		}
+
+		ul {
+			display: flex;
+			clear: both;
+
+			li {
+				padding-left: 0;
+				margin-right: 50px;
+
+				&:last-child {
+					margin-right: 30px;
+				}
+			}
+		}
+
+		#pmpro_cancel,
+		#pmpro_confirmation_table {
+			margin: 50px 0 0;
+			background-color: #eff0f2;
+			border: 20px solid #eff0f2;
+
+			tr {
+				border: 0;
+
+				th {
+					padding: 10px 0 20px;
+
+					&:not(:first-child) {
+						padding-left: 20px;
+						padding-right: 20px;
+					}
+				}
+
+				td {
+					background-color: #fff;
+					padding: 15px 20px;
+
+					&:last-child {
+						font-weight: 700;
+					}
+				}
+			}
+		}
+	}
+
+	#nav-below {
+		.alignright {
+			float: none;
+			margin: 0 0 30px;
+		}
+
+		a {
+			@include mu_btn();
+			background-color: $main_color;
+		}
+	}
+}
+
+#wrapper {
+	.pmpro_checkout {
+		.select2-container--default {
+			.select2-selection {
+				border-color: #f0f2f5;
+
+				.select2-selection__rendered {
+					background-color: #f0f2f5;
+				}
+
+				.select2-selection__arrow b:after {
+					border-right-color: $main_color;
+					border-bottom-color: $main_color;
+				}
+			}
+		}
+	}
+
+	.pmpro_checkout#pmpro_user_fields,
+	.pmpro_checkout#pmpro_payment_information_fields,
+	.pmpro_checkout#pmpro_billing_address_fields,
+	.pmpro_checkout#pmpro_pricing_fields {
+		margin: 35px 0 30px;
+
+		thead {
+			background-color: $main_color;
+
+			tr {
+				th {
+
+					color: #fff;
+					font-size: 36px;
+					line-height: 1.2;
+					font-weight: 200;
+
+					padding: 40px 45px;
+
+					> h3 {
+						float: left;
+						position: relative;
+						color: #fff;
+						font-size: 36px;
+						line-height: 1.2;
+						font-weight: 200;
+
+					}
+
+					.pmpro_thead-msg {
+						display: block;
+						float: right;
+						min-height: 40px;
+						font-size: 11px;
+						text-transform: uppercase;
+						font-weight: 700;
+						font-style: normal;
+						vertical-align: top;
+						line-height: 43px;
+
+						a {
+							position: relative;
+							top: 0px;
+							margin-left: 10px;
+							padding: 12px 30px;
+							border: 1px solid #fff;
+							border-radius: 4px;
+							color: #fff;
+							vertical-align: top;
+						}
+					}
+				}
+			}
+		}
+
+		tr {
+			border: 0;
+
+			td {
+				padding: 30px 45px 15px;
+
+				.lp-pmpro-name {
+					h4 {
+						font-size: 24px;
+						font-weight: 700;
+					}
+				}
+
+				.lp-pmpro-content {
+					flex-wrap: wrap;
+					margin: 0;
+
+					> * {
+						width: 100% !important;
+						margin: 0 0 15px !important;
+					}
+
+					.lp-pmpro-desc {
+						margin: 0 0 10px;
+					}
+				}
+
+				.pmpro_payment-expiration {
+					label {
+						margin-left: 10px;
+					}
+				}
+
+			}
+		}
+	}
+}
+
+#pmpro_cancel {
+	margin: 50px 0 0;
+	background-color: #eff0f2;
+	border: 20px solid #eff0f2;
+
+	tr {
+		border: 0;
+
+		th {
+			padding: 10px 0 20px;
+
+			&:not(:first-child) {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+		}
+
+		td {
+			background-color: #fff;
+			padding: 15px 20px;
+
+			&:last-child {
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+
+/*Style buttons*/
+#pmpro_cancel {
+	.pmpro_actionlinks {
+		margin: 30px 0 10px;
+		a {
+			@include mu_btn();
+			margin-right: 15px;
+			color: #fff !important;
+			&.pmpro_btn-cancel {
+				background: #aaa;
+			}
+		}
+	}
+}

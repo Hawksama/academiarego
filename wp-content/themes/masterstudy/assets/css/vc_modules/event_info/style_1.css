@@ -1,0 +1,53 @@
+/* line 4, assets/scss/vc_modules/event_info/style_1.scss */
+.event_title {
+  margin: 0 0 34px; }
+
+/* line 8, assets/scss/vc_modules/event_info/style_1.scss */
+.event_thumbnail {
+  margin-bottom: 20px; }
+
+/* line 12, assets/scss/vc_modules/event_info/style_1.scss */
+.event_date_info_table {
+  width: 100%;
+  margin-bottom: 43px;
+  border: 1px solid #e1e2e4; }
+  /* line 16, assets/scss/vc_modules/event_info/style_1.scss */
+  .event_date_info_table td {
+    padding: 27px 0; }
+  /* line 19, assets/scss/vc_modules/event_info/style_1.scss */
+  .event_date_info_table .event_info {
+    padding: 0 27px 0 40px; }
+  /* line 22, assets/scss/vc_modules/event_info/style_1.scss */
+  .event_date_info_table .event_btn {
+    padding-right: 27px;
+    text-align: right; }
+    /* line 25, assets/scss/vc_modules/event_info/style_1.scss */
+    .event_date_info_table .event_btn .btn-default {
+      background-color: #eab830;
+      border-color: #eab830; }
+
+/* line 32, assets/scss/vc_modules/event_info/style_1.scss */
+.stm_event_unit_vc {
+  margin-bottom: 0; }
+
+/* line 37, assets/scss/vc_modules/event_info/style_1.scss */
+.event_date_info .event_date_info_unit {
+  display: inline-block;
+  margin: 3px 15px 3px 0; }
+  /* line 40, assets/scss/vc_modules/event_info/style_1.scss */
+  .event_date_info .event_date_info_unit .event_labels {
+    display: inline-block;
+    vertical-align: middle;
+    color: #eab830;
+    text-transform: uppercase;
+    font-size: 12px; }
+    /* line 46, assets/scss/vc_modules/event_info/style_1.scss */
+    .event_date_info .event_date_info_unit .event_labels i {
+      position: relative;
+      top: -1px;
+      vertical-align: middle;
+      margin-right: 4px;
+      font-size: 15px; }
+  /* line 55, assets/scss/vc_modules/event_info/style_1.scss */
+  .event_date_info .event_date_info_unit.event_location i {
+    font-size: 17px; }

@@ -1,0 +1,112 @@
+/* line 4, assets/scss/vc_modules/testimonials/style_5.scss */
+.testimonials_main_title {
+  margin: 0 0 70px; }
+
+/* line 9, assets/scss/vc_modules/testimonials/style_5.scss */
+.testimonials_main_wrapper.style_5 .top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px; }
+  /* line 14, assets/scss/vc_modules/testimonials/style_5.scss */
+  .testimonials_main_wrapper.style_5 .top .testimonials_main_title {
+    margin-bottom: 0; }
+  /* line 17, assets/scss/vc_modules/testimonials/style_5.scss */
+  .testimonials_main_wrapper.style_5 .top .nav-buttons {
+    margin: 10px 0; }
+    /* line 19, assets/scss/vc_modules/testimonials/style_5.scss */
+    .testimonials_main_wrapper.style_5 .top .nav-buttons span {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border: 1px #2dd675 solid;
+      border-radius: 4px;
+      color: #2dd675;
+      cursor: pointer;
+      transition: .3s;
+      line-height: 38px;
+      text-align: center; }
+      /* line 30, assets/scss/vc_modules/testimonials/style_5.scss */
+      .testimonials_main_wrapper.style_5 .top .nav-buttons span:hover {
+        background-color: #2dd675;
+        color: #fff; }
+      /* line 34, assets/scss/vc_modules/testimonials/style_5.scss */
+      .testimonials_main_wrapper.style_5 .top .nav-buttons span.next {
+        margin-left: 7px; }
+
+/* line 43, assets/scss/vc_modules/testimonials/style_5.scss */
+.stm_testimonials_wrapper_style_5 .owl-stage-outer {
+  overflow: visible; }
+
+/* line 46, assets/scss/vc_modules/testimonials/style_5.scss */
+.stm_testimonials_wrapper_style_5 .stm_testimonials_single {
+  padding: 30px 60px 80px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.18); }
+  /* line 53, assets/scss/vc_modules/testimonials/style_5.scss */
+  .stm_testimonials_wrapper_style_5 .stm_testimonials_single .testimonials_excerpt {
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center; }
+  /* line 59, assets/scss/vc_modules/testimonials/style_5.scss */
+  .stm_testimonials_wrapper_style_5 .stm_testimonials_single .testimonials_image {
+    max-width: 100px;
+    margin: 0 auto 20px; }
+    /* line 63, assets/scss/vc_modules/testimonials/style_5.scss */
+    .stm_testimonials_wrapper_style_5 .stm_testimonials_single .testimonials_image img {
+      border-radius: 50%; }
+  /* line 67, assets/scss/vc_modules/testimonials/style_5.scss */
+  .stm_testimonials_wrapper_style_5 .stm_testimonials_single .testimonials_title {
+    margin: 0 0 17px !important;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500; }
+  /* line 73, assets/scss/vc_modules/testimonials/style_5.scss */
+  .stm_testimonials_wrapper_style_5 .stm_testimonials_single .testimonials-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 15px 30px; }
+    /* line 80, assets/scss/vc_modules/testimonials/style_5.scss */
+    .stm_testimonials_wrapper_style_5 .stm_testimonials_single .testimonials-bottom .stars {
+      margin: 0 0 10px; }
+  /* line 87, assets/scss/vc_modules/testimonials/style_5.scss */
+  .stm_testimonials_wrapper_style_5 .stm_testimonials_single .stars {
+    margin: 0 0 29px;
+    letter-spacing: 5px; }
+    /* line 91, assets/scss/vc_modules/testimonials/style_5.scss */
+    .stm_testimonials_wrapper_style_5 .stm_testimonials_single .stars .fa-star {
+      color: #f2b91e; }
+      /* line 94, assets/scss/vc_modules/testimonials/style_5.scss */
+      .stm_testimonials_wrapper_style_5 .stm_testimonials_single .stars .fa-star:before {
+        content: "\f005\f005\f005\f005\f005"; }
+
+/* line 101, assets/scss/vc_modules/testimonials/style_5.scss */
+.stm_testimonials_wrapper_style_5.owl-carousel .owl-stage {
+  display: flex;
+  flex-wrap: wrap; }
+
+/* line 106, assets/scss/vc_modules/testimonials/style_5.scss */
+.stm_testimonials_wrapper_style_5.owl-carousel .owl-stage::after {
+  display: none; }
+
+/* line 110, assets/scss/vc_modules/testimonials/style_5.scss */
+.stm_testimonials_wrapper_style_5.owl-carousel .owl-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto !important; }
+
+/* line 117, assets/scss/vc_modules/testimonials/style_5.scss */
+.stm_testimonials_wrapper_style_5.owl-carousel .owl-dot {
+  width: 10px;
+  height: 10px;
+  border: 0;
+  background-color: #d2d2d2; }
+  /* line 123, assets/scss/vc_modules/testimonials/style_5.scss */
+  .stm_testimonials_wrapper_style_5.owl-carousel .owl-dot.active {
+    background-color: #1a92e6;
+    transform: scale(1.3); }

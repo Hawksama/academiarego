@@ -1,0 +1,108 @@
+@import "../../scss_components/mixins";
+@import "../../scss_components/base_variables";
+@import "categories_megamenu";
+
+.header_default.header_3 {
+    padding: 10px 0 0;
+    background-color: #333333;
+    color: #fff;
+    min-height: auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    &:after {
+        display: none !important;
+    }
+    > .container {
+        max-width: 1745px;
+    }
+    .header_top {
+        display: flex;
+        align-items: center;
+    }
+    .stm_header_top_toggler {
+        width: 50px;
+        height: 50px;
+        margin: 0 0 0 auto;
+        font-size: 15px;
+        line-height: 50px;
+        text-align: center;
+        color: #fff;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+.stm_lms_account_popup__close {
+    cursor: pointer;
+}
+
+.stm_lms_header_popups_overlay {
+    &.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+    }
+}
+
+@include breakpoint(1590px) {
+    .header_default.header_3 {
+        .header_top {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@include breakpoint(1400px) {
+    .header_default.header_3 {
+        .header_top {
+            .logo-unit {
+                width: 235px;
+            }
+        }
+    }
+}
+
+@include breakpoint(991px) {
+    .transparent_header {
+        background-color: $blue-dk;
+        .header_default.header_3 {
+            padding: 0;
+            border-bottom: 0;
+            .header_top {
+
+            }
+        }
+    }
+}
+
+@include breakpoint(680px) {
+    .header_default.header_3 {
+        padding: 15px 0 !important;
+        .stm_header_top_toggler {
+            margin-left: 15px;
+        }
+    }
+}
+
+@include breakpoint(400px) {
+    .header_default.header_3 {
+        .stm_lms_categories-courses__toggler,
+        .stm_header_top_toggler {
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+        }
+    }
+}
+
+body.has_envato_iframe {
+    .stm_lms_account_popup {
+        top: 50px;
+    }
+    .stm_lms_account_popup__close {
+        top: 30px;
+    }
+}

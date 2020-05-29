@@ -1,0 +1,35 @@
+/* line 4, assets/scss/vc_modules/image_box/style_3.scss */
+.stm_image_box.stm_image_box__style_3 {
+  text-align: center; }
+  /* line 7, assets/scss/vc_modules/image_box/style_3.scss */
+  .stm_image_box.stm_image_box__style_3 img {
+    margin: 0 0 32px;
+    border-radius: 50%; }
+  /* line 12, assets/scss/vc_modules/image_box/style_3.scss */
+  .stm_image_box.stm_image_box__style_3 h3 {
+    margin: 0 0 24px;
+    padding: 0 15px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700; }
+  /* line 20, assets/scss/vc_modules/image_box/style_3.scss */
+  .stm_image_box.stm_image_box__style_3 .stm_image_box__icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 71px;
+    height: 71px;
+    line-height: 57px;
+    font-size: 27px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    color: #fff; }
+  /* line 33, assets/scss/vc_modules/image_box/style_3.scss */
+  .stm_image_box.stm_image_box__style_3 .stm_image_box__image {
+    position: relative; }
+  /* line 41, assets/scss/vc_modules/image_box/style_3.scss */
+  .stm_image_box.stm_image_box__style_3 .stm_image_box__textarea {
+    margin: 0 0 20px;
+    color: rgba(51, 51, 51, 0.7);
+    font-size: 14px;
+    line-height: 24px; }

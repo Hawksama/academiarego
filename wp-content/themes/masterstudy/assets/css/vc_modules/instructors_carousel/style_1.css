@@ -1,0 +1,89 @@
+/* line 4, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+.stm_lms_instructors_carousel_wrapper {
+  position: relative; }
+  /* line 7, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+  .stm_lms_instructors_carousel_wrapper.no-nav .owl-controls {
+    position: relative;
+    z-index: 10000; }
+  /* line 11, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+  .stm_lms_instructors_carousel_wrapper.no-nav .owl-dots {
+    margin-top: 60px; }
+  /* line 15, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+  .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel {
+    max-width: 1750px;
+    margin: 0 auto; }
+    /* line 18, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+    .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel .stm_lms_instructors__grid {
+      margin: 0; }
+      /* line 20, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+      .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel .stm_lms_instructors__grid .owl-stage-outer {
+        margin: -20px -15px -40px;
+        padding: 20px 15px 40px;
+        z-index: 99999; }
+        /* line 24, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+        .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel .stm_lms_instructors__grid .owl-stage-outer .stm_lms_instructors__single {
+          width: 100%; }
+          /* line 27, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+          .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel .stm_lms_instructors__grid .owl-stage-outer .stm_lms_instructors__single .stm-lms-user_avatar .avatar.photo {
+            max-width: 100%;
+            max-height: 100%; }
+    /* line 35, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+    .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel__top {
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      margin: 0 0 17px; }
+      /* line 40, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+      .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel__top h3 {
+        margin-bottom: 0;
+        margin-right: 60px; }
+      /* line 44, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+      .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel__top .h4 {
+        margin-left: auto;
+        font-size: 14px; }
+        /* line 47, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+        .stm_lms_instructors_carousel_wrapper .stm_lms_instructors_carousel__top .h4 i {
+          position: relative;
+          margin-left: 5px;
+          top: 1px;
+          font-size: 16px; }
+  /* line 57, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+  .stm_lms_instructors_carousel_wrapper .owl-dots .owl-dot {
+    border: 2px solid rgba(255, 255, 255, 0.4); }
+
+/* line 64, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+.stm_lms_courses_carousel__buttons {
+  margin: 50px auto 0;
+  text-align: center;
+  font-size: 0;
+  z-index: 20; }
+
+/* line 70, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+.stm_lms_courses_carousel__button {
+  display: inline-block;
+  vertical-align: top;
+  width: 46px;
+  height: 46px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 14px;
+  color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: .3s ease;
+  background-color: #fff; }
+  /* line 83, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+  .stm_lms_courses_carousel__button:hover {
+    color: #fff; }
+
+@media (max-width: 650px) {
+  /* line 90, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+  .stm_lms_instructors_carousel__top {
+    flex-wrap: wrap; }
+    /* line 92, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+    .stm_lms_instructors_carousel__top h3 {
+      width: 100%;
+      margin-right: 0 !important; }
+    /* line 96, assets/scss/vc_modules/instructors_carousel/style_1.scss */
+    .stm_lms_instructors_carousel__top a.h4 {
+      margin-left: 0 !important; } }

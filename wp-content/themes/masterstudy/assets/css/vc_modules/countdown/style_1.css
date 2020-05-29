@@ -1,0 +1,211 @@
+/* line 4, assets/scss/vc_modules/countdown/style_1.scss */
+.stm_countdown {
+  position: relative;
+  padding-bottom: 37px;
+  display: inline-block;
+  vertical-align: top; }
+
+/* line 11, assets/scss/vc_modules/countdown/style_1.scss */
+.countDiv {
+  display: block;
+  float: left;
+  width: 29px;
+  height: 104px;
+  position: relative;
+  opacity: 1; }
+  /* line 18, assets/scss/vc_modules/countdown/style_1.scss */
+  .countDiv.flash {
+    opacity: 0; }
+  @media (max-width: 991px) and (min-width: 768px) {
+    /* line 11, assets/scss/vc_modules/countdown/style_1.scss */
+    .countDiv {
+      height: 70px;
+      width: 15px; } }
+  @media (max-width: 515px) {
+    /* line 11, assets/scss/vc_modules/countdown/style_1.scss */
+    .countDiv {
+      height: 60px;
+      width: 10px; } }
+
+/* line 31, assets/scss/vc_modules/countdown/style_1.scss */
+.countDiv:before,
+.countDiv:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  z-index: 10;
+  background-color: #414b4f;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -4px;
+  top: 40px; }
+  @media (max-width: 991px) and (min-width: 768px) {
+    /* line 31, assets/scss/vc_modules/countdown/style_1.scss */
+    .countDiv:before,
+    .countDiv:after {
+      width: 5px;
+      height: 5px;
+      margin-left: -2px;
+      top: 25px; } }
+  @media (max-width: 515px) {
+    /* line 31, assets/scss/vc_modules/countdown/style_1.scss */
+    .countDiv:before,
+    .countDiv:after {
+      width: 5px;
+      height: 5px;
+      margin-left: -2px;
+      top: 25px; } }
+
+/* line 53, assets/scss/vc_modules/countdown/style_1.scss */
+.countDiv:after {
+  top: 56px; }
+  @media (max-width: 991px) and (min-width: 768px) {
+    /* line 53, assets/scss/vc_modules/countdown/style_1.scss */
+    .countDiv:after {
+      top: 40px; } }
+  @media (max-width: 515px) {
+    /* line 53, assets/scss/vc_modules/countdown/style_1.scss */
+    .countDiv:after {
+      top: 35px; } }
+
+/* line 63, assets/scss/vc_modules/countdown/style_1.scss */
+.position {
+  position: relative;
+  display: block;
+  width: 44px;
+  height: 98px;
+  float: left;
+  color: #fff;
+  font-size: 50px;
+  line-height: 98px;
+  z-index: 11; }
+  /* line 73, assets/scss/vc_modules/countdown/style_1.scss */
+  .position.h1 {
+    margin: 0;
+    color: #fff; }
+  /* line 77, assets/scss/vc_modules/countdown/style_1.scss */
+  .position .digit {
+    position: absolute;
+    width: 44px;
+    height: 98px;
+    padding-right: 2px;
+    text-align: right;
+    line-height: 98px;
+    top: 0;
+    left: 0; }
+    @media (max-width: 991px) and (min-width: 768px) {
+      /* line 77, assets/scss/vc_modules/countdown/style_1.scss */
+      .position .digit {
+        width: 30px;
+        height: 70px;
+        line-height: 70px; } }
+    @media (max-width: 515px) {
+      /* line 77, assets/scss/vc_modules/countdown/style_1.scss */
+      .position .digit {
+        width: 25px;
+        height: 60px;
+        line-height: 60px; } }
+  @media (max-width: 991px) and (min-width: 768px) {
+    /* line 63, assets/scss/vc_modules/countdown/style_1.scss */
+    .position {
+      width: 30px;
+      height: 70px;
+      line-height: 70px;
+      font-size: 27px !important; } }
+  @media (max-width: 515px) {
+    /* line 63, assets/scss/vc_modules/countdown/style_1.scss */
+    .position {
+      width: 25px;
+      height: 60px;
+      line-height: 60px;
+      font-size: 27px !important; } }
+
+/* line 113, assets/scss/vc_modules/countdown/style_1.scss */
+.countDays,
+.countHours,
+.countMinutes,
+.countSeconds {
+  position: relative;
+  display: block;
+  width: 88px;
+  height: 104px;
+  text-align: center;
+  float: left;
+  border-top: 3px solid #676d70;
+  border-bottom: 3px solid #495154;
+  border-radius: 5px; }
+  /* line 127, assets/scss/vc_modules/countdown/style_1.scss */
+  .countDays .position:last-child .digit,
+  .countHours .position:last-child .digit,
+  .countMinutes .position:last-child .digit,
+  .countSeconds .position:last-child .digit {
+    text-align: left;
+    padding-left: 2px; }
+  /* line 132, assets/scss/vc_modules/countdown/style_1.scss */
+  .countDays:after,
+  .countHours:after,
+  .countMinutes:after,
+  .countSeconds:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #3b4448;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px; }
+  /* line 140, assets/scss/vc_modules/countdown/style_1.scss */
+  .countDays:before,
+  .countHours:before,
+  .countMinutes:before,
+  .countSeconds:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    background-color: #525b5f;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px; }
+  @media (max-width: 991px) and (min-width: 768px) {
+    /* line 113, assets/scss/vc_modules/countdown/style_1.scss */
+    .countDays,
+    .countHours,
+    .countMinutes,
+    .countSeconds {
+      width: 60px;
+      height: 70px; } }
+  @media (max-width: 515px) {
+    /* line 113, assets/scss/vc_modules/countdown/style_1.scss */
+    .countDays,
+    .countHours,
+    .countMinutes,
+    .countSeconds {
+      width: 50px;
+      height: 60px; } }
+
+/* line 158, assets/scss/vc_modules/countdown/style_1.scss */
+.countdown_label {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff !important;
+  text-transform: uppercase; }
+  @media (max-width: 991px) and (min-width: 768px) {
+    /* line 158, assets/scss/vc_modules/countdown/style_1.scss */
+    .countdown_label {
+      font-size: 12px !important; } }
+  @media (max-width: 515px) {
+    /* line 158, assets/scss/vc_modules/countdown/style_1.scss */
+    .countdown_label {
+      font-size: 10px !important; } }

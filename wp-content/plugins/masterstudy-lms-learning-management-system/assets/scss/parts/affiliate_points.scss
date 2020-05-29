@@ -1,0 +1,80 @@
+@import "../components/colors";
+
+.affiliate_points {
+    position: relative;
+    padding: 7px 15px;
+    margin: -20px 0 20px;
+    background-color: #f1f1f1;
+    font-size: 12px;
+    //text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    .copied {
+        position: absolute;
+        right: 15px;
+        top: 7px;
+        font-size: 16px;
+        color: $green;
+        opacity: 0;
+        transform: translateX(5px);
+        transition: .3s ease;
+    }
+
+    #text_to_copy {
+        display: none;
+    }
+
+    &.url_copied {
+        .copied {
+            //opacity: 1;
+            //transform: translateX(0);
+        }
+        .affiliate_points__btn {
+            opacity: 1;
+            i {
+                &:before {
+                    content: "\f00c";
+                    color: $green;
+                }
+            }
+        }
+    }
+
+    &__btn {
+        opacity: 0.6;
+        .text {
+            font-size: 12px;
+            line-height: 11px;
+            border-bottom: 1px dashed $dark;
+            text-transform: none;
+            font-weight: 500;
+        }
+        i {
+            margin-right: 5px;
+        }
+    }
+
+    &:hover {
+        .affiliate_points__btn {
+            opacity: 1;
+        }
+    }
+
+}
+
+.stm-lms-user-quiz {
+    .affiliate_points {
+        margin: 0 0 0 15px;
+        white-space: nowrap;
+    }
+}
+
+.stm_lms_user_info_top {
+    .stm-lms-my-points,
+    .affiliate_points {
+        display: none !important;
+    }
+}

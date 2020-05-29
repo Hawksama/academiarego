@@ -1,0 +1,95 @@
+.stm-lms-admin-select {
+    .stm-lms-radio {
+        margin-left: 10px;
+    }
+}
+
+.wpcfto-repeater {
+
+    &-single {
+        position: relative;
+        padding: 53px 15px 0 15px;
+        margin: 0 0 15px;
+        border: 1px solid rgba(0,0,0,0.45);
+
+        .repeater_inner {
+
+            &.closed {
+                display: none;
+            }
+        }
+
+        &-delete {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 5px 7px;
+            color: #fff;
+            background-color: red;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        &-key {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 50px;
+            height: 50px;
+            cursor: pointer;
+            &:after {
+                content: attr(data-number);
+                position: absolute;
+                top: 19px;
+                left: 19px;
+                display: block;
+                width: 15px;
+                height: 15px;
+                text-align: center;
+                color: #fff;
+                font-size: 10px;
+                line-height: 15px;
+                border-radius: 50%;
+                background-color: #195ec8;
+            }
+            &:before {
+                content: attr(data-tab);
+                display: block;
+                position: absolute;
+                top: 16px;
+                left: 50px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .wpcfto-repeater-field {
+
+    }
+
+    .wpcfto-repeater-field {
+        width: 100%;
+    }
+
+    .addArea {
+        margin: 0 0 15px;
+
+        i {
+            padding: 5px 20px;
+            color: #fff;
+            background-color: #77c55e;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+.image-field-file {
+    i {
+        position: relative;
+        top: 2px;
+        color: #195ec8;
+        font-size: 20px;
+        margin: 0 6px 0 0;
+    }
+}

@@ -1,0 +1,106 @@
+@import "../../scss_components/mixins";
+@import "../../scss_components/base_variables";
+@import "classic_lms";
+
+.teacher-col .multiseparator {
+    display: none;
+}
+
+span.position.h1 {
+    font-size: 54px;
+}
+
+body.skin_custom_color .widget_contacts ul li .text a {
+    color: #fff !important;
+}
+
+.header_top_bar .pull-right.xs-pull-left {
+    float: left !important;
+}
+
+.stm_lms_featured_teacher {
+    height: 761px !important;
+}
+
+.header_top_bar .top_bar_info, .header_top_bar .header_login_url {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.widget_mailchimp .stm_subscribe_title {
+    color: #002e5b !important;
+}
+
+.stm_lms_courses_categories.style_4 .stm_lms_courses_category {
+    width: calc(25% - 10px) !important;
+}
+
+.countDays:before, .countHours:before, .countMinutes:before, .countSeconds:before {
+    background-color: transparent !important;
+}
+
+.countDays:after, .countHours:after, .countMinutes:after, .countSeconds:after {
+    background-color: transparent !important;
+}
+
+.countDays, .countHours, .countMinutes, .countSeconds {
+    border: 0px !important;
+}
+
+.countDiv:before, .countDiv:after {
+    background-color: #eab830 !important;
+
+}
+
+
+body.skin_custom_color .triangled_colored_separator .triangle, body.skin_custom_color .magic_line:after {
+    border-bottom-color: #eab830 !important;
+}
+
+body.skin_custom_color .triangled_colored_separator {
+    background-color: #eab830 !important;
+}
+
+@media (max-width: 769px) {
+    .stm_lms_courses_categories.style_4 .stm_lms_courses_category {
+        width: calc(50% - 20px) !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .stm_lms_courses_categories.style_4 .stm_lms_courses_category {
+        width: calc(93%) !important;
+    }
+}
+
+.stm_lms_profile_buttons_set__inner {
+    .stm_assignment_btn_stm {
+        position: relative;
+        padding-right: 20px;
+        label {
+            position: absolute;
+            right: 0;
+            top: 4px;
+            padding: 1px 4px;
+            background-color: #385bce;
+            color: #fff !important;
+            font-size: 11px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.single-stm-courses {
+    .nav.nav-tabs > li.active a {
+        color: #273044 !important;
+    }
+}
+
+.single-stm-courses {
+    .classic_style {
+        .nav.nav-tabs > li.active a {
+	        background-color: #eab830;
+            color: #fff !important;
+        }
+    }
+}

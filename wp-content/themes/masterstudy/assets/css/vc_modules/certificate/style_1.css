@@ -1,0 +1,62 @@
+/* line 5, assets/scss/vc_modules/certificate/style_1.scss */
+.certificate .certificate-frame {
+  position: relative;
+  background-color: transparent;
+  background-image: url("../img/../../../img/frame.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 45px; }
+  /* line 11, assets/scss/vc_modules/certificate/style_1.scss */
+  .certificate .certificate-frame:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 15px;
+    left: 0;
+    background-image: url("../img/../../../img/frame-border.png");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  /* line 20, assets/scss/vc_modules/certificate/style_1.scss */
+  .certificate .certificate-frame .certificate-holder {
+    width: auto;
+    max-width: 773px;
+    margin: 0 auto;
+    position: relative;
+    padding: 5px; }
+    /* line 27, assets/scss/vc_modules/certificate/style_1.scss */
+    .certificate .certificate-frame .certificate-holder:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      background-color: #2b1e1e;
+      z-index: 0; }
+    /* line 34, assets/scss/vc_modules/certificate/style_1.scss */
+    .certificate .certificate-frame .certificate-holder:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      z-index: 10;
+      top: 0;
+      right: 0;
+      background-color: #b24444;
+      z-index: 0; }
+    /* line 41, assets/scss/vc_modules/certificate/style_1.scss */
+    .certificate .certificate-frame .certificate-holder img {
+      position: relative;
+      z-index: 10; }
+
+/* line 47, assets/scss/vc_modules/certificate/style_1.scss */
+.certificate .title {
+  margin-top: 34px; }

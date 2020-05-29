@@ -1,0 +1,84 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.stm_pricing_plan {
+    padding: 0 3px;
+    margin-bottom: 56px;
+    & .border-top {
+        margin: 0 -3px;
+        height: 5px;
+        background-color: #f2bf34;
+    }
+    & .inner {
+        padding: 27px 30px 45px;
+        background-color: #f6f6f6;
+        & .title {
+            margin: 5px 0 25px;
+            text-transform: uppercase;
+        }
+        & .content {
+            margin-bottom: 29px;
+            line-height: 26px;
+            font-size: 14px;
+        }
+        & .btn-plan {
+            position: relative;
+            background-color: transparent;
+            color: $grey-dk;
+            font-weight: 700;
+            padding: 12px 17px;
+            border:2px solid #f2bf34;
+            overflow: hidden;
+            z-index: 1;
+            box-shadow: none !important;
+            &:after {
+                @include pseudo(absolute, 100%, 100%);
+                top: 0;
+                left: -100%;
+                background-color: #f2bf34;
+                z-index: -1;
+            }
+            &:hover {
+                color: $white;
+                &:after {
+                    left: 0;
+                }
+            }
+            &:focus {
+                color: $white;
+                &:after {
+                    left: 0;
+                }
+            }
+            &:active {
+                color: $white;
+                &:after {
+                    left: 0;
+                }
+            }
+        }
+    }
+    & .price_unit_round {
+        position: relative;
+        display: inline-block;
+        padding: 59px 5px 20px;
+        margin-bottom: 21px;
+        max-width: 100%;
+        vertical-align: top;
+        border-radius: 50%;
+        min-width: 185px;
+        min-height: 185px;
+        background-color: #f2bf34;
+        & .plan_price {
+            font-size: 50px;
+            line-height: 55px;
+            font-weight: 700;
+            color: $white;
+        }
+        & .price_period {
+            color: $white;
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+}

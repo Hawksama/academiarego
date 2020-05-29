@@ -1,0 +1,90 @@
+/* line 1, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.stm_lms_plan__with_btn p.price {
+  font-size: 37px; }
+  /* line 3, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+  .stm_lms_plan__with_btn p.price sup {
+    top: -14px;
+    font-size: 27px; }
+
+/* line 9, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.blog_layout_grid .post_list_item_title {
+  font-size: 19px;
+  line-height: 31px;
+  word-spacing: 0;
+  letter-spacing: 0; }
+
+/* line 16, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.stm_lms_courses__single .star-rating {
+  margin-top: 4px; }
+
+/* line 22, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.widget_stm_recent_posts .widget_media_style_1 > a {
+  position: relative;
+  top: -7px; }
+
+/* line 26, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.widget_stm_recent_posts .widget_media_style_1 .cats_w {
+  margin-left: 83px;
+  position: relative;
+  top: -10px; }
+
+/* line 34, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.stm_lms_courses__single .star-rating {
+  margin-top: 4px !important; }
+
+/* line 38, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.stm_lms_courses__single--meta {
+  min-height: 28px; }
+
+/* line 43, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+body.online-dark .stm_lms_categories_dropdown {
+  margin-top: 0 !important; }
+  /* line 45, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+  body.online-dark .stm_lms_categories_dropdown__parents {
+    background-color: #273044; }
+  /* line 49, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+  body.online-dark .stm_lms_categories_dropdown__parent > a {
+    color: #fff;
+    font-weight: 600; }
+
+/* line 57, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.blog_layout_grid .post_list_item_title {
+  font-size: 19px;
+  line-height: 31px;
+  word-spacing: 0;
+  letter-spacing: 0; }
+
+/* line 64, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.stm_image_box__content h3 {
+  margin-bottom: 17px;
+  font-weight: 600; }
+
+/* line 69, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.stm_image_box__textarea {
+  font-weight: 300; }
+
+/* line 73, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.widget_stm_recent_posts .widget_media img {
+  margin-top: 0; }
+
+/* line 77, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.widget_pages ul.style_2 li {
+  margin-bottom: 17px; }
+
+/* line 81, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+body.has_envato_iframe {
+  position: relative;
+  top: 50px; }
+
+/* line 86, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.header_top_bar .stm_lms_wpml_switcher .top_bar_info {
+  margin-top: 10px; }
+
+/* line 90, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+.header_top_bar .language-switcher-unit {
+  margin-top: 11px; }
+
+@media (max-width: 768px) {
+  /* line 95, assets/scss/vc_modules/stm_layout_styles/online-dark.scss */
+  body.online-dark .stm_lms_categories_dropdown__parent > a {
+    color: #000; } }

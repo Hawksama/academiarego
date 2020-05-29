@@ -1,0 +1,34 @@
+/* line 5, assets/scss/vc_modules/product_categories/style_1.scss */
+.project_cat_single_item {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 34px 15px 27px 15px;
+  border-radius: 3px;
+  line-height: 20px; }
+  /* line 11, assets/scss/vc_modules/product_categories/style_1.scss */
+  .project_cat_single_item:hover {
+    transform: translateY(-15px); }
+    /* line 13, assets/scss/vc_modules/product_categories/style_1.scss */
+    .project_cat_single_item:hover:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 15px;
+      z-index: 10;
+      top: 100%;
+      left: 0; }
+  /* line 19, assets/scss/vc_modules/product_categories/style_1.scss */
+  .project_cat_single_item .course_category_title {
+    display: inline-block;
+    max-width: 100px;
+    line-height: 20px; }
+
+/* line 26, assets/scss/vc_modules/product_categories/style_1.scss */
+.product_categories_main_wrapper .simple_carousel_with_bullets {
+  max-width: 100% !important; }
+
+/* line 30, assets/scss/vc_modules/product_categories/style_1.scss */
+.cat_image_uploaded img {
+  width: auto !important;
+  margin: 0 auto; }

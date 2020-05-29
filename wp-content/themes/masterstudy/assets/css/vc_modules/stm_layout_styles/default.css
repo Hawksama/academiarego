@@ -1,0 +1,28 @@
+/* line 1, assets/scss/vc_modules/stm_layout_styles/default.scss */
+.vc_tta-tabs.vc_tta-tabs-position-left.vc_tta-color-blue .vc_tta-tabs-container .vc_tta-tabs-list li.vc_tta-tab.vc_active a,
+.vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-color-blue .vc_tta-tabs-container .vc_tta-tabs-list li.vc_tta-tab.vc_active a {
+  background-color: #eee !important; }
+
+/* line 6, assets/scss/vc_modules/stm_layout_styles/default.scss */
+.vc_tta-tabs.vc_tta-tabs-position-left.vc_tta-color-blue .vc_tta-tabs-container .vc_tta-tabs-list li.vc_tta-tab a {
+  text-align: center !important; }
+
+/* line 10, assets/scss/vc_modules/stm_layout_styles/default.scss */
+.wpb-js-composer .vc_tta-controls-align-left.vc_tta-tabs.vc_tta-tabs-position-top:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill) .vc_tta-panels {
+  background-color: transparent !important; }
+
+/* line 14, assets/scss/vc_modules/stm_layout_styles/default.scss */
+.wpb-js-composer .vc_tta-tabs.vc_tta-tabs-position-left {
+  display: block !important; }
+
+/* line 18, assets/scss/vc_modules/stm_layout_styles/default.scss */
+.wpb-js-composer .vc_tta-color-blue.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels {
+  background: transparent !important; }
+
+/* line 24, assets/scss/vc_modules/stm_layout_styles/default.scss */
+ul.stm-courses li .star-rating {
+  display: none; }
+
+/* line 27, assets/scss/vc_modules/stm_layout_styles/default.scss */
+ul.stm-courses li .price ins .amount {
+  font-size: 15px; }

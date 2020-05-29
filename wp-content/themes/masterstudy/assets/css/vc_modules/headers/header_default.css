@@ -1,0 +1,83 @@
+/* line 4, assets/scss/vc_modules/headers/header_default.scss */
+.header_default {
+  padding-top: 26px;
+  z-index: 21; }
+  /* line 8, assets/scss/vc_modules/headers/header_default.scss */
+  .header_default .header_top_bar_socs ul {
+    padding: 5px 0 0 60px;
+    margin: 0 -8px;
+    list-style: none; }
+    /* line 12, assets/scss/vc_modules/headers/header_default.scss */
+    .header_default .header_top_bar_socs ul li {
+      display: inline-block;
+      margin: 0 8px;
+      font-size: 0; }
+      /* line 16, assets/scss/vc_modules/headers/header_default.scss */
+      .header_default .header_top_bar_socs ul li a {
+        font-size: 18px; }
+
+/* line 29, assets/scss/vc_modules/headers/header_default.scss */
+.header_main_menu_wrapper .header-menu > li:nth-last-child(2) > ul.sub-menu > li > .sub-menu, .header_main_menu_wrapper .header-menu > li:nth-last-child(1) > ul.sub-menu > li > .sub-menu {
+  left: auto;
+  right: 100%; }
+
+/* line 39, assets/scss/vc_modules/headers/header_default.scss */
+.right_buttons > * {
+  display: inline-block;
+  vertical-align: top; }
+
+/* line 43, assets/scss/vc_modules/headers/header_default.scss */
+.right_buttons .stm_lms_wishlist_button {
+  margin-left: 35px;
+  margin-right: 25px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 20px; }
+  /* line 49, assets/scss/vc_modules/headers/header_default.scss */
+  .right_buttons .stm_lms_wishlist_button i {
+    color: #333; }
+  /* line 53, assets/scss/vc_modules/headers/header_default.scss */
+  .right_buttons .stm_lms_wishlist_button + .search-toggler-unit .search-toggler {
+    margin-left: 5px; }
+
+@media (max-width: 992px) {
+  /* line 61, assets/scss/vc_modules/headers/header_default.scss */
+  #searchform-mobile .search-wrapper .search-submit {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    width: 70px;
+    color: #fff; } }
+
+@media (max-width: 769px) {
+  /* line 73, assets/scss/vc_modules/headers/header_default.scss */
+  .header-menu-mobile .header-menu > li.opened > a {
+    margin-bottom: 35px;
+    color: #fff !important; }
+  /* line 77, assets/scss/vc_modules/headers/header_default.scss */
+  .header-menu-mobile .header-menu > li.opened .fa-angle-right:before {
+    color: #fff !important; }
+  /* line 81, assets/scss/vc_modules/headers/header_default.scss */
+  .header_top_bar .header_login_url {
+    margin-top: 10px;
+    margin-left: 15px; }
+  /* line 85, assets/scss/vc_modules/headers/header_default.scss */
+  .header_top_bar .top_bar_info {
+    margin-top: 10px; }
+  /* line 88, assets/scss/vc_modules/headers/header_default.scss */
+  .header_top_bar .header_top_bar_socs {
+    margin-left: 15px; } }
+
+@media (max-width: 515px) {
+  /* line 94, assets/scss/vc_modules/headers/header_default.scss */
+  .header_top_bar .language-switcher-unit {
+    display: block; } }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  /* line 100, assets/scss/vc_modules/headers/header_default.scss */
+  .header_top_bar .top_bar_info {
+    margin-top: 10px; }
+  /* line 103, assets/scss/vc_modules/headers/header_default.scss */
+  .header_top_bar .header_top_bar_socs {
+    margin-left: 15px; } }

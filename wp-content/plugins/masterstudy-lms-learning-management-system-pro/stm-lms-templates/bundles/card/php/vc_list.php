@@ -1,0 +1,28 @@
+<?php
+/**
+ *
+ * @var $columns
+ * @var $title
+ * @var $posts_per_page
+ */
+$atts = vc_map_get_attributes($this->getShortcode(), $atts);
+extract($atts);
+
+$wishlist = '';
+$posts_per_page = (!empty($posts_per_page)) ? intval($posts_per_page) : 9;
+$page = get_query_var('page', 1);
+$public = true;
+
+$args = array(
+    'posts_per_page' => $posts_per_page,
+    'post_status' => array('publish'),
+    'stm_lms_page' => $page,
+    'author' => ''
+); ?>
+
+<div class="stm_lms_my_course_bundles__vc">
+    <?php STM_LMS_Templates::show_lms_template(
+        'bundles/card/php/list',
+        compact('wishlist', 'columns', 'title', 'args', 'public')
+    ); ?>
+</div>

@@ -1,0 +1,111 @@
+.stm_lms_lazy_image {
+    position: relative;
+    display: block;
+    height: 0;
+    width: 100%;
+    padding-bottom: 66.6667%;
+    transform: translateZ(0);
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-family: "blur-up: always", "object-fit: cover";
+        object-fit: cover;
+        background-color: #aaaeb7;
+        opacity: 1;
+        visibility: visible;
+        transition: .3s ease;
+    }
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-family: "blur-up: always", "object-fit: cover";
+        object-fit: cover;
+        z-index: 90;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s ease;
+    }
+
+    &__lazyloaded {
+        &:before {
+            opacity: 0;
+            visibility: hidden;
+        }
+        img {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+/*Theme related Bugs*/
+body {
+    .post_list_main_section_wrapper .post_list_featured_image {
+        display: block;
+        > a {
+            display: block;
+            .stm_lms_lazy_image {
+                padding-bottom: 52%;
+            }
+        }
+    }
+}
+
+.stm_lms_courses_categories.style_1 {
+    .stm_lms_courses_category {
+        &_wide {
+            width: 64.167%;
+            .stm_lms_lazy_image {
+                padding-bottom: 48.702%;
+            }
+        }
+        &_default {
+            width: 30.834%;
+            .stm_lms_lazy_image {
+                padding-bottom: 41.896%;
+            }
+        }
+    }
+}
+
+.stm_lms_courses__grid_4 {
+    .stm_lms_courses__single--image {
+        .stm_lms_lazy_image {
+            padding-bottom: 46%;
+        }
+    }
+}
+
+.stm_archive_product_inner_unit .stm_archive_product_inner_unit_centered .stm_featured_product_image {
+    .stm_lms_lazy_image {
+        padding-bottom: 103.6666%;
+    }
+}
+
+.stm_vc_product_cat_card_single_item .cat_image_uploaded {
+    .stm_lms_lazy_image {
+        height: 100%;
+        padding-bottom: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .stm_lms_courses_categories.style_1 {
+        .stm_lms_courses_category {
+            &_default {
+                > a {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

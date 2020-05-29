@@ -1,0 +1,23 @@
+/* line 6, assets/scss/vc_modules/color_separator/style_1.scss */
+.stm_colored_separator {
+  margin: 18px auto 27px; }
+
+/* line 10, assets/scss/vc_modules/color_separator/style_1.scss */
+.triangled_colored_separator {
+  position: relative;
+  width: 40px;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #eab830; }
+  /* line 16, assets/scss/vc_modules/color_separator/style_1.scss */
+  .triangled_colored_separator .triangle {
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    margin-left: -3px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid #eab830; }
+  /* line 25, assets/scss/vc_modules/color_separator/style_1.scss */
+  .triangled_colored_separator.left {
+    margin: 0; }

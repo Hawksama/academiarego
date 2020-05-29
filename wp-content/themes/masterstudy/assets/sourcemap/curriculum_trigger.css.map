@@ -1,0 +1,1 @@
+{"version":3,"sources":["curriculum_trigger.scss"],"names":[],"mappings":"AAAA;EACI,mBAAkB,EACrB","file":"../partials/curriculum_trigger.css","sourcesContent":[".stm-lms-curriculum-trigger {\n    position: absolute;\n}"]}

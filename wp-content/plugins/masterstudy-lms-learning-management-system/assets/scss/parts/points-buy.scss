@@ -1,0 +1,62 @@
+@import "../components/mixins";
+@import "../components/colors";
+
+.stm-lms-buy-buttons .stm_lms_mixed_button__list .btn.btn-outline span, .stm-lms-buy-buttons .stm_lms_mixed_button__list>* span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.stm-lms-buy-buttons .stm_lms_mixed_button__list {
+    .stm_lms_buy_for_points {
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #d1d1d1 !important;
+        img {
+            max-width: 40px;
+            margin-right: 10px;
+        }
+        span {
+            display: block;
+            text-align: left;
+            &.my_points {
+                color: #aaa;
+                font-size: 12px;
+            }
+            &.points_dist {
+                position: relative;
+                top: -2px;
+                display: inline-block;
+                vertical-align: top;
+                font-size: 13px;
+                color: $main_color;
+                cursor: pointer;
+                i {
+                    color: #ccc;
+                    transition: .3s ease;
+                }
+                &:hover {
+                    i {
+                        color: $main_color;
+                    }
+                }
+            }
+        }
+        &.not-enough-points {
+            cursor: not-allowed;
+            .my_points {
+                color: $red;
+            }
+            .points_price {
+                color: #273044 !important;
+            }
+        }
+        &.loading {
+            img {
+                opacity: 0;
+            }
+            &:before {
+                margin-top: 2px;
+            }
+        }
+    }
+}

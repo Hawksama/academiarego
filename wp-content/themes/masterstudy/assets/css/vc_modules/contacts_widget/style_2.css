@@ -1,0 +1,15 @@
+/* line 4, assets/scss/vc_modules/contacts_widget/style_2.scss */
+.widget_contacts .widget_contacts_style_2 li .icon {
+  display: none; }
+
+/* line 7, assets/scss/vc_modules/contacts_widget/style_2.scss */
+.widget_contacts .widget_contacts_style_2 li.widget_contacts_phone {
+  margin-bottom: -4px; }
+
+/* line 11, assets/scss/vc_modules/contacts_widget/style_2.scss */
+.widget_contacts .widget_contacts_style_2 li.widget_contacts_email a {
+  color: #aaaaaa !important; }
+
+/* line 15, assets/scss/vc_modules/contacts_widget/style_2.scss */
+.widget_contacts .widget_contacts_style_2 li .text {
+  max-width: 90%; }

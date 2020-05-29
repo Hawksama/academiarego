@@ -1,0 +1,306 @@
+@import "../../scss_components/mixins";
+@import "../../scss_components/base_variables";
+
+.transparent_header_off {
+    .header_default {
+        padding: 58px 0 44px;
+
+        &:after {
+            display: none;
+        }
+    }
+}
+
+body.single_instructor {
+    .countDays,
+    .countHours,
+    .countMinutes,
+    .countSeconds {
+        border: 0;
+
+        &:after,
+        &:before {
+            display: none;
+        }
+
+        .countdown_label {
+            text-transform: none;
+        }
+    }
+
+    .countDiv {
+        width: 40px;
+        opacity: 0;
+    }
+
+    .position {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .position,
+    .position .digit {
+        line-height: 106px;
+    }
+
+    .countdown_label {
+        bottom: -35px;
+    }
+
+    .stm_lms_courses_list_view {
+        .stm_lms_courses__single.style_2 {
+            .stm_lms_courses__single__inner {
+                text-align: left;
+
+                .stm_lms_courses__single--title {
+                    display: block;
+                    h5 {
+                        text-align: left;
+                    }
+                }
+
+                .stm_lms_courses__single--terms .stm_lms_courses__single--term {
+                    text-align: left;
+                }
+
+                .stm_lms_courses__single--info_meta {
+                    justify-content: left;
+                }
+
+                &:hover {
+                    box-shadow: none !important;
+                }
+            }
+        }
+    }
+}
+
+.widget_mailchimp .stm_mailchimp_unit {
+    overflow: visible;
+
+    .stm_subscribe_email {
+        padding: 6px 70px 6px 25px !important;
+        height: 60px;
+        border-radius: 30px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .button {
+        height: 60px;
+        border-radius: 30px;
+    }
+
+    .stm_subscribe_preloader {
+        min-height: auto !important;
+        bottom: 0;
+        line-height: 55px;
+        border-radius: 30px;
+    }
+}
+
+.icon_box.stm_icon_box_hover_none {
+    padding: 56px 41px 41px;
+    border-left: 6px solid #f2b91e;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+
+    .icon_alignment_left {
+        h3 {
+            margin: 0 0 16px;
+        }
+    }
+
+    &:hover {
+        background-color: #f2b91e;
+
+        .icon i {
+            color: #fff;
+        }
+
+        .icon_text {
+            p,
+            p span {
+                color: #333 !important;
+            }
+        }
+    }
+}
+
+.stats_counter.text-left {
+    .stats_counter_title {
+        text-transform: none;
+    }
+
+    .icon {
+        float: left;
+        margin: 0 29px 0 0;
+    }
+
+    .h1 {
+        margin: 0 0 -3px !important;
+    }
+}
+
+.footer_wrapper {
+    .widget_stm_recent_posts .widget_media_style_2 .h6,
+    .widget_stm_recent_posts .widget_media_style_2 .cats_w,
+    .widget_contacts .widget_contacts_style_2 li.widget_contacts_email a,
+    .socials_widget_wrapper__text a {
+        color: #333 !important;
+    }
+
+    #footer_bottom {
+        .widget_pages ul.style_2 li a span,
+        .widget_contacts ul li .text,
+        .textwidget {
+            font-size: 15px;
+            line-height: 22px;
+        }
+
+        .widget_title h3 {
+            font-size: 22px;
+            text-transform: uppercase !important;
+        }
+    }
+
+    .widget_stm_recent_posts .widget_media_style_2 {
+        .h6 {
+            font-size: 16px;
+            line-height: 1.3;
+        }
+
+        .cats_w {
+            font-size: 13px;
+        }
+    }
+}
+
+.header_main_menu_wrapper .header-menu > li > a {
+    padding: 5px 0 0;
+    text-transform: none;
+    font-size: 18px;
+}
+
+.widget_pages ul.style_2 li a:hover {
+    .h6 {
+        color: #fff !important;
+    }
+
+    &:after {
+        background-color: #fff !important;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .stats_counter.text-left .icon {
+        float: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .stm_static_background.vc_section {
+        background-position: 55% 0 !important;
+    }
+    .transparent_header_off .header_default {
+        padding: 20px 0 10px;
+        min-height: auto;
+
+        .navbar-toggle {
+            padding-top: 5px;
+        }
+    }
+}
+
+@media (max-width: 740px) {
+    .icon_box.stm_icon_box_hover_none {
+        padding: 30px 30px 20px;
+    }
+    .icon_alignment_left .icon {
+        float: none;
+        margin: 0 0 20px;
+    }
+    .stats_counter {
+        text-align: center;
+
+        &.text-left .icon {
+            margin: 0;
+        }
+    }
+    h1 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+    .countDiv {
+        display: none !important;
+    }
+    .countDays, .countHours, .countMinutes, .countSeconds {
+        float: none;
+        display: inline-block;
+    }
+}
+
+.stm_lms_course__title {
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+.icon_box p {
+    opacity: 1 !important;
+}
+
+@media (max-width: 1024px) {
+    .header_default .header_top_bar_socs ul {
+        padding-left: 30px !important;
+    }
+    .header_main_menu_wrapper .header-menu > li {
+        padding: 0 11px;
+
+        > a {
+            font-size: 15px;
+        }
+    }
+    body .header-menu-mobile .header-menu > li.opened > a {
+        color: #eab830 !important;
+    }
+    .header-menu-mobile .header-menu > li .arrow.active {
+        color: #fff;
+    }
+    body.skin_custom_color .header-menu-mobile .header-menu > li.opened > a {
+        background: transparent !important;
+    }
+}
+
+.stm_lms_courses_list_view {
+    .stm_lms_courses__single.style_2 .stm_lms_courses__single__inner__image .stm_price_course_hoverable {
+        top: 15px;
+        left: 15px;
+        bottom: auto;
+        right: auto;
+
+        opacity: 1;
+        visibility: visible;
+
+        .stm_lms_courses__single--price {
+
+            span,
+            strong {
+                padding: 5px 15px 7px;
+                font-size: 16px;
+                line-height: 1.2;
+                vertical-align: top;
+            }
+
+            span {
+                padding-left: 10px;
+                padding-right: 0;
+                margin-right: 0;
+                font-size: 14px;
+                line-height: 1.4;
+                +strong {
+                    padding-left: 5px;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}

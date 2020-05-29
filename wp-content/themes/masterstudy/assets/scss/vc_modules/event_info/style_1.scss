@@ -1,0 +1,60 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.event_title {
+    margin: 0 0 34px;
+}
+
+.event_thumbnail {
+    margin-bottom: 20px;
+}
+
+.event_date_info_table {
+    width: 100%;
+    margin-bottom: 43px;
+    border: 1px solid #e1e2e4;
+    & td {
+        padding: 27px 0;
+    }
+    & .event_info {
+        padding: 0 27px 0 40px;
+    }
+    & .event_btn {
+        padding-right: 27px;
+        text-align: right;
+        & .btn-default {
+            background-color: $orange-dk;
+            border-color: $orange-dk;
+        }
+    }
+}
+
+.stm_event_unit_vc {
+    margin-bottom: 0;
+}
+
+.event_date_info {
+    & .event_date_info_unit {
+        display: inline-block;
+        margin: 3px 15px 3px 0;
+        & .event_labels {
+            display: inline-block;
+            vertical-align: middle;
+            color: $orange-dk;
+            text-transform: uppercase;
+            font-size: 12px;
+            & i {
+                position: relative;
+                top: -1px;
+                vertical-align: middle;
+                margin-right: 4px;
+                font-size: 15px;
+            }
+        }
+        &.event_location {
+            & i {
+                font-size: 17px;
+            }
+        }
+    }
+}

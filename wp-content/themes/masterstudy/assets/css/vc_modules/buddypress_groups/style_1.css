@@ -1,0 +1,186 @@
+/* line 3, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+.stm_buddypress_groups__list ul#groups-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  margin: 0 -11px; }
+  /* line 10, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+  .stm_buddypress_groups__list ul#groups-list li {
+    width: 33.3%;
+    padding: 0 11px;
+    margin-bottom: 22px;
+    transition: .3s ease; }
+    /* line 16, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+    .stm_buddypress_groups__list ul#groups-list li .inner {
+      height: 100%;
+      padding: 30px 15px 10px 30px;
+      background-color: #fff;
+      border-radius: 3px; }
+      /* line 22, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+      .stm_buddypress_groups__list ul#groups-list li .inner .item-avatar {
+        float: left;
+        margin-right: 20px; }
+      /* line 27, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+      .stm_buddypress_groups__list ul#groups-list li .inner .item {
+        padding-bottom: 20px;
+        overflow: hidden; }
+        /* line 31, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+        .stm_buddypress_groups__list ul#groups-list li .inner .item-title {
+          margin-bottom: 4px;
+          line-height: 18px; }
+          /* line 35, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+          .stm_buddypress_groups__list ul#groups-list li .inner .item-title a {
+            font-size: 15px;
+            font-weight: 500;
+            color: #273044; }
+        /* line 42, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+        .stm_buddypress_groups__list ul#groups-list li .inner .item .type {
+          margin: 0 0 5px;
+          font-size: 14px;
+          color: #aaaaaa;
+          font-style: italic; }
+        /* line 49, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+        .stm_buddypress_groups__list ul#groups-list li .inner .item .members,
+        .stm_buddypress_groups__list ul#groups-list li .inner .item .item-meta {
+          position: relative;
+          margin: 0 0 8px;
+          padding-left: 20px;
+          font-size: 14px;
+          line-height: 16px;
+          color: #273044; }
+          /* line 58, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+          .stm_buddypress_groups__list ul#groups-list li .inner .item .members i,
+          .stm_buddypress_groups__list ul#groups-list li .inner .item .item-meta i {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin: -8px 0 0;
+            font-size: 16px; }
+        /* line 67, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+        .stm_buddypress_groups__list ul#groups-list li .inner .item a.group-button {
+          display: inline-block;
+          vertical-align: top;
+          margin: 6px 0 0;
+          padding: 1px 15px 2px;
+          background-color: #195ec8;
+          color: #fff;
+          font-size: 13px;
+          border-radius: 3px;
+          border: 1px solid #195ec8; }
+          /* line 78, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+          .stm_buddypress_groups__list ul#groups-list li .inner .item a.group-button:before {
+            position: relative;
+            top: 1px;
+            margin-right: 10px;
+            content: '\e936';
+            font-family: 'Linearicons'; }
+          /* line 86, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+          .stm_buddypress_groups__list ul#groups-list li .inner .item a.group-button:hover {
+            background-color: #fff;
+            color: #195ec8; }
+          /* line 91, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+          .stm_buddypress_groups__list ul#groups-list li .inner .item a.group-button.leave-group {
+            border: 1px solid #c4cbd3;
+            background-color: #fff;
+            color: #2a3045; }
+            /* line 96, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+            .stm_buddypress_groups__list ul#groups-list li .inner .item a.group-button.leave-group:before {
+              content: '\e934'; }
+            /* line 100, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+            .stm_buddypress_groups__list ul#groups-list li .inner .item a.group-button.leave-group:hover {
+              background-color: #c4cbd3;
+              color: #fff; }
+          /* line 106, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+          .stm_buddypress_groups__list ul#groups-list li .inner .item a.group-button.request-membership {
+            font-size: 11px;
+            padding: 1px 10px 2px; }
+          /* line 112, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+          .stm_buddypress_groups__list ul#groups-list li .inner .item a.group-button.view-group:before {
+            content: '\e6a5'; }
+      /* line 119, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+      .stm_buddypress_groups__list ul#groups-list li .inner:after {
+        content: '';
+        clear: both;
+        display: block; }
+
+/* line 129, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+.stm_buddypress_groups__heading {
+  display: flex; }
+  /* line 132, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+  .stm_buddypress_groups__heading .stm_buddypress_groups__title {
+    margin-right: 30px; }
+  /* line 137, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+  .stm_buddypress_groups__heading .stm_buddypress_groups__sort {
+    position: relative;
+    max-width: 300px;
+    margin-left: auto; }
+    /* line 142, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+    .stm_buddypress_groups__heading .stm_buddypress_groups__sort_label {
+      position: absolute;
+      top: 10px;
+      left: 9px;
+      z-index: 20;
+      font-size: 14px;
+      color: #aaaaaa; }
+    /* line 151, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+    .stm_buddypress_groups__heading .stm_buddypress_groups__sort .select2-container--default .select2-selection--single {
+      min-width: 180px;
+      height: 40px;
+      border: 1px solid #b9bdc1;
+      border-radius: 4px; }
+      /* line 157, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+      .stm_buddypress_groups__heading .stm_buddypress_groups__sort .select2-container--default .select2-selection--single .select2-selection__arrow {
+        height: 40px;
+        width: 40px; }
+        /* line 161, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+        .stm_buddypress_groups__heading .stm_buddypress_groups__sort .select2-container--default .select2-selection--single .select2-selection__arrow b {
+          height: 40px;
+          line-height: 40px; }
+          /* line 165, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+          .stm_buddypress_groups__heading .stm_buddypress_groups__sort .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
+            content: '';
+            top: -2px !important;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 6px 5px 0 5px;
+            border-color: #195fc8 transparent transparent transparent;
+            transform: none !important; }
+      /* line 178, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+      .stm_buddypress_groups__heading .stm_buddypress_groups__sort .select2-container--default .select2-selection--single .select2-selection__rendered {
+        line-height: 40px;
+        padding-left: 60px; }
+
+/* line 188, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+.stm_buddypress_groups.loading #groups-list li {
+  opacity: 0.6; }
+
+@media (max-width: 1190px) {
+  /* line 196, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+  .stm_buddypress_groups__list ul#groups-list li {
+    width: 50%; } }
+
+@media (max-width: 800px) {
+  /* line 202, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+  .stm_buddypress_groups__list ul#groups-list li {
+    width: 100%; }
+  /* line 206, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+  .stm_buddypress_groups__heading {
+    flex-wrap: wrap; }
+    /* line 208, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+    .stm_buddypress_groups__heading .stm_buddypress_groups__title {
+      margin: 0 0 15px; }
+    /* line 211, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+    .stm_buddypress_groups__heading .stm_buddypress_groups__sort {
+      margin: 0 0 30px; }
+    /* line 214, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+    .stm_buddypress_groups__heading .stm_buddypress_groups__title,
+    .stm_buddypress_groups__heading .stm_buddypress_groups__sort {
+      width: 100%; } }
+
+@media (max-width: 500px) {
+  /* line 223, assets/scss/vc_modules/buddypress_groups/style_1.scss */
+  .stm_buddypress_groups__list ul#groups-list li .inner .item-avatar {
+    float: none;
+    margin: 0 0 15px; } }

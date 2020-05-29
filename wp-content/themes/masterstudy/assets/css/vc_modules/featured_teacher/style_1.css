@@ -1,0 +1,54 @@
+/* line 4, assets/scss/vc_modules/featured_teacher/style_1.scss */
+.stm_lms_featured_teacher {
+  padding: 147px 0 6px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  /* line 10, assets/scss/vc_modules/featured_teacher/style_1.scss */
+  .stm_lms_featured_teacher .stm_lms_featured_teacher_content .btn {
+    margin-bottom: 53px;
+    padding: 13px 15px;
+    border-radius: 0;
+    letter-spacing: 0.3px; }
+  /* line 16, assets/scss/vc_modules/featured_teacher/style_1.scss */
+  .stm_lms_featured_teacher .stm_lms_featured_teacher_content h2 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -3.6px; }
+  /* line 22, assets/scss/vc_modules/featured_teacher/style_1.scss */
+  .stm_lms_featured_teacher .stm_lms_featured_teacher_content h4 {
+    margin-bottom: 28px;
+    font-weight: 600;
+    letter-spacing: 0.7px; }
+  /* line 27, assets/scss/vc_modules/featured_teacher/style_1.scss */
+  .stm_lms_featured_teacher .stm_lms_featured_teacher_content__bio {
+    margin-bottom: 65px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px; }
+  /* line 33, assets/scss/vc_modules/featured_teacher/style_1.scss */
+  .stm_lms_featured_teacher .stm_lms_featured_teacher_content__text {
+    width: 50%; }
+  /* line 38, assets/scss/vc_modules/featured_teacher/style_1.scss */
+  .stm_lms_featured_teacher .stm_lms_featured_teacher_courses h4 {
+    margin-bottom: 28px;
+    font-weight: 600;
+    text-transform: uppercase; }
+
+@media (max-width: 1024px) {
+  /* line 47, assets/scss/vc_modules/featured_teacher/style_1.scss */
+  .stm_lms_featured_teacher {
+    padding: 47px 0 6px; }
+  /* line 53, assets/scss/vc_modules/featured_teacher/style_1.scss */
+  .stm_lms_featured_teacher_courses .stm_lms_courses__grid .stm_lms_courses__single:last-child {
+    display: none; } }
+
+@media (max-width: 769px) {
+  /* line 62, assets/scss/vc_modules/featured_teacher/style_1.scss */
+  .stm_lms_featured_teacher {
+    padding: 47px 0 6px;
+    background: none !important; }
+    /* line 65, assets/scss/vc_modules/featured_teacher/style_1.scss */
+    .stm_lms_featured_teacher .stm_lms_featured_teacher_content__text {
+      width: 90%; } }

@@ -1,0 +1,2325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MasterStudy LMS Learning Management System PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-17 05:18+0000\n"
+"PO-Revision-Date: 2020-05-22 01:05+0300\n"
+"Language-Team: Turkish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: Burak <swantska@gmail.com>\n"
+"Language: tr_TR\n"
+"X-Loco-Version: 2.3.1; wp-5.4\n"
+
+#: stm-lms-templates/stm-lms-assignments.php:13
+#: stm-lms-templates/stm-lms-enterprise-groups.php:10
+#: stm-lms-templates/stm-lms-assignment.php:20
+msgid "Group Limit:"
+msgstr "Grup Limiti:"
+
+#: stm-lms-templates/stm-lms-assignments.php:29
+#: stm-lms-templates/stm-lms-enterprise-groups.php:22
+#: stm-lms-templates/stm-lms-gradebook.php:16
+#: stm-lms-templates/manage_course/single.php:73
+#: stm-lms-templates/account/private/parts/certificates.php:10
+msgid "Back to account"
+msgstr "Hesaba dön"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:14
+msgid "You wont be able to manage group anymore. Proceed with caution!"
+msgstr "Artık grubu yönetemeyeceksiniz. Dikkatle ilerleyin!"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:15
+msgid "Do you really want to delete this user from group?"
+msgstr "Bu kullanıcıyı gerçekten gruptan silmek istiyor musunuz?"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:34
+msgid "Back to groups"
+msgstr "Gruplara dön"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:37
+#, php-format
+msgid "Group \"%s\""
+msgstr "Grup \"%s\""
+
+#: stm-lms-templates/stm-lms-gradebook.php:19 lms/classes/addons.php:46
+msgid "The Gradebook"
+msgstr "Not Defteri"
+
+#: stm-lms-templates/stm-lms-gradebook.php:28 addons/udemy/main.php:77
+msgid "Search Courses"
+msgstr "Kursları Ara"
+
+#: stm-lms-templates/stm-lms-gradebook.php:32
+msgid "Enter keyword here"
+msgstr "Buraya anahtar kelime girin"
+
+#: stm-lms-templates/stm-lms-gradebook.php:39
+msgid "Order by Views"
+msgstr "Görüntülemeye göre sırala"
+
+#: stm-lms-templates/stm-lms-gradebook.php:74
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:130
+msgid "Load more"
+msgstr "Daha fazla yükle"
+
+#: stm-lms-templates/stm-lms-assignment.php:15
+#, php-format
+msgid "Status: %sPending%s"
+msgstr "Durum: %sBeklemede%s"
+
+#: stm-lms-templates/stm-lms-assignment.php:16
+#, php-format
+msgid "Status: %sPassed%s"
+msgstr "Durum: %sGeçti%s"
+
+#: stm-lms-templates/stm-lms-assignment.php:17
+#, php-format
+msgid "Status: %sNon passed%s"
+msgstr "Durum: %sKaldı%s"
+
+#: stm-lms-templates/stm-lms-assignment.php:34
+#: stm-lms-templates/stm-lms-user-assignment.php:30
+msgid "Back to Assignments"
+msgstr "Ödevlere dön"
+
+#: stm-lms-templates/stm-lms-user-points-history.php:18
+#: stm-lms-templates/stm-lms-user-points-distribution.php:18
+#: stm-lms-templates/bundles/my_bundles.php:17
+msgid "Back to Account"
+msgstr "Hesaba dön"
+
+#: stm-lms-templates/stm-lms-user-assignment.php:14
+msgid "Do you really want to approve this Essay?"
+msgstr "Bu Makaleyi gerçekten onaylamak istiyor musunuz?"
+
+#: stm-lms-templates/stm-lms-user-assignment.php:15
+msgid "Do you really want to reject this Essay?"
+msgstr "Bu makaleyi gerçekten reddetmek istiyor musunuz?"
+
+#: lms/classes/addons.php:17
+msgid "Udemy Course Importer"
+msgstr "Udemy Kurs Aktarıcı"
+
+#: lms/classes/addons.php:22 stm-lms-templates/global/prerequisite.php:12
+msgid "Prerequisites"
+msgstr "Ön koşullar"
+
+#: lms/classes/addons.php:26 addons/online_testing/main.php:21
+msgid "Online Testing"
+msgstr "Online Test"
+
+#: lms/classes/addons.php:31
+msgid "Statistics and Payout"
+msgstr "İstatistik ve Ödeme"
+
+#: lms/classes/addons.php:36
+msgid "Trial Courses"
+msgstr "Deneme Kursları"
+
+#: lms/classes/addons.php:41 addons/sequential_drip_content/main.php:251
+#: addons/sequential_drip_content/main.php:260
+#: addons/sequential_drip_content/main.php:265
+msgid "Sequential Drip Content"
+msgstr "Sıralı Damla İçeriği"
+
+#: lms/classes/addons.php:50
+msgid "Lessons Live Streaming"
+msgstr "Canlı Ders Yayını"
+
+#: lms/classes/addons.php:54
+msgid "Group Courses"
+msgstr "Grup Kursları"
+
+#: lms/classes/addons.php:59 addons/assignments/main.php:429
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:2
+msgid "Assignments"
+msgstr "Ödevler"
+
+#: lms/classes/addons.php:64
+msgid "Point system"
+msgstr "Puan sistemi"
+
+#: lms/classes/addons.php:69
+msgid "Course Bundle"
+msgstr "Kurs Paketi"
+
+#: lms/classes/addons.php:74
+msgid "Multi-instructors"
+msgstr "Çoklu öğretmen"
+
+#: lms/classes/addons.php:78
+msgid "Google Classrooms"
+msgstr "Google Classrooms"
+
+#: lms/classes/addons.php:83 addons/zoom_conference/main.php:99
+#: addons/zoom_conference/main.php:108
+msgid "Zoom Conference"
+msgstr "Zoom Konferansı"
+
+#: lms/classes/addons.php:88
+msgid "Scorm"
+msgstr "Scorm"
+
+#: lms/classes/certificates.php:47
+msgid "Enter valid code"
+msgstr "Geçerli bir kod girin"
+
+#: lms/classes/certificates.php:71 lms/classes/certificates.php:78
+msgid "Sorry, Certificate not found"
+msgstr "Üzgünüz, Sertifika bulunamadı"
+
+#: lms/classes/certificates.php:83
+#, php-format
+msgid "Certificate is valid. Course \"%s\" finished by %s"
+msgstr "Sertifika geçerli. \"%s\" kursu %s tarafından tamamlandı"
+
+#: lms/classes/manage_course.php:31
+msgid "Your Course title here..."
+msgstr "Kurs başlığını buraya girin..."
+
+#: lms/classes/manage_course.php:32
+msgid "Course title"
+msgstr "Kurs başlığı"
+
+#: lms/classes/manage_course.php:33 lms/classes/manage_course.php:87
+msgid "Choose category"
+msgstr "Kategori seçin"
+
+#: lms/classes/manage_course.php:402
+msgid "Course Saved, redirecting..."
+msgstr "Kurs Kaydedildi, yönlendiriliyor..."
+
+#: lms/classes/manage_course.php:485
+msgid "Please log-in"
+msgstr "Lütfen giriş yapın"
+
+#: lms/classes/manage_course.php:498
+msgid "It is not your course."
+msgstr "Bu sizin kursunuz değil."
+
+#: lms/actions/create_announcement.php:14
+msgid "Announcement has been sent to course students."
+msgstr "Duyuru kurs öğrencilerine gönderildi."
+
+#: lms/actions/create_announcement.php:19
+msgid "Please fill all fields"
+msgstr "Lütfen tüm alanları doldurun"
+
+#: lms/actions/create_announcement.php:37
+msgid "Announcement from Instructor"
+msgstr "Öğretmenden Duyuru"
+
+#: addons/statistics/main.php:25
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: addons/zoom_conference/main.php:59
+msgctxt "post type general name"
+msgid "Zoom Conferences"
+msgstr "Zoom Konferansları"
+
+#: addons/zoom_conference/main.php:60
+msgctxt "post type singular name"
+msgid "Zoom Conference"
+msgstr "Zoom Konferansı"
+
+#: addons/zoom_conference/main.php:61
+msgctxt "admin menu"
+msgid "Zoom Conferences"
+msgstr "Zoom Konferansları"
+
+#: addons/zoom_conference/main.php:62
+msgctxt "add new on admin bar"
+msgid "Zoom Conference"
+msgstr "Zoom Konferansı"
+
+#: addons/zoom_conference/main.php:63
+msgctxt "zoom_conference"
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+#: addons/zoom_conference/main.php:64
+msgid "Add New Zoom Conference"
+msgstr "Yeni Zoom Konferansı Ekle"
+
+#: addons/zoom_conference/main.php:65
+msgid "New Zoom Conference"
+msgstr "Yeni Zoom Konferansı"
+
+#: addons/zoom_conference/main.php:66
+msgid "Edit Zoom Conference"
+msgstr "Zoom Konferansını Düzenle"
+
+#: addons/zoom_conference/main.php:67
+msgid "View Zoom Conference"
+msgstr "Zoom Konferansını Gör"
+
+#: addons/zoom_conference/main.php:68
+msgid "All Zoom Conferences"
+msgstr "Tüm Zoom Konferansları"
+
+#: addons/zoom_conference/main.php:69
+msgid "Search Zoom Conferences"
+msgstr "Zoom Konferanslarını Ara"
+
+#: addons/zoom_conference/main.php:70
+msgid "Parent Zoom Conferences:"
+msgstr "Esas Zoom Konferansları:"
+
+#: addons/zoom_conference/main.php:71
+msgid "No Zoom Conferences found."
+msgstr "Zoom Konferansı bulunamadı."
+
+#: addons/zoom_conference/main.php:72
+msgid "No Zoom Conferences found in Trash."
+msgstr "Çöp Kutusunda Zoom Konferansı bulunamadı."
+
+#: addons/zoom_conference/main.php:77 addons/live_streams/main.php:48
+msgid "Description."
+msgstr "Açıklama."
+
+#: addons/zoom_conference/main.php:112
+msgid "Conference Start Date"
+msgstr "Konferans Başlangıç Tarihi"
+
+#: addons/zoom_conference/main.php:118
+msgid "Conference Start Time"
+msgstr "Konferans Başlangıç Saati"
+
+#: addons/zoom_conference/main.php:124 addons/zoom_conference/main.php:182
+msgid "Timezone"
+msgstr "Zaman dilimi"
+
+#: addons/zoom_conference/main.php:130
+msgid "Join before host"
+msgstr "Ev sahibinden önce katıl"
+
+#: addons/zoom_conference/main.php:135 addons/zoom_conference/main.php:209
+msgid "Host join start"
+msgstr "Ev sahibiyle katıl"
+
+#: addons/zoom_conference/main.php:140 addons/zoom_conference/main.php:221
+msgid "Start After Participants"
+msgstr "Katılımcılardan Sonra Başla"
+
+#: addons/zoom_conference/main.php:145 addons/zoom_conference/main.php:234
+msgid "Mute Participants upon entry"
+msgstr "Giriş yaptıktan sonra Katılımcıları sessize al"
+
+#: addons/zoom_conference/main.php:150 addons/zoom_conference/main.php:247
+msgid "Enforce Login"
+msgstr "Girişe Zorla"
+
+#: addons/zoom_conference/main.php:165 addons/live_streams/main.php:114
+msgid "Stream start date"
+msgstr "Yayın başlangıç tarihi"
+
+#: addons/zoom_conference/main.php:175 addons/live_streams/main.php:124
+msgid "Stream start time"
+msgstr "Yayın başlangıç saati"
+
+#: addons/zoom_conference/main.php:197
+msgid "Join Before Host"
+msgstr "Ev Sahibinden Önce Katıl"
+
+#: addons/course_bundle/settings.php:41 addons/udemy/main.php:52
+#: addons/assignments/main.php:400 addons/sequential_drip_content/main.php:49
+#: addons/shareware/main.php:41 addons/google_classrooms/main.php:321
+#: addons/enterprise_courses/main.php:126
+msgid "Credentials"
+msgstr "Kimlik Bilgileri"
+
+#: addons/course_bundle/settings.php:45
+msgid "Bundles quantity limit"
+msgstr "Paket miktar sınırı"
+
+#: addons/course_bundle/settings.php:49
+msgid "Courses in bundle quantity limit"
+msgstr "Paketteki kurs miktar sınırı"
+
+#: addons/course_bundle/settings.php:50
+msgid ""
+"By default limit is 5. Five courses - fits the best in bundle on frontend."
+msgstr "Varsayılan sınır 5'tir. Beş kurs - öndeki pakette en iyisi."
+
+#: addons/course_bundle/cart.php:41 addons/course_bundle/cart.php:48
+#: addons/enterprise_courses/main.php:344
+#: addons/enterprise_courses/main.php:353
+msgid "Go to Cart"
+msgstr "Sepete Git"
+
+#: addons/course_bundle/cart.php:63
+msgid "Bundle"
+msgstr "Paket"
+
+#: addons/course_bundle/main.php:29 addons/course_bundle/main.php:30
+msgid "Course Bundles"
+msgstr "Kurs Paketleri"
+
+#: addons/course_bundle/main.php:60
+msgid "Bundles"
+msgstr "Paketler"
+
+#: addons/course_bundle/my-bundle.php:84 addons/course_bundle/my-bundle.php:137
+msgid "Please, upload bundle image"
+msgstr "Lütfen paket resmi yükleyin"
+
+#: addons/course_bundle/my-bundle.php:102 addons/assignments/main.php:654
+msgid "Invalid file extension"
+msgstr "Geçersiz dosya uzantısı"
+
+#: addons/course_bundle/my-bundle.php:164
+msgid "Bundle saved. Redirecting..."
+msgstr "Paket kaydedildi. Yönlendiriliyor..."
+
+#: addons/course_bundle/my-bundle.php:183 addons/assignments/main.php:617
+msgid "Invalid File"
+msgstr "Geçersiz Dosya"
+
+#: addons/course_bundle/my-bundles.php:52
+msgid "Quota exceeded"
+msgstr "Kota aşıldı"
+
+#: addons/udemy/import.php:76
+msgid "Importing Curriculum"
+msgstr "Müfredat İçe Aktarılıyor"
+
+#: addons/udemy/import.php:168
+msgid "Get on Udemy"
+msgstr "Udemy'ye geç"
+
+#: addons/udemy/import.php:284
+#: addons/google_classrooms/admin_view/courses.php:57
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:83
+msgid "Preview"
+msgstr "Ön izleme"
+
+#: addons/udemy/main.php:56
+msgid "Client ID"
+msgstr "Müşteri No"
+
+#: addons/udemy/main.php:61
+msgid "Client Secret"
+msgstr "Gizli Müşteri"
+
+#: addons/udemy/main.php:66
+msgid "Udemy Rakuten Affiliate script"
+msgstr "Udemy Rakuten Satış Ortağı yazısı"
+
+#: addons/udemy/main.php:73
+msgid "Search"
+msgstr "Arama"
+
+#: addons/udemy/main.php:82
+msgid "Imported Courses"
+msgstr "İçe Aktarılan Kurslar"
+
+#: addons/udemy/main.php:109
+msgid "Please, enter Udemy API Credentials"
+msgstr "Lütfen Udemy API Kimlik Bilgilerini girin"
+
+#: addons/udemy/main.php:137 stm-lms-templates/gradebook/course-details.php:46
+msgid "Nothing Found"
+msgstr "Bulunamadı"
+
+#: addons/udemy/main.php:192
+msgid "Published"
+msgstr "Yayınlandı"
+
+#: addons/assignments/main.php:404
+msgid "Number of allowed attachments"
+msgstr "İzin verilen ek sayısı"
+
+#: addons/assignments/main.php:409
+msgid "Max file size (Mb)"
+msgstr "Maks dosya boyutu (Mb)"
+
+#: addons/assignments/main.php:428 addons/assignments/main.php:480
+#: addons/assignments/main.php:491
+msgid "Assignment"
+msgstr "Ödev"
+
+#: addons/assignments/main.php:440
+msgid "Student Assignment"
+msgstr "Öğrenci Ödevi"
+
+#: addons/assignments/main.php:441
+#: stm-lms-templates/account/private/parts/assignments_btn.php:11
+msgid "Student Assignments"
+msgstr "Öğrenci Ödevleri"
+
+#: addons/assignments/main.php:495
+msgid "# of try"
+msgstr "# deneme"
+
+#: addons/assignments/main.php:499
+msgid "Start Date"
+msgstr "Başlangıç Tarihi"
+
+#: addons/assignments/main.php:503
+msgid "End Date"
+msgstr "Bitiş Tarihi"
+
+#: addons/assignments/main.php:507
+#: addons/google_classrooms/admin_view/courses.php:26
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:8
+msgid "Status"
+msgstr "Durum"
+
+#: addons/assignments/main.php:509
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:30
+msgid "Passed"
+msgstr "Geçti"
+
+#: addons/assignments/main.php:510
+msgid "Not passed"
+msgstr "Kaldı"
+
+#: addons/assignments/main.php:515
+msgid "Editor Comment"
+msgstr "Editör Yorumu"
+
+#: addons/assignments/main.php:519
+msgid "Assignment ID (dont change)"
+msgstr "Ödev No (değiştirmeyin)"
+
+#: addons/assignments/main.php:523
+msgid "Student ID (dont change)"
+msgstr "Öğrenci No (değiştirmeyin)"
+
+#: addons/assignments/main.php:527
+msgid "Course ID (dont change)"
+msgstr "Kurs No (değiştirmeyin)"
+
+#: addons/assignments/main.php:640
+msgid "File is too large. Split it up to several archives."
+msgstr "Dosya çok büyük. Birkaç arşive bölün."
+
+#: addons/assignments/main.php:671
+msgid "You are out of file limit."
+msgstr "Dosya sınırınız kalmadı."
+
+#: addons/assignments/main.php:858
+msgid "Check new assignment, send by student."
+msgstr "Öğrenci tarafından gönderilen yeni ödevi kontrol edin."
+
+#: addons/assignments/main.php:859
+msgid "New assignment"
+msgstr "Yeni ödev"
+
+#: addons/assignments/user_assignment.class.php:116
+msgid "Your assignment was checked"
+msgstr "Ödeviniz kontrol edildi"
+
+#: addons/assignments/user_assignment.class.php:117
+msgid "Assignment status change."
+msgstr "Ödev durum değişikliği."
+
+#: addons/online_testing/main.php:47
+msgid "How to use"
+msgstr "Nasıl kullanılır"
+
+#: addons/online_testing/main.php:68
+msgid "Close"
+msgstr "Kapat"
+
+#: addons/sequential_drip_content/main.php:53
+msgid "Lock lessons sequentially"
+msgstr "Dersleri sırayla kilitleyin"
+
+#: addons/sequential_drip_content/main.php:58
+msgid "Lock lesson before it starts"
+msgstr "Dersi başlamadan önce kilitleyin"
+
+#: addons/sequential_drip_content/main.php:106
+msgid "Lesson start date"
+msgstr "Ders başlangıç tarihi"
+
+#: addons/sequential_drip_content/main.php:116
+msgid "Lesson start time"
+msgstr "Ders başlangıç saati"
+
+#: addons/sequential_drip_content/main.php:281
+msgid "Lesson Start Date"
+msgstr "Ders Başlangıç Tarihi"
+
+#: addons/sequential_drip_content/main.php:287
+msgid "Lesson Start Time"
+msgstr "Ders Başlangıç Saati"
+
+#: addons/shareware/main.php:45
+msgid "Number of free lessons"
+msgstr "Ücretsiz ders sayısı"
+
+#: addons/shareware/main.php:58
+msgid "Trial Course"
+msgstr "Denem Kursu"
+
+#: addons/prerequisite/main.php:22
+msgid "Course Prerequisites"
+msgstr "Kurs Ön Koşulları"
+
+#: addons/prerequisite/main.php:31 addons/enterprise_courses/main.php:624
+#: stm-lms-templates/manage_course/parts/tabs.php:7
+#: stm-lms-templates/course/udemy/parts/tabs.php:7
+#: stm-lms-templates/course/classic/parts/tabs.php:7
+#: stm-lms-templates/manage_course/forms/js/wizard.php:53
+#: stm-lms-templates/manage_course/forms/js/wizard.php:61
+#: stm-lms-templates/manage_course/forms/js/wizard.php:69
+msgid "Curriculum"
+msgstr "Müfredat"
+
+#: addons/prerequisite/main.php:36
+#: stm-lms-templates/manage_course/global/prerequisites.php:10
+msgid "Prerequisite Courses"
+msgstr "Ön Koşul Kursları"
+
+#: addons/prerequisite/main.php:40
+#: stm-lms-templates/manage_course/global/prerequisites.php:20
+msgid "Prerequisite Courses Passing Percent (%)"
+msgstr "Ön Koşul Kursları Geçme Yüzdesi (%)"
+
+#: addons/google_classrooms/main.php:116
+msgid "Not a JSON file"
+msgstr "JSON dosyası değil"
+
+#: addons/google_classrooms/main.php:125 addons/google_classrooms/main.php:135
+msgid "Wrong JSON file"
+msgstr "Yanlış JSON dosyası"
+
+#: addons/google_classrooms/main.php:144
+msgid "JSON Loaded, reloading..."
+msgstr "JSON yüklendi, tekrar yükleniyor..."
+
+#: addons/google_classrooms/main.php:325
+msgid "Only logged in students in a specific classroom can see the code"
+msgstr "Sadece belirli bir sınıfa giriş yapan öğrenciler kodu görebilir"
+
+#: addons/google_classrooms/main.php:330
+msgid "Enable popup"
+msgstr "Açılır pencere etkin"
+
+#: addons/google_classrooms/main.php:334
+msgid "Popup Title"
+msgstr "Açılır Pencere Başlığı"
+
+#: addons/google_classrooms/main.php:342
+msgid "Popup Editor"
+msgstr "Açılır Pencere Editörü"
+
+#: addons/google_classrooms/main.php:350
+msgid "Popup Image"
+msgstr "Açılır Pencere Resmi"
+
+#: addons/google_classrooms/main.php:358
+msgid "Popup Auditory base URL"
+msgstr "Açılır Pencere Ses URL"
+
+#: addons/google_classrooms/main.php:462
+msgid "Google Classroom view"
+msgstr "Google Classroom görünümü"
+
+#: addons/google_classrooms/auditory.php:62
+#: addons/google_classrooms/auditory.php:63
+#: addons/google_classrooms/frontend_view/google_classroom.php:9
+msgid "Classrooms"
+msgstr "Sınıflar"
+
+#: addons/google_classrooms/auditory.php:76
+#: addons/google_classrooms/auditory.php:77
+msgid "Classroom Auditory"
+msgstr "Sınıf Sesi"
+
+#: addons/point_system/settings.php:55 addons/multi_instructors/settings.php:36
+msgid "Interface"
+msgstr "Ara yüz"
+
+#: addons/point_system/settings.php:59
+msgid "Point Image"
+msgstr "Puan Resmi"
+
+#: addons/point_system/settings.php:63 addons/multi_instructors/settings.php:40
+msgid "Point Label"
+msgstr "Puan Etiketi"
+
+#: addons/point_system/settings.php:67
+msgid "Point Rate"
+msgstr "Puan Oranı"
+
+#: addons/point_system/settings.php:68
+msgid "Point rate relative to price (Ex.: 100 - means 100 points equal 1$)"
+msgstr "Fiyata göre puan oranı (Örn .: 100 - 100 puan 1 $ demektir)"
+
+#: addons/point_system/settings.php:73
+msgid "Enable Affiliate Points"
+msgstr "Satış Ortağı Puanlarını Etkinleştir"
+
+#: addons/point_system/settings.php:74
+msgid ""
+"Your users can share their affiliate link, and get points for activity of "
+"users, they invited."
+msgstr ""
+"Kullanıcılarınız satış ortaklığı bağlantılarını paylaşabilir ve davet "
+"ettikleri kullanıcıların etkinliği için puan alabilirler."
+
+#: addons/point_system/settings.php:78
+msgid "Affiliate Points percent (%)"
+msgstr "Satış Ortağı Puanları yüzdesi (%)"
+
+#: addons/point_system/settings.php:79
+msgid "Number of percent, user will receive from affiliate"
+msgstr "Kullanıcının satış ortaklığından alacağı yüzde"
+
+#: addons/point_system/settings.php:85
+#: stm-lms-templates/points/distribution.php:9
+msgid "Points Distribution"
+msgstr "Puan Dağılımı"
+
+#: addons/point_system/points.php:8
+msgid "User registered"
+msgstr "Kayıtlı kullanıcı"
+
+#: addons/point_system/points.php:9
+msgid "Register on site to get start points."
+msgstr "Puan kazanmaya başlamak için siteye kaydolun."
+
+#: addons/point_system/points.php:10 addons/point_system/points.php:84
+msgid "Once only"
+msgstr "Sadece bir kere"
+
+#: addons/point_system/points.php:14
+msgid "Course purchased"
+msgstr "Kurs satın alındı"
+
+#: addons/point_system/points.php:15
+msgid "Purchase Course on site."
+msgstr "Kursu siteden satın al."
+
+#: addons/point_system/points.php:16 addons/point_system/points.php:22
+#: addons/point_system/points.php:28 addons/point_system/points.php:34
+#: addons/point_system/points.php:40 addons/point_system/points.php:46
+#: addons/point_system/points.php:52 addons/point_system/points.php:58
+#: addons/point_system/points.php:91
+msgid "Repeated"
+msgstr "Tekrar"
+
+#: addons/point_system/points.php:20
+msgid "Assignment Passed"
+msgstr "Ödev Geçildi"
+
+#: addons/point_system/points.php:21
+msgid "Pass Assignment with approved label from Instructor."
+msgstr "Ödevi öğretmen onayı etiketiyle geçin."
+
+#: addons/point_system/points.php:26
+msgid "Certificate Received"
+msgstr "Sertifika Alındı"
+
+#: addons/point_system/points.php:27
+msgid ""
+"Complete course with minimum threshold, and download certificate from your "
+"account."
+msgstr "Minimum eşik ile kursu tamamlayın ve hesabınızdan sertifika indirin."
+
+#: addons/point_system/points.php:32
+msgid "Quiz Passed"
+msgstr "Quiz Geçildi"
+
+#: addons/point_system/points.php:33
+msgid "Complete quiz with minimum threshold."
+msgstr "Minimum eşik ile quizi tamamlayın."
+
+#: addons/point_system/points.php:38
+msgid "Quiz Passed Perfectly"
+msgstr "Quiz Kusursuz Geçildi"
+
+#: addons/point_system/points.php:39
+msgid "Complete quiz with 100% progress."
+msgstr "Quizi %100 ilerlemeyle tamamlayın."
+
+#: addons/point_system/points.php:44
+msgid "Lesson Passed"
+msgstr "Ders Geçildi"
+
+#: addons/point_system/points.php:45
+msgid "Complete lesson in a course."
+msgstr "Kurstaki dersi tamamlayın."
+
+#: addons/point_system/points.php:50
+msgid "Group Joined"
+msgstr "Katılınan Grup"
+
+#: addons/point_system/points.php:51
+msgid "Become a member of a group."
+msgstr "Grubun üyesi olun."
+
+#: addons/point_system/points.php:56
+msgid "Friendship accepted"
+msgstr "Arkadaşlık kabul edildi"
+
+#: addons/point_system/points.php:57
+msgid "Accept a friendship from another student."
+msgstr "Başka bir öğrencinin arkadaşlığını kabul edin."
+
+#: addons/point_system/points.php:62
+msgid "Course Bought"
+msgstr "Alınan Kurs"
+
+#: addons/point_system/points.php:82
+msgid "User registered (Affiliate)"
+msgstr "Kullanıcı kayıtlı (Satış Ortağı)"
+
+#: addons/point_system/points.php:83 addons/point_system/points.php:90
+msgid "Share your affiliate link ang get points for users, using your link."
+msgstr "Satış ortağı bağlantınızı paylaşın ve kullanıcılardan puan kazanın."
+
+#: addons/point_system/points.php:89
+msgid "Course purchased (Affiliate)"
+msgstr "Satın alınan kurs (Satış ortağı)"
+
+#: addons/enterprise_courses/main.php:130
+msgid "Number of allowed members in group"
+msgstr "Gruptaki izin verilen üye sayısı"
+
+#: addons/enterprise_courses/main.php:209
+#: addons/enterprise_courses/main.php:532
+msgid "Log in"
+msgstr "Giriş"
+
+#: addons/enterprise_courses/main.php:225
+msgid "Specify group name"
+msgstr "Grup adını belirtin"
+
+#: addons/enterprise_courses/main.php:233
+msgid "Error. Try again"
+msgstr "Hatalı. Tekrar deneyin"
+
+#: addons/enterprise_courses/main.php:369
+msgid "New group invite"
+msgstr "Yeni grup daveti"
+
+#: addons/enterprise_courses/main.php:370
+#, php-format
+msgid ""
+"You were added to group: \"%s\". Now you can check new courses, bought by "
+"group."
+msgstr ""
+"Şu gruba eklendiniz: \"%s\". Artık grup tarafından satın alınan yeni "
+"kursları kontrol edebilirsiniz."
+
+#: addons/enterprise_courses/main.php:384
+#, php-format
+msgid "Login: %s; Password: %s; Site URL: %s"
+msgstr "Giriş: %s; Şifre: %s; Site URL: %s"
+
+#: addons/enterprise_courses/main.php:520
+msgid "Invalid CSV File"
+msgstr "Geçersiz CSV Dosyası"
+
+#: addons/enterprise_courses/main.php:541
+msgid "Wrong CSV Format"
+msgstr "Yanlış CSV Formatı"
+
+#: addons/enterprise_courses/main.php:590
+msgid "Enterprise Group"
+msgstr "Kurum Kursu"
+
+#: addons/enterprise_courses/main.php:591
+#: stm-lms-templates/account/private/parts/groups_btn.php:10
+msgid "Enterprise Groups"
+msgstr "Kurum Grupları"
+
+#: addons/enterprise_courses/main.php:609
+msgid "Group Settings"
+msgstr "Grup Ayarları"
+
+#: addons/enterprise_courses/main.php:613
+msgid "Enterprise Settings"
+msgstr "Kurum Ayarları"
+
+#: addons/enterprise_courses/main.php:628
+msgid "Author ID"
+msgstr "Yazar No"
+
+#: addons/enterprise_courses/main.php:632
+msgid "Emails"
+msgstr "Epostalar"
+
+#: addons/enterprise_courses/main.php:640
+msgid "Enterprise Courses"
+msgstr "Kurum Kursları"
+
+#: addons/enterprise_courses/main.php:644
+msgid "Enterprise price"
+msgstr "Kurum fiyatı"
+
+#: addons/enterprise_courses/main.php:664
+#, php-format
+msgid "%sEnterprise%s for group %s"
+msgstr "%sKurum%s %s grubu için"
+
+#: addons/enterprise_courses/main.php:807
+#, php-format
+msgid "Enterprise for %s"
+msgstr "%s için kurum"
+
+#: addons/enterprise_courses/main.php:1067
+#: addons/enterprise_courses/main.php:1096
+#: addons/enterprise_courses/main.php:1122
+#, php-format
+msgid "Hello %s"
+msgstr "Merhaba %s"
+
+#: addons/live_streams/main.php:30
+msgctxt "post type general name"
+msgid "Live Streams"
+msgstr "Canlı Yayınlar"
+
+#: addons/live_streams/main.php:31
+msgctxt "post type singular name"
+msgid "Live Stream"
+msgstr "Canlı Yayın"
+
+#: addons/live_streams/main.php:32
+msgctxt "admin menu"
+msgid "Live Streams"
+msgstr "Canlı Yayınlar"
+
+#: addons/live_streams/main.php:33
+msgctxt "add new on admin bar"
+msgid "Live Stream"
+msgstr "Canlı Yayın"
+
+#: addons/live_streams/main.php:34
+msgctxt "live_stream"
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+#: addons/live_streams/main.php:35
+msgid "Add New Live Stream"
+msgstr "Yeni Canlı Yayın Ekle"
+
+#: addons/live_streams/main.php:36
+msgid "New Live Stream"
+msgstr "Yeni Canlı Yayın"
+
+#: addons/live_streams/main.php:37
+msgid "Edit Live Stream"
+msgstr "Canlı Yayını Düzenle"
+
+#: addons/live_streams/main.php:38
+msgid "View Live Stream"
+msgstr "Canlı Yayını Gör"
+
+#: addons/live_streams/main.php:39
+msgid "All Live Streams"
+msgstr "Tüm Canlı Yayınlar"
+
+#: addons/live_streams/main.php:40
+msgid "Search Live Streams"
+msgstr "Canlı Yayınları Ara"
+
+#: addons/live_streams/main.php:41
+msgid "Parent Live Streams:"
+msgstr "Esas Canlı Yayınlar:"
+
+#: addons/live_streams/main.php:42
+msgid "No Live Streams found."
+msgstr "Canlı Yayın bulunamadı."
+
+#: addons/live_streams/main.php:43
+msgid "No Live Streams found in Trash."
+msgstr "Çöp Kutusunda Canlı Yayın bulunamadı."
+
+#: addons/live_streams/main.php:69 addons/live_streams/main.php:76
+msgid "Stream"
+msgstr "Yayın"
+
+#: addons/live_streams/main.php:80
+msgid "Stream Start Date"
+msgstr "Yayın Başlangıç Tarihi"
+
+#: addons/live_streams/main.php:86
+msgid "Stream Start Time"
+msgstr "Yayın Başlangıç Saati"
+
+#: addons/live_streams/main.php:92
+msgid "Stream End Date"
+msgstr "Yayın Bitiş Tarihi"
+
+#: addons/live_streams/main.php:98
+msgid "Stream End Time"
+msgstr "Yayın Bitiş Saati"
+
+#: addons/live_streams/main.php:131
+msgid "Stream end date"
+msgstr "Yayın bitiş tarihi"
+
+#: addons/live_streams/main.php:141
+msgid "Stream end time"
+msgstr "Yayın bitiş saati"
+
+#: wizard/templates/main.php:5
+msgid "Masterstudy LMS Pro Addon requires MasterStudy LMS"
+msgstr "Masterstudy LMS Pro Eklentisi, MasterStudy LMS gerektirir"
+
+#: wizard/templates/main.php:15 wizard/templates/notice.php:8
+msgid "Install"
+msgstr "Yükle"
+
+#: wizard/templates/notice.php:3
+msgid ""
+"Please install MasterStudy LMS – Learning Management System  from <a href="
+"\"https://wordpress.org/plugins/masterstudy-lms-learning-management-system/"
+"\">WordPress.org</a>"
+msgstr ""
+"Lütfen <a href=\"https://wordpress.org/plugins/masterstudy-lms-learning-"
+"management-system/\">WordPress.org</a> adresinden MasterStudy LMS – Öğrenme "
+"Yönetimi Sistemi eklentisini yükleyin"
+
+#: stm-lms-templates/certificate/checker.php:26
+msgid "Enter certificate code"
+msgstr "Sertifika kodu girin"
+
+#: stm-lms-templates/certificate/checker.php:31
+msgid "Check Code"
+msgstr "Kontrol Kodu"
+
+#: stm-lms-templates/sequential_drip_content/main.php:30
+#: stm-lms-templates/stream/main.php:109
+#, php-format
+msgid "%s starts in"
+msgstr "%s başlayacak"
+
+#: stm-lms-templates/enterprise_groups/buy.php:16
+msgid "For Business"
+msgstr "İş İçin"
+
+#: stm-lms-templates/enterprise_groups/buy.php:23
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:12
+msgid "Buy for group"
+msgstr "Grup için satın al"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:6
+msgid "Add new group"
+msgstr "Yeni grup ekle"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:10
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:56
+msgid "Add Group"
+msgstr "Grup Ekle"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:14
+msgid "Enter group name"
+msgstr "Grup adı girin"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:21
+msgid "Add users"
+msgstr "Kullanıcı ekle"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:32
+msgid "Enter new user e-mail"
+msgstr "Yeni kullanıcı e-postası girin"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:50
+msgid "Add group"
+msgstr "Grup ekle"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:51
+msgid "Edit group"
+msgstr "Grubu düzenle"
+
+#: stm-lms-templates/enterprise_groups/group.php:14
+msgid "Set as admin"
+msgstr "Yönetici olarak ata"
+
+#: stm-lms-templates/enterprise_groups/group.php:18
+msgid "Remove from group"
+msgstr "Gruptan çıkar"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:13
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:17
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:40
+msgid "Choose Group:"
+msgstr "Grup Seç:"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:31
+#, php-format
+msgid "Bought at %s"
+msgstr "%s satın alındı"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:42
+#, php-format
+msgid ""
+"You do not have any groups yet. %sCreate a group%s and add group members."
+msgstr "Henüz hiç grubunuz yok. %sGrup oluşturun%s ve grup üyelerini ekleyin."
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:52
+#, php-format
+msgid "Add to cart %s"
+msgstr "Sepet ekle %s"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:68
+msgid "Group name:"
+msgstr "Grup adı:"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:69
+msgid "Enter group name..."
+msgstr "Grup adı girin..."
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:76
+#, php-format
+msgid "Add users: <span>(Max : %s)</span>"
+msgstr "Kullanıcı ekle: <span>(Maks : %s)</span>"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:77
+msgid "Enter member E-mail..."
+msgstr "Üye E-postası girin..."
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:88
+msgid "Create group"
+msgstr "Grup oluştur"
+
+#: stm-lms-templates/enterprise_groups/groups.php:3
+msgid "My Groups"
+msgstr "Gruplarım"
+
+#: stm-lms-templates/enterprise_groups/groups.php:20
+msgid "No groups found."
+msgstr "Grup bulunamadı."
+
+#: stm-lms-templates/enterprise_groups/groups.php:34
+msgid "Create Groups"
+msgstr "Grup Oluştur"
+
+#: stm-lms-templates/enterprise_groups/groups.php:41
+msgid "Import Groups (csv)"
+msgstr "Grupları İçe Aktar (csv)"
+
+#: stm-lms-templates/enterprise_groups/user_courses.php:19
+msgid "Add Course"
+msgstr "Kurs Ekle"
+
+#: stm-lms-templates/enterprise_groups/user_courses.php:22
+msgid "Remove Course"
+msgstr "Kursu Kaldır"
+
+#: stm-lms-templates/modals/prerequisite.php:6
+msgid "Prerequisite courses"
+msgstr "Ön koşul kursları"
+
+#: stm-lms-templates/modals/prerequisite.php:7
+msgid ""
+"A prerequisite is a specific course  that you must complete before you can "
+"take another course at the next grade level."
+msgstr ""
+"Ön koşul, bir sonraki sınıf seviyesinde başka bir kurs alabilmek için "
+"tamamlamanız gereken özel bir kurstur."
+
+#: stm-lms-templates/points/buy.php:16
+#, php-format
+msgid "Do you really want to buy %s for %s?"
+msgstr "Gerçekten %s satın almak istiyor musunuz %s için?"
+
+#: stm-lms-templates/points/buy.php:42
+#, php-format
+msgid "You need %s. %s"
+msgstr "%s ihtiyacınız var. %s"
+
+#: stm-lms-templates/points/buy.php:48
+#, php-format
+msgid "You have %s. %s"
+msgstr "%s sahipsiniz. %s"
+
+#: stm-lms-templates/points/history.php:18
+#, php-format
+msgid "Your %s"
+msgstr "Sizin %s"
+
+#: stm-lms-templates/points/history.php:21
+msgid "How to get more?"
+msgstr "Daha fazla nasıl edinilir?"
+
+#: stm-lms-templates/points/history.php:29
+msgid "You have"
+msgstr "Sahipsiniz"
+
+#: stm-lms-templates/points/history.php:41
+#: stm-lms-templates/points/admin/actions.php:8
+msgid "Event"
+msgstr "Etkinlik"
+
+#: stm-lms-templates/points/history.php:42
+#: stm-lms-templates/points/admin/actions.php:9
+msgid "Origin"
+msgstr "Orijin"
+
+#: stm-lms-templates/points/history.php:43
+#: stm-lms-templates/points/admin/actions.php:10
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:6
+msgid "Date"
+msgstr "Tarih"
+
+#: stm-lms-templates/points/history.php:60
+#: stm-lms-templates/points/admin/actions.php:42
+#, php-format
+msgid "Total %s "
+msgstr "Toplam %s "
+
+#: stm-lms-templates/points/distribution.php:15
+#: addons/google_classrooms/admin_view/courses.php:24
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:4
+msgid "Name"
+msgstr "Adı"
+
+#: stm-lms-templates/points/distribution.php:16
+#: stm-lms-templates/manage_course/parts/tabs.php:6
+#: stm-lms-templates/course/udemy/parts/tabs.php:6
+#: stm-lms-templates/course/classic/parts/tabs.php:6
+msgid "Description"
+msgstr "Tanım"
+
+#: stm-lms-templates/points/distribution.php:17
+#: stm-lms-templates/points/admin/stats.php:29
+msgid "Points"
+msgstr "Puanlar"
+
+#: stm-lms-templates/gradebook/students-details.php:8
+msgid "Load Students Statistics"
+msgstr "Öğrenci İstatistiklerini Yükle"
+
+#: stm-lms-templates/gradebook/students-details.php:13
+msgid "Students Statistics"
+msgstr "Öğrenci İstatistikleri"
+
+#: stm-lms-templates/gradebook/students-details.php:30
+msgid "Started: "
+msgstr "Başladı: "
+
+#: stm-lms-templates/gradebook/students-details.php:38
+msgid "Lessons Passed"
+msgstr "Dersler Geçildi"
+
+#: stm-lms-templates/gradebook/students-details.php:49
+msgid "Quizzes Passed"
+msgstr "Quizler Geçildi"
+
+#: stm-lms-templates/gradebook/students-details.php:60
+msgid "Quizzes Failed"
+msgstr "Quizler Başarısız"
+
+#: stm-lms-templates/gradebook/students-details.php:72
+msgid "Progress"
+msgstr "İlerleme"
+
+#: stm-lms-templates/gradebook/course-details.php:4
+msgid "Course students"
+msgstr "Kurs öğrencileri"
+
+#: stm-lms-templates/gradebook/course-details.php:8
+msgid "Course average progress"
+msgstr "Kurs ortalama ilerlemesi"
+
+#: stm-lms-templates/gradebook/course-details.php:12
+msgid "Course passed quizzes"
+msgstr "Geçilen kurs quizleri"
+
+#: stm-lms-templates/gradebook/course-details.php:16
+msgid "Course passed lessons"
+msgstr "Geçilen kurs dersleri"
+
+#: stm-lms-templates/gradebook/course-details.php:20
+msgid "Course enrolled by subscription"
+msgstr "Abonelikle kaydolunan kurs"
+
+#: stm-lms-templates/multi_instructor/add_teacher_template.php:7
+#: stm-lms-templates/course/parts/assignment_parts/comment.php:16
+#: stm-lms-templates/bundle/parts/panel_info/teacher.php:14
+#: stm-lms-templates/manage_course/parts/panel_info/teacher.php:21
+msgid "Teacher"
+msgstr "Öğretmen"
+
+#: stm-lms-templates/multi_instructor/add_teacher_template.php:17
+msgid "Add co-instructor"
+msgstr "Ortak öğretmen ekle"
+
+#: stm-lms-templates/manage_course/single.php:110
+msgid "Publish Course"
+msgstr "Kursu Yayınla"
+
+#: stm-lms-templates/manage_course/single.php:111
+msgid "Update Course"
+msgstr "Kursu Güncelle"
+
+#: stm-lms-templates/global/subscription.php:16
+#: stm-lms-templates/global/subscription.php:26
+msgid "- Or -"
+msgstr "- veya -"
+
+#: stm-lms-templates/global/subscription.php:23
+#: stm-lms-templates/global/subscription.php:30
+#: stm-lms-templates/global/buy-button/mixed.php:196
+#: stm-lms-templates/global/buy-button/mixed.php:204
+msgid "Enroll with Membership"
+msgstr "Üyelikle Kaydol"
+
+#: stm-lms-templates/global/buy-button-start.php:15
+#: stm-lms-templates/global/buy-button/mixed.php:53
+msgid "Enroll course"
+msgstr "Kursa kaydol"
+
+#: stm-lms-templates/global/buy-button-start.php:23
+#: stm-lms-templates/global/buy-button/mixed.php:61
+msgid "Start course"
+msgstr "Kursa başla"
+
+#: stm-lms-templates/global/buy-button-buy.php:39
+#: stm-lms-templates/bundle/parts/buy.php:21
+#: stm-lms-templates/bundle/parts/buy.php:46
+msgid "Get now"
+msgstr "Şimdi al"
+
+#: stm-lms-templates/global/prerequisite.php:58
+msgid "Free"
+msgstr "Ücretsiz"
+
+#: stm-lms-templates/global/prerequisite.php:70
+#: stm-lms-templates/manage_course/parts/info.php:10
+#: stm-lms-templates/course/udemy/parts/info.php:14
+msgid "Enrolled"
+msgstr "Kayıtlı"
+
+#: stm-lms-templates/global/prerequisite.php:75
+msgid "Login"
+msgstr "Giriş"
+
+#: stm-lms-templates/global/prerequisite.php:79
+msgid "What is Prerequisite courses"
+msgstr "Ön Koşul kursları nedir"
+
+#: stm-lms-templates/global/affiliate-button.php:42
+#, php-format
+msgid "%s%% off"
+msgstr "%s%% indirim"
+
+#: stm-lms-templates/bundles/my_bundles.php:20
+#: stm-lms-templates/account/private/parts/bundles_btn.php:6
+msgid "Manage Bundles"
+msgstr "Paketleri Yönet"
+
+#: stm-lms-templates/bundles/my_bundles.php:24
+msgid "Add new Bundle"
+msgstr "Yeni Paket ekle"
+
+#: stm-lms-templates/bundles/my-bundle.php:20
+msgid "Please enter bundle name"
+msgstr "Lütfen paket adı girin"
+
+#: stm-lms-templates/bundles/my-bundle.php:21
+msgid "Please enter bundle description"
+msgstr "Lütfen paket açıklaması girin"
+
+#: stm-lms-templates/bundles/my-bundle.php:22
+msgid "Please add courses in bundle"
+msgstr "Lütfen pakete kurs ekleyin"
+
+#: stm-lms-templates/bundles/my-bundle.php:23
+msgid "Please enter bundle price"
+msgstr "Lütfen paket fiyatını girin"
+
+#: stm-lms-templates/bundles/my-bundle.php:44
+msgid "Add Bundle"
+msgstr "Paket Ekle"
+
+#: stm-lms-templates/bundles/my-bundle.php:58
+msgid "Save Bundle"
+msgstr "Paketi Kaydet"
+
+#: addons/zoom_conference/admin_views/install_zoom_plugin.php:3
+msgid "You need to install Zoom Video Conferencing on WordPress plugin"
+msgstr "Wordpress Eklentilerden Zoom Video Conferencing yüklemeniz gerekiyor"
+
+#: addons/zoom_conference/admin_views/install_zoom_plugin.php:4
+msgid "Install plugin"
+msgstr "Eklenti kur"
+
+#: addons/zoom_conference/admin_views/install_zoom_plugin.php:5
+msgid "Installing..."
+msgstr "Yükleniyor..."
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:37
+#: stm-lms-templates/account/public/select_google_classroom_auditory.php:13
+msgid "Select auditory"
+msgstr "Salon seç"
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:68
+msgid "Course code"
+msgstr "Kurs kodu"
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:73
+msgid "Copy"
+msgstr "Kopyala"
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:77
+msgid "Copied"
+msgstr "Kopyalandı"
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:85
+msgid "Only logged in students in a specific classroom can see the code "
+msgstr "Sadece belirli bir sınıfa giriş yapan öğrenciler kodu görebilir "
+
+#: addons/google_classrooms/frontend_view/google_classroom.php:92
+msgid "Read more"
+msgstr "Daha fazla oku"
+
+#: addons/google_classrooms/frontend_view/popup.php:62
+msgid "Type your classname"
+msgstr "Sınıf adınızı girin"
+
+#: addons/google_classrooms/admin_view/token.php:29
+msgid "Load Credentials"
+msgstr "Kimlik Bilgilerini Yükle"
+
+#: addons/google_classrooms/admin_view/token.php:45
+msgid "Delete Credentials"
+msgstr "Kimlik Bilgilerini Sil"
+
+#: addons/google_classrooms/admin_view/token.php:49
+msgid "Get Access Token"
+msgstr "Erişim İzni Al"
+
+#: addons/google_classrooms/admin_view/token.php:58
+msgid "Revoke Access Token"
+msgstr "Erişim Kodunu İptal Et"
+
+#: addons/google_classrooms/admin_view/courses.php:4
+msgid "Loading Courses..."
+msgstr "Kurslar Yükleniyor..."
+
+#: addons/google_classrooms/admin_view/courses.php:11
+msgid "Import all"
+msgstr "Tümünü içe aktar"
+
+#: addons/google_classrooms/admin_view/courses.php:15
+msgid "Publish all imported"
+msgstr "İçe aktarılanları yayınla"
+
+#: addons/google_classrooms/admin_view/courses.php:25
+msgid "Auditory"
+msgstr "Ses"
+
+#: addons/google_classrooms/admin_view/courses.php:27
+msgid "Import"
+msgstr "İçe aktar"
+
+#: addons/google_classrooms/admin_view/courses.php:36
+msgid "Not Imported Yet"
+msgstr "Henüz İçe Aktarılmadı"
+
+#: addons/google_classrooms/admin_view/courses.php:48
+msgid "Import Course"
+msgstr "Kursu İçe Aktar"
+
+#: addons/google_classrooms/admin_view/courses.php:64
+#: stm-lms-templates/bundles/card/vue/top.php:24
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:55
+msgid "Edit"
+msgstr "Düzenle"
+
+#: addons/google_classrooms/admin_view/courses.php:73
+#: stm-lms-templates/bundles/card/vue/top.php:17
+msgid "Publish"
+msgstr "Yayınla"
+
+#: addons/google_classrooms/admin_view/google_api_classroom.php:15
+msgid "Google Classrooms archive page"
+msgstr "Google Classrooms arşiv sayfası"
+
+#: addons/google_classrooms/admin_view/google_api_classroom.php:25
+msgid "View Page"
+msgstr "Sayfayı Gör"
+
+#: addons/google_classrooms/admin_view/google_api_classroom.php:50
+msgid "Google Classrooms Settings"
+msgstr "Google Classrooms Ayarları"
+
+#: stm-lms-templates/course/udemy/sidebar.php:20
+msgid "30-Day Money-Back Guarantee"
+msgstr "30 Günlük Para İade Garantisi"
+
+#: stm-lms-templates/bundle/parts/courses.php:9
+msgid "Courses in this bundle:"
+msgstr "Bu paketteki kurslar:"
+
+#: stm-lms-templates/points/admin/actions.php:1
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#: stm-lms-templates/points/admin/actions.php:12
+msgid "Actions"
+msgstr "Eylemler"
+
+#: stm-lms-templates/points/admin/stats.php:7
+msgid "Do you really want to delete this record?"
+msgstr "Bu kaydı gerçekten silmek istiyor musunuz?"
+
+#: stm-lms-templates/points/admin/stats.php:19
+msgid "Search by user"
+msgstr "Kullanıcıya göre ara"
+
+#: stm-lms-templates/points/admin/stats.php:23
+msgid "Student Points"
+msgstr "Kullanıcı Puanları"
+
+#: stm-lms-templates/points/admin/stats.php:28
+msgid "User"
+msgstr "Kullanıcı"
+
+#: stm-lms-templates/points/admin/stats.php:30
+msgid "History"
+msgstr "Geçmiş"
+
+#: stm-lms-templates/account/public/select_google_classroom_auditory.php:11
+msgid "Select your auditory"
+msgstr "Salonu seçin"
+
+#: stm-lms-templates/manage_course/parts/info.php:11
+msgid "0 students"
+msgstr "0 öğrenci"
+
+#: stm-lms-templates/manage_course/parts/info.php:19
+#: stm-lms-templates/course/udemy/parts/info.php:21
+msgid "Duration"
+msgstr "Süre"
+
+#: stm-lms-templates/manage_course/parts/info.php:29
+#: stm-lms-templates/course/udemy/parts/info.php:30
+msgid "Lectures"
+msgstr "Dersler"
+
+#: stm-lms-templates/manage_course/parts/info.php:38
+#: stm-lms-templates/course/udemy/parts/info.php:38
+#: stm-lms-templates/manage_course/forms/html/lesson.php:33
+#: stm-lms-templates/course/udemy/parts/tabs/curriculum.php:29
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:55
+msgid "Video"
+msgstr "Video"
+
+#: stm-lms-templates/manage_course/parts/info.php:49
+#: stm-lms-templates/course/udemy/parts/info.php:46
+msgid "Beginner"
+msgstr "Başlangıç"
+
+#: stm-lms-templates/manage_course/parts/info.php:50
+#: stm-lms-templates/course/udemy/parts/info.php:47
+msgid "Intermediate"
+msgstr "Orta"
+
+#: stm-lms-templates/manage_course/parts/info.php:51
+#: stm-lms-templates/course/udemy/parts/info.php:48
+msgid "Advanced"
+msgstr "İleri"
+
+#: stm-lms-templates/manage_course/parts/info.php:56
+#: stm-lms-templates/course/udemy/parts/info.php:50
+msgid "Level"
+msgstr "Seviye"
+
+#: stm-lms-templates/manage_course/parts/tabs.php:8
+#: stm-lms-templates/course/udemy/parts/tabs.php:8
+#: stm-lms-templates/course/classic/parts/tabs.php:8
+#: stm-lms-templates/manage_course/parts/tabs/faq.php:17
+msgid "FAQ"
+msgstr "SSS"
+
+#: stm-lms-templates/manage_course/parts/tabs.php:9
+#: stm-lms-templates/course/classic/parts/tabs.php:9
+#: stm-lms-templates/manage_course/forms/js/wizard.php:85
+msgid "Announcement"
+msgstr "Duyuru"
+
+#: stm-lms-templates/manage_course/global/wish-list.php:14
+#: stm-lms-templates/manage_course/global/wish-list.php:19
+msgid "Add to Wishlist"
+msgstr "Favorilere Ekle"
+
+#: stm-lms-templates/manage_course/global/wish-list.php:16
+msgid "Wishlisted"
+msgstr "Favori"
+
+#: stm-lms-templates/manage_course/global/enterprise.php:6
+msgid "Enterprise Price"
+msgstr "Kurum Fiyatı"
+
+#: stm-lms-templates/global/buy-button/mixed.php:125
+msgid "Get course"
+msgstr "Kursu al"
+
+#: stm-lms-templates/global/buy-button/mixed.php:153
+msgid "One Time Payment"
+msgstr "Bir Kerelik Ödeme"
+
+#: stm-lms-templates/global/buy-button/mixed.php:216
+#, php-format
+msgid "Available in \"%s\" plan"
+msgstr "\"%s\" planında mevcut"
+
+#: stm-lms-templates/bundles/my-bundle/title.php:4
+msgid "Bundle name"
+msgstr "Paket adı"
+
+#: stm-lms-templates/bundles/my-bundle/title.php:10
+msgid "Enter bundle name"
+msgstr "Paket adı girin"
+
+#: stm-lms-templates/bundles/my-bundle/price.php:4
+#, php-format
+msgid "Bundle price (%s)"
+msgstr "Paket fiyatı (%s)"
+
+#: stm-lms-templates/bundles/my-bundle/price.php:10
+msgid "Enter bundle price"
+msgstr "Paket fiyatı ekleyin"
+
+#: stm-lms-templates/bundles/my-bundle/description.php:15
+msgid "Bundle description"
+msgstr "Paket açıklaması"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:3
+msgid "Select Course"
+msgstr "Kurs Seç"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:12
+msgid "Select course"
+msgstr "Kurs seç"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:16
+msgid "+ Add course"
+msgstr "+ Kurs ekle"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:43
+#, php-format
+msgid "You have no courses yet. Please %s add some courses %s to create bundle"
+msgstr ""
+"Henüz hiç kursunuz yok. Lütfen paket oluşturmak için %s birkaç kurs ekletin "
+"%s"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:54
+#, php-format
+msgid "Maximum courses in bundle : %s"
+msgstr "Paketteki maksimum kurs: %s"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:71
+msgid "Total"
+msgstr "Toplam"
+
+#: stm-lms-templates/bundles/my-bundle/image.php:4
+msgid "Bundle image"
+msgstr "Paket resmi"
+
+#: stm-lms-templates/bundles/my-bundle/image.php:18
+msgid "Upload image"
+msgstr "Resim yükle"
+
+#: stm-lms-templates/course/udemy/parts/info.php:15
+#, php-format
+msgid "%s student"
+msgid_plural "%s students"
+msgstr[0] "%s öğrenci"
+msgstr[1] "%s öğrenci"
+
+#: stm-lms-templates/course/udemy/parts/tabs.php:9
+#: stm-lms-templates/course/classic/parts/tabs.php:10
+msgid "Reviews"
+msgstr "Değerlendirmeler"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:18
+msgid "Includes"
+msgstr "Şunları içerir"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:23
+#, php-format
+msgid "%s hours on-demand video"
+msgstr "%s saat isteğe bağlı video"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:31
+#, php-format
+msgid "%s article"
+msgid_plural "%s articles"
+msgstr[0] "%s makale"
+msgstr[1] "%s makale"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:37
+msgid "Full lifetime access"
+msgstr "Ömür boyu tam erişim"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:42
+msgid "Access on mobile and TV"
+msgstr "Mobil ve TVden erişim"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:48
+msgid "Certificate of Completion"
+msgstr "Tamamlama Sertifikası"
+
+#: stm-lms-templates/course/parts/student_assignments/progress.php:29
+#: stm-lms-templates/course/parts/student_assignments/passed.php:28
+#: stm-lms-templates/course/parts/student_assignments/on_review.php:28
+#: stm-lms-templates/course/parts/student_assignments/unpassed.php:28
+msgid "Delete File?"
+msgstr "Dosya silinsin mi?"
+
+#: stm-lms-templates/course/parts/student_assignments/progress.php:55
+msgid "Autosaving"
+msgstr "Otomatik kayıt"
+
+#: stm-lms-templates/course/parts/student_assignments/progress.php:65
+msgid "Send Assignment"
+msgstr "Ödev Gönder"
+
+#: stm-lms-templates/course/parts/student_assignments/passed.php:42
+msgid "You passed assignment."
+msgstr "Ödevden geçtiniz."
+
+#: stm-lms-templates/course/parts/student_assignments/new.php:27
+msgid "Start now"
+msgstr "Şimdi başla"
+
+#: stm-lms-templates/course/parts/student_assignments/on_review.php:41
+msgid "Your assignment pending review"
+msgstr "Ödeviniz incelenmeyi bekliyor"
+
+#: stm-lms-templates/course/parts/student_assignments/unpassed.php:42
+#, php-format
+msgid "You failed assignment. %sRetake%s"
+msgstr "Ödeviniz başarısız oldu. %sTekrar alın%s"
+
+#: stm-lms-templates/course/parts/assignment_parts/file_loader.php:14
+msgid "Attach files"
+msgstr "Dosya ekle"
+
+#: stm-lms-templates/course/parts/assignment_parts/task.php:16
+msgid "All Requirements"
+msgstr "Tüm Gereksinimler"
+
+#: stm-lms-templates/bundle/parts/panel_info/rate.php:13
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:34
+#: stm-lms-templates/manage_course/parts/panel_info/rate.php:8
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:31
+#: stm-lms-templates/course/udemy/parts/panel_info/rate.php:13
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:35
+#: stm-lms-templates/course/classic/parts/panel_info/rate.php:15
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "5 üzerinden %s oylandı"
+
+#: stm-lms-templates/bundle/parts/panel_info/rate.php:16
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:37
+#: stm-lms-templates/manage_course/parts/panel_info/rate.php:11
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:34
+#: stm-lms-templates/course/udemy/parts/panel_info/rate.php:16
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:38
+msgid "out of 5"
+msgstr "5 üzerinden"
+
+#: stm-lms-templates/bundle/parts/panel_info/rate.php:23
+#: stm-lms-templates/manage_course/parts/panel_info/rate.php:18
+#: stm-lms-templates/course/classic/parts/panel_info/rate.php:23
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s  yorum"
+msgstr[1] "%s  yorum"
+
+#: stm-lms-templates/bundle/parts/panel_info/categories.php:11
+#: stm-lms-templates/manage_course/parts/panel_info/categories.php:10
+msgid "Category:"
+msgstr "Kategori:"
+
+#: stm-lms-templates/courses/udemy/parts/course_info.php:82
+msgid "Preview this course"
+msgstr "Bu kursu ön izle"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:14
+#: stm-lms-templates/account/private/parts/create_announcement_btn.php:10
+msgid "Create Announcement"
+msgstr "Duyuru Oluştur"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:21
+msgid "Choose Course"
+msgstr "Kurs Seç"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:33
+msgid "Message for Course Students"
+msgstr "Kurs Öğrencileri için Mesaj"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:47
+msgid "Create"
+msgstr "Oluştur"
+
+#: stm-lms-templates/account/private/parts/cancel_subscription_btn.php:9
+msgid "Cancel subscription"
+msgstr "Aboneliği iptal et"
+
+#: stm-lms-templates/account/private/parts/certificates.php:25
+msgid "My Certificates"
+msgstr "Sertifikalarım"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:18
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:5
+msgid "Course"
+msgstr "Kurs"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:21
+msgid "Certificate"
+msgstr "Sertifika"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:37
+msgid "Download"
+msgstr "İndir"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:44
+msgid "Copy code"
+msgstr "Kodu kopyala"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:55
+msgid "You do not have a certificate yet."
+msgstr "Henüz bir sertifikanız yok."
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:56
+msgid ""
+"Get started easy, select a course here, pass it and get your first "
+"certificate"
+msgstr ""
+"Kolayca başlayın, buradan bir kurs seçin, kursu geçin ve ilk sertifikanızı "
+"alın"
+
+#: stm-lms-templates/account/private/parts/my_certificates_btn.php:10
+msgid "My certificates"
+msgstr "Sertifikalarım"
+
+#: stm-lms-templates/account/private/parts/gradebook_btn.php:10
+msgid "Gradebook"
+msgstr "Not Defteri"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:16
+msgid "Welcome to Wizard"
+msgstr "Sihirbaza Hoş Geldiniz"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:17
+msgid "A simple tour about all fields included in course"
+msgstr "Kursa dahil olan tüm alanlar hakkında basit bir tur"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:18
+msgid "Simple help with adding courses"
+msgstr "Kurs ekleme konusunda basit yardım"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:23
+msgid "Title"
+msgstr "Başlık"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:24
+msgid "Adding a course title"
+msgstr "Kurs başlığı ekle"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:25
+msgid "Add a title"
+msgstr "Başlık ekle"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:30
+msgid "Category"
+msgstr "Kategori"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:31
+msgid "Adding course category"
+msgstr "Kurs kategorisi ekleme"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:32
+msgid "Add a category"
+msgstr "Kategori ekle"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:37
+msgid "Image"
+msgstr "Görsel"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:38
+msgid "Adding course image"
+msgstr "Kurs görseli ekleme"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:39
+msgid "Add an image"
+msgstr "Resim ekle"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:45
+#: stm-lms-templates/manage_course/forms/html/lesson.php:11
+#: stm-lms-templates/manage_course/forms/html/quiz.php:10
+msgid "Content"
+msgstr "İçerik"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:46
+msgid "Adding course description"
+msgstr "Kurs tanımı ekleme"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:47
+msgid "Add course description"
+msgstr "Kurs açıklaması ekle"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:54
+msgid "Add a course Curriculum"
+msgstr "Kurs Müfredatı ekleyin"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:55
+msgid "Add curriculum Section and hit enter after adding Section name"
+msgstr ""
+"Müfredat Bölümü ekleyin ve Bölüm adını ekledikten sonra enter tuşuna basın"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:62
+msgid "Add a course Lesson"
+msgstr "Kurs Dersi ekleyin"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:63
+msgid "Add curriculum Lesson and hit enter after adding Lesson name"
+msgstr ""
+"Müfredat Dersi ekleyin ve Ders adını ekledikten sonra enter tuşuna basın"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:70
+msgid "Add a course Quiz"
+msgstr "Kurs Quiz'i ekleyin"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:71
+msgid "Add curriculum Quiz and hit enter after adding Quiz name"
+msgstr ""
+"Müfredat Quizi ekleyin ve Quiz adını ekledikten sonra enter tuşuna basın"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:77
+msgid "Course FAQ"
+msgstr "Kurs SSS"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:78
+msgid "Add a course FAQ"
+msgstr "Kurs SSS'i ekleyin"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:79
+msgid ""
+"FAQ is an accordion of FAQ items. Add FAQ title, then hit enter. After "
+"adding FAQ item, you can add description for it. Add as many FAQ items as "
+"you need."
+msgstr ""
+"SSS, SSS öğeleri içinde akordeon gibi görünür. Önce SSS başlığı ekleyin ve "
+"enter'a basın. FAQ öğesi ekledikten sonra bunun için bir tanım "
+"girebilirsiniz. Dilediğiniz kadar SSS girebilirsiniz."
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:86
+msgid "Add a course announcement"
+msgstr "Kurs duyurusu ekleyin"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:87
+msgid "Enter Announcement for students."
+msgstr "Öğrenciler için Duyuru Girin."
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:93
+msgid "Pricing"
+msgstr "Fiyatlandırma"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:94
+msgid "Adding course price"
+msgstr "Kurs fiyatı ekleyin"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:95
+msgid "Add course prices"
+msgstr "Kurs fiyatlarını ekle"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:100
+#: stm-lms-templates/manage_course/forms/js/wizard.php:107
+#: stm-lms-templates/manage_course/forms/js/wizard.php:114
+msgid "Info"
+msgstr "Bilgi"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:101
+msgid "Adding course duration"
+msgstr "Kurs süresi ekleme"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:102
+msgid "Add course duration"
+msgstr "Kurs süresi ekle"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:108
+msgid "Adding course video duration"
+msgstr "Kurs video süresi ekleme"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:109
+msgid "Add course video duration"
+msgstr "Kurs video süresi ekle"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:115
+msgid "Adding course level"
+msgstr "Kurs seviyesi ekleme"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:116
+msgid "Add course level"
+msgstr "Kurs seviyesi ekle"
+
+#: stm-lms-templates/manage_course/forms/js/image.php:14
+msgid "Upload course Image"
+msgstr "Kurs Görseli Ekle"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:16
+msgid "Lesson Settings"
+msgstr "Ders Ayarları"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:30
+msgid "Lesson type"
+msgstr "Ders türü"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:32
+msgid "Text"
+msgstr "Metin"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:34
+msgid "Slide"
+msgstr "Slayt"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:45
+msgid "Lesson video Poster"
+msgstr "Ders video posteri"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:56
+msgid "Lesson video URL"
+msgstr "Ders video URL"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:63
+msgid "Lesson duration"
+msgstr "Ders süresi"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:71
+msgid "Lesson preview"
+msgstr "Ders önizleme"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:82
+msgid "Lesson Front-End description"
+msgstr "Ders Ön Yüz tanımı"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:92
+#: stm-lms-templates/manage_course/forms/html/assignment.php:11
+#: stm-lms-templates/manage_course/forms/html/quiz.php:96
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:93
+#: stm-lms-templates/manage_course/forms/html/assignment.php:13
+#: stm-lms-templates/manage_course/forms/html/quiz.php:99
+msgid "Cancel"
+msgstr "İptal"
+
+#: stm-lms-templates/manage_course/forms/html/price.php:5
+#, php-format
+msgid "Add Price* (%s)"
+msgstr "Fiyat Ekle* (%s)"
+
+#: stm-lms-templates/manage_course/forms/html/price.php:6
+#, php-format
+msgid "Add Sale Price (%s)"
+msgstr "Satış Fiyatı Ekle (%s)"
+
+#: stm-lms-templates/manage_course/forms/html/price.php:16
+msgid "Enroll now"
+msgstr "Şimdi kayıt ol"
+
+#: stm-lms-templates/manage_course/forms/html/price.php:19
+msgid "Add Prices"
+msgstr "Fiyatları Ekle"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:15
+msgid "Quiz Questions"
+msgstr "Quiz Soruları"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:20
+msgid "Quiz Settings"
+msgstr "Quiz Ayarları"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:43
+msgid "Quiz description"
+msgstr "Quiz tanımı"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:50
+msgid "Quiz duration"
+msgstr "Quiz süresi"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:53
+msgid "Enter quiz duration"
+msgstr "Quiz süresi gir"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:55
+msgid "Minutes"
+msgstr "Dakika"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:56
+msgid "Hours"
+msgstr "Saat"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:57
+msgid "Days"
+msgstr "Gün"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:65
+msgid "Show correct answer"
+msgstr "Doğru yanıtı göster"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:77
+msgid "Passing grade (%)"
+msgstr "Geçer not (%)"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:84
+msgid "Points total cut after re-take (%)"
+msgstr "Tekrardan sonra düşülen toplam puan (%)"
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:41
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:38
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:42
+#, php-format
+msgid "%s Ratings"
+msgstr "%s Yıldız"
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:48
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:45
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:49
+msgid "Detailed Rating"
+msgstr "Detaylı Oylama"
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:53
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:50
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:54
+#, php-format
+msgid "Stars %s"
+msgstr "Yıldız %s"
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:96
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:97
+msgid "Show more"
+msgstr "Daha fazla göster"
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:101
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:102
+msgid "Be the first to add a review."
+msgstr "İlk yorumu yazan olun."
+
+#: stm-lms-templates/manage_course/parts/panel_info/add_new_category.php:8
+msgid "Add category"
+msgstr "Kategori ekle"
+
+#: stm-lms-templates/manage_course/parts/panel_info/add_new_category.php:16
+msgid "Enter new category name"
+msgstr "Yeni kategori adı girin"
+
+#: stm-lms-templates/manage_course/parts/panel_info/add_new_category.php:21
+msgid "Choose parent category"
+msgstr "Esas kategoriyi seçin"
+
+#: stm-lms-templates/bundles/card/vue/top.php:10
+msgid "Draft"
+msgstr "Taslak"
+
+#: stm-lms-templates/bundles/card/vue/top.php:31
+msgid "Delete"
+msgstr "Sil"
+
+#: stm-lms-templates/bundles/card/php/top.php:15
+#, php-format
+msgid "%s Courses"
+msgstr "%s Kurs"
+
+#: stm-lms-templates/course/udemy/parts/tabs/curriculum.php:22
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:34
+msgid "Quiz"
+msgstr "Quiz"
+
+#: stm-lms-templates/course/udemy/parts/tabs/curriculum.php:25
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:28
+msgid "Text Lesson"
+msgstr "Metin Dersi"
+
+#: stm-lms-templates/course/udemy/parts/panel_info/teacher.php:16
+msgid "Instructor:"
+msgstr "Öğretmen:"
+
+#: stm-lms-templates/course/udemy/parts/panel_info/languages.php:18
+msgid "More"
+msgstr "Daha fazla"
+
+#: stm-lms-templates/course/udemy/parts/panel_info/rate.php:23
+#, php-format
+msgid "%s review on Udemy"
+msgid_plural "%s reviews on Udemy"
+msgstr[0] "Udemy'de %s yorum"
+msgstr[1] "Udemy'de %s yorum"
+
+#: stm-lms-templates/course/udemy/parts/panel_info/enrolled.php:14
+#, php-format
+msgid "%s student enrolled"
+msgid_plural "%s students enrolled"
+msgstr[0] "%s öğrenci kaydoldu"
+msgstr[1] "%s öğrenci kaydoldu"
+
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:36
+#, php-format
+msgid "%s question"
+msgid_plural "%s questions"
+msgstr[0] "%s soru"
+msgstr[1] "%s soru"
+
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:50
+msgid "Slides"
+msgstr "Slaytlar"
+
+#: stm-lms-templates/course/classic/parts/tabs/announcement.php:9
+msgid "No announcements at this moment."
+msgstr "Şu an için duyuru yok."
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:15
+msgid "Courses"
+msgstr "Kurslar"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:18
+msgid "Add New course"
+msgstr "Yeni kurs ekle"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:27
+msgid "Available featured Quotes:"
+msgstr "Mevcut öne çıkan Alıntılar:"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:31
+msgid "Done"
+msgstr "Bitti"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:35
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:56
+msgid "View"
+msgstr "Görüntüle"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:108
+msgid "Make Featured"
+msgstr "Öne Çıkan Yap"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:114
+msgid "Remove from Featured"
+msgstr "Öne Çıkanlardan Kaldır"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:3
+msgid "Search assignment"
+msgstr "Ödev ara"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:6
+msgid "Enter assignment name"
+msgstr "Ödev adı girin"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:18
+msgid "Loading data..."
+msgstr "Veri yükleniyor..."
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:46
+msgid "Nothing found."
+msgstr "Bulunamadı."
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/publish.php:18
+msgid "Approved"
+msgstr "Onaylandı"
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/publish.php:24
+msgid "Rejected"
+msgstr "Reddedildi"
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/pending.php:14
+msgid "Your comment"
+msgstr "Yorumunuz"
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/pending.php:20
+msgid "Approve"
+msgstr "Onayla"
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/pending.php:24
+msgid "Reject"
+msgstr "Reddet"
+
+#: stm-lms-templates/account/private/parts/points/my-points.php:19
+msgid "Earnings History"
+msgstr "Kazanç Geçmişi"
+
+#: stm-lms-templates/account/private/parts/points/affiliate_link.php:16
+msgid "Copy Affiliate link"
+msgstr "Satış ortaklığı bağlantısını kopyala"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:17
+#, php-format
+msgid "Total: %s"
+msgstr "Toplam: %s"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:25
+#, php-format
+msgid "Non passed: %s"
+msgstr "Kaldı: %s"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:33
+#, php-format
+msgid "Passed: %s"
+msgstr "Geçti: %s"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:41
+#, php-format
+msgid "Pending: %s"
+msgstr "Beklemede: %s"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:7
+msgid "Attempts"
+msgstr "Denemeler"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:25
+msgid "Non passed"
+msgstr "Kaldı"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:35
+msgid "Pending"
+msgstr "Beklemede"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/list.php:43
+msgid "Nothing found"
+msgstr "Bulunamadı"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/sort.php:2
+msgid "Sort by"
+msgstr "Sırala"
+
+#. Name of the plugin
+msgid "MasterStudy LMS Learning Management System PRO"
+msgstr "MasterStudy LMS Öğrenme Yönetimi Sistemi PRO"
+
+#. Description of the plugin
+msgid ""
+"Create brilliant lessons with videos, graphs, images, slides and any other "
+"attachments thanks to flexible and user-friendly lesson management tool "
+"powered by WYSIWYG editor."
+msgstr ""
+"WYSIWYG editörü tarafından desteklenen esnek ve kullanıcı dostu ders yönetim "
+"aracı sayesinde videolar, grafikler, resimler, slaytlar ve diğer eklerle "
+"etkin dersler oluşturun."
+
+#. URI of the plugin
+msgid "http://masterstudy.stylemixthemes.com/lms-plugin/"
+msgstr "http://masterstudy.stylemixthemes.com/lms-plugin/"
+
+#. Author of the plugin
+msgid "StylemixThemes"
+msgstr "StylemixThemes"
+
+#. Author URI of the plugin
+msgid "https://stylemixthemes.com/"
+msgstr "http://stylemixthemes.com/"

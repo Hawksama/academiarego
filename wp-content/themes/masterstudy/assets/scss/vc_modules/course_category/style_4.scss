@@ -1,0 +1,81 @@
+@import "../../scss_components/base_variables";
+@import "../../scss_components/mixins";
+
+.stm_lms_courses_categories.style_4 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: -10px 0 7px;
+    padding-top: 10px;
+    overflow-x: auto;
+    .stm_lms_courses_category {
+        width: calc(20% - 10px);
+        padding: 15px;
+        margin: 0 0 33px;
+        min-height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s ease;
+        border-radius: 10px;
+        > a {
+            text-align: center;
+            i {
+                display: block;
+                margin-bottom: 20px;
+                font-size: 64px;
+                color: #fff;
+            }
+            h4 {
+                font-size: 18px;
+                font-weight: 600;
+                color: #fff;
+            }
+        }
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+}
+
+@include breakpoint(tabletonly) {
+    .stm_lms_courses_categories.style_4 {
+        display: block;
+        white-space: nowrap;
+        font-size: 0;
+        .stm_lms_courses_category {
+            display: inline-block;
+            margin: 0 10px;
+            width: calc(50% - 20px);
+            > a {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                min-height: 190px;
+                i {
+                    width: 100%;
+                }
+                h4 {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(mobile) {
+    .stm_lms_courses_categories.style_4 {
+        .stm_lms_courses_category {
+            width: calc(100% - 30px);
+            margin: 0 30px;
+            &:first-child {
+                margin-left: 15px;
+            }
+            &:last-child {
+                margin-right: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+@import "../../scss_components/mixins";
+@import "../../scss_components/base_variables";
+
+.buddypress-demo {
+
+    .lms_slider_tabs {
+        position: absolute !important;
+        top: auto;
+        bottom: 15px;
+
+        .tp-tab {
+            margin: 0 7px;
+
+            .tp-tab-content {
+                &__inner {
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    padding: 15px 27px;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    height: 100%;
+                    background-color: transparentize(#111f2d, 0.5);
+                    transition: .3s ease;
+                    &:hover {
+                        background-color: #1a92e6;
+                        i {
+                            color: #fff;
+                        }
+                    }
+                }
+
+                * {
+                    width: 100%;
+                    color: #fff;
+                }
+
+                i {
+                    margin: 0 0 20px;
+                    font-size: 42px;
+                    color: #1a92e6;
+                    transition: .3s ease;
+                }
+
+                span {
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: 500;
+                }
+            }
+
+            &.selected {
+                .tp-tab-content {
+                    &__inner {
+                        background-color: #1a92e6;
+                        i {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .stm_theme_wpb_video_wrapper .stm_video_preview:after {
+        border-color: #1a92e6 !important;
+    }
+
+    .footer_wrapper {
+        a {
+            color: #fff;
+            &:hover {
+
+            }
+        }
+        .widget_pages ul.style_2 li {
+            margin-bottom: 20px;
+            a:hover {
+                .h6 {
+                    color: #1a92e6;
+                }
+                &:after {
+                    background-color: #1a92e6;
+                }
+            }
+        }
+        .widget_stm_recent_posts .widget_media_style_2 .h6 {
+            color: #fff;
+        }
+    }
+
+    #header.transparent_header .header_2 .header_top_bar .header_2_top_bar__inner ul.header-menu li li a {
+        color: #273044;
+    }
+
+    #footer_copyright .copyright_text a:hover {
+        color: #fff !important;
+    }
+}

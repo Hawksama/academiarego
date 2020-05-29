@@ -1,0 +1,14 @@
+@import "../../scss_components/mixins";
+@import "../../scss_components/base_variables";
+
+@include breakpoint(mobile) {
+    .widget_mailchimp {
+        .stm_mailchimp_unit {
+            .button {
+                position: static;
+                margin: 10px 0 0;
+                width: 100%;
+            }
+        }
+    }
+}
