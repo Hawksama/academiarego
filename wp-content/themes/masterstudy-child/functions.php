@@ -2,6 +2,14 @@
 
 
 define( 'MASTERSTUDY_CHILD_VERSION', '1.0' );
+if( is_user_logged_in() ) {
+    $user = wp_get_current_user();
+    $roles = ( array ) $user->roles;
+
+    if (in_array('administrator', $roles) || in_array('stm_lms_instructor', $roles)) {
+        add_action( 'bp_setup_nav', 'woocommerce_payment' );
+    }
+}
 
 function woocommerce_payment() {
     global $bp;
