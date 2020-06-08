@@ -27,15 +27,9 @@ module.exports = function(grunt) {
         compressed: {
           options: {
             implementation: sass,
-            style: 'compact',
             compress: true,
             yuicompress: true,
-            optimization: null,
-            sourceMap: true,
-            sourceMapFilename: 'wp-content/themes/masterstudy-child/assets/sourcemap/styles-child.css.map', // where file is generated and located
-            sourceMapURL:      'assets/sourcemap/styles-child.css.map', // the complete url and filename put in the compiled css file
-            sourceMapBasepath: 'wp-content/themes/masterstudy-child', // Sets sourcemap base path, defaults to current working directory.
-            sourceMapRootpath: '/', // adds this path onto the sourcemap filename and sass file paths
+            optimization: 3,
           },
           files: {
             "wp-content/themes/masterstudy-child/assets/css/styles.css": "wp-content/themes/masterstudy-child/assets/scss/styles.scss" // destination file and source file
@@ -94,6 +88,12 @@ module.exports = function(grunt) {
             }
         }
       },
+      cssmin: {
+        css: {
+          src: 'wp-content/themes/masterstudy-child/assets/css/styles.css',
+          dest: 'wp-content/themes/masterstudy-child/assets/css/styles.css'
+        }
+      },
       watch: {
         styles: {
           files: ['wp-content/themes/masterstudy-child/**/*.scss'], // which files to watch
@@ -115,8 +115,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     // grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.registerTask('development', ['sass:development', 'uglify:development']);
-    grunt.registerTask('compressed', ['sass:compressed', 'uglify:compressed']);
+    grunt.registerTask('compressed', ['sass:compressed', 'uglify:compressed', 'cssmin']);
     grunt.registerTask('default', ['development', 'watch']);
   };

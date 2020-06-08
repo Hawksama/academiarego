@@ -13,7 +13,9 @@
     "load-grunt-tasks": "^5.1.0",
     "node-sass": "^4.13.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^3.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
