@@ -283,14 +283,16 @@ class Jetpack_WooCommerce_Analytics_Universal {
 		foreach ( $order->get_items() as $order_item_id => $order_item ) {
 			$product = $order->get_product_from_item( $order_item );
 
-			$this->record_event(
-				'woocommerceanalytics_product_purchase',
-				$product->get_id(),
-				array(
-					'oi' => $order->get_order_number(),
-					'pq' => $order_item->get_quantity(),
-				)
-			);
+			if($product) {
+				$this->record_event(
+					'woocommerceanalytics_product_purchase',
+					$product->get_id(),
+					array(
+						'oi' => $order->get_order_number(),
+						'pq' => $order_item->get_quantity(),
+					)
+				);
+			}
 		}
 	}
 
