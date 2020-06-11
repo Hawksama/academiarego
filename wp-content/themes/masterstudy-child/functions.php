@@ -46,6 +46,7 @@ function child_theme_styling() {
     wp_deregister_style( 'stm_theme_styles' );
 
     wp_enqueue_style('stm_theme_styles', get_stylesheet_directory_uri() . '/assets/css/styles.css', NULL, MASTERSTUDY_CHILD_VERSION, 'all');
+    wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/assets/js/child-custom.js', array ( 'jquery' ), 1.1, true);
 }
 add_action( 'wp_enqueue_scripts', 'child_theme_styling', 10 );
 
@@ -68,5 +69,7 @@ add_action( 'template_redirect', 'my_callback' );
 add_filter( 'site_transient_update_plugins', 'remove_plugin_updates' );
 function remove_plugin_updates( $value ) {
     unset( $value->response['jetpack/modules/woocommerce-analytics/wp-woocommerce-analytics.php'] );
+    unset( $value->response['buddymeet/buddymeet.phpgr'] );
+    
     return $value;
 }

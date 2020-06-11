@@ -386,29 +386,39 @@ class BuddyMeet {
      */
     public function add_shortcode($params) {
         $params = apply_filters('buddymeet_custom_settings', $params);
-        $params = wp_parse_args($params, buddymeet_default_settings());
-        $script = sprintf(
-            $this->get_jitsi_init_template(),
-            $params['domain'],
-            $params['settings'],
-            $params['toolbar'],
-            $params['room'],
-            $params['width'],
-            $params['height'],
-            $params['parent_node'],
-            $params['start_audio_only'] === "true" || $params['start_audio_only'] === true ? 1 : 0,
-            $params['default_language'],
-            $params['film_strip_only'] === "true" || $params['film_strip_only'] === true? 1 : 0,
-            $params['background_color'],
-            $params['show_watermark'] === "true" || $params['show_watermark'] === true? 1 : 0,
-            $params['show_brand_watermark'] === "true" || $params['show_brand_watermark'] === true? 1 : 0,
-            $params['brand_watermark_link'],
-            $params['disable_video_quality_label'] === "true" || $params['disable_video_quality_label'] === true ? 1 : 0,
-            isset($params['user']) ? $params['user'] : '',
-            $params['subject'],
-            isset($params['avatar']) ? $params['avatar'] : '',
-            isset($params['password']) ? $params['password'] : ''
-        );
+		$params = wp_parse_args($params, buddymeet_default_settings());
+		
+
+		$user = wp_get_current_user();
+		$script = sprintf(
+			$this->get_jitsi_init_template(),
+			$params['domain'],
+			$params['settings'],
+			$params['toolbar'],
+			$params['room'],
+			$params['width'],
+			$params['height'],
+			$params['parent_node'],
+			$params['start_audio_only'] === "true" || $params['start_audio_only'] === true ? 1 : 0,
+			$params['default_language'],
+			$params['film_strip_only'] === "true" || $params['film_strip_only'] === true? 1 : 0,
+			$params['background_color'],
+			$params['show_watermark'] === "true" || $params['show_watermark'] === true? 1 : 0,
+			$params['show_brand_watermark'] === "true" || $params['show_brand_watermark'] === true? 1 : 0,
+			$params['brand_watermark_link'],
+			$params['disable_video_quality_label'] === "true" || $params['disable_video_quality_label'] === true ? 1 : 0,
+			isset($params['user']) ? $params['user'] : '',
+			$params['subject'],
+			isset($params['avatar']) ? $params['avatar'] : '',
+			isset($params['password']) ? $params['password'] : ''
+		);
+
+		if ( ! in_array( 'stm_lms_instructor', (array) $user->roles ) ) {
+			$script .= '
+				//jQuery("#jitsiConferenceFrame0").hide();
+				// console.log(api.getNumberOfParticipants());
+			';
+		}
 
         if(wp_doing_ajax()){
             //when initializing the meet via an ajax request we need to return the script to the caller to
@@ -416,45 +426,51 @@ class BuddyMeet {
             echo '<script>' . $script . '</script>';
         } else {
             $handle = "buddymeet-jitsi-js";
-            wp_add_inline_script($handle, $script);
+			wp_add_inline_script($handle, $script);
+			
+			// wp_add_inline_script($handle, '
+			// 	api.on("participantJoined", function(){
+			// 		alert(" partici: " + api.getNumberOfParticipants());
+			// 	});
+			// ');
         }
 
         return '<div id="meet"></div>';
     }
 
     public function get_jitsi_init_template(){
-        return 'const domain = "%1$s";
-            const settings = "%2$s"; 
-            const toolbar = "%3$s"; 
-            const options = {
-                roomName: "%4$s",
-                width: "%5$s",
-                height: %6$d,
-                parentNode: document.querySelector("%7$s"),
-                configOverwrite: {
-                    startAudioOnly: %8$b === 1,
-                    defaultLanguage: "%9$s",
-                },
-                interfaceConfigOverwrite: {
-                    filmStripOnly: %10$b === 1,
-                    DEFAULT_BACKGROUND: "%11$s",
-                    DEFAULT_REMOTE_DISPLAY_NAME: "",
-                    SHOW_JITSI_WATERMARK: %12$b === 1,
-                    SHOW_WATERMARK_FOR_GUESTS: %12$b === 1,
-                    SHOW_BRAND_WATERMARK: %13$b === 1,
-                    BRAND_WATERMARK_LINK: "%14$s",
-                    LANG_DETECTION: true,
-                    CONNECTION_INDICATOR_DISABLED: false,
-                    VIDEO_QUALITY_LABEL_DISABLED: %15$b === 1,
-                    SETTINGS_SECTIONS: settings.split(","),
-                    TOOLBAR_BUTTONS: toolbar.split(","),
-                },
-            };
-            const api = new JitsiMeetExternalAPI(domain, options);
-api.executeCommand("displayName", "baubau");
+		return 'const domain = "%1$s";
+			const settings = "%2$s"; 
+			const toolbar = "%3$s"; 
+			const options = {
+				roomName: "%4$s",
+				width: "%5$s",
+				height: %6$d,
+				parentNode: document.querySelector("%7$s"),
+				configOverwrite: {
+					startAudioOnly: %8$b === 1,
+					defaultLanguage: "%9$s",
+				},
+				interfaceConfigOverwrite: {
+					filmStripOnly: %10$b === 1,
+					DEFAULT_BACKGROUND: "%11$s",
+					DEFAULT_REMOTE_DISPLAY_NAME: "",
+					SHOW_JITSI_WATERMARK: %12$b === 1,
+					SHOW_WATERMARK_FOR_GUESTS: %12$b === 1,
+					SHOW_BRAND_WATERMARK: %13$b === 1,
+					BRAND_WATERMARK_LINK: "%14$s",
+					LANG_DETECTION: true,
+					CONNECTION_INDICATOR_DISABLED: false,
+					VIDEO_QUALITY_LABEL_DISABLED: %15$b === 1,
+					SETTINGS_SECTIONS: settings.split(","),
+					TOOLBAR_BUTTONS: toolbar.split(","),
+				},
+			};
+			const api = new JitsiMeetExternalAPI(domain, options);
+api.executeCommand("displayName", "%16$s");
 api.executeCommand("subject", "%17$s");
 api.executeCommand("avatarUrl", "%18$s");            
-            window.api = api;';
+			window.api = api;';
     }
 }
 

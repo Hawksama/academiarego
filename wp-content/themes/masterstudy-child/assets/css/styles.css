@@ -6619,4 +6619,10 @@ a.woocommerce-LoopProduct-link.woocommerce-loop-product__link {
   .stm_zoom_grid_container .stm_zoom_grid__item:nth-child(3n + 1) .host_title {
     color: #a7d320 !important; }
 
+#jitsiConferenceFrame0 .info-dialog,
+#jitsiConferenceFrame0 .sc-ifAKCX.fqtRUK,
+iframe .info-dialog,
+iframe .sc-ifAKCX.fqtRUK {
+  display: none; }
+
 /*# sourceMappingURL=styles.css.map */
