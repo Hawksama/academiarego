@@ -5,8 +5,9 @@ if ( !defined( 'ABSPATH' ) ) exit;
 <div class="group-meet">
 <?php
     $user = wp_get_current_user();
-    // if(true) {
+
     buddymeet_render_jitsi_meet(); 
+    
     if ( !in_array( 'stm_lms_instructor', (array) $user->roles ) ) {
         ?>
         <script>
@@ -29,6 +30,5 @@ if ( !defined( 'ABSPATH' ) ) exit;
         </script>
         <?php
     }
-
 ?>
 </div>

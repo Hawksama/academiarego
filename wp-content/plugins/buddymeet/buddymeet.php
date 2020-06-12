@@ -413,13 +413,6 @@ class BuddyMeet {
 			isset($params['password']) ? $params['password'] : ''
 		);
 
-		if ( ! in_array( 'stm_lms_instructor', (array) $user->roles ) ) {
-			$script .= '
-				//jQuery("#jitsiConferenceFrame0").hide();
-				// console.log(api.getNumberOfParticipants());
-			';
-		}
-
         if(wp_doing_ajax()){
             //when initializing the meet via an ajax request we need to return the script to the caller to
             //add it in the page
@@ -427,12 +420,6 @@ class BuddyMeet {
         } else {
             $handle = "buddymeet-jitsi-js";
 			wp_add_inline_script($handle, $script);
-			
-			// wp_add_inline_script($handle, '
-			// 	api.on("participantJoined", function(){
-			// 		alert(" partici: " + api.getNumberOfParticipants());
-			// 	});
-			// ');
         }
 
         return '<div id="meet"></div>';
