@@ -1562,10 +1562,20 @@ class WC_AJAX {
 
 		$data_store = WC_Data_Store::load( 'product' );
 		$ids        = $data_store->search_products( $term, '', (bool) $include_variations, false, $limit, $include_ids, $exclude_ids );
-
-		$product_objects = array_filter( array_map( 'wc_get_product', $ids ), 'wc_products_array_filter_readable' );
 		$products        = array();
 
+		foreach ( $ids as $key => $course ) {
+			if(get_post_type($course) == 'stm-courses') {
+				$formatted_name = get_the_title($course);
+				$formatted_name .= ' (#' . $course .')';
+
+				$products[ $course ] = rawurldecode( $formatted_name );
+
+				unset($ids[$key]);
+			}
+		}
+
+		$product_objects = array_filter( array_map( 'wc_get_product', $ids ), 'wc_products_array_filter_readable' );
 		foreach ( $product_objects as $product_object ) {
 			$formatted_name = $product_object->get_formatted_name();
 			$managing_stock = $product_object->managing_stock();
@@ -1582,6 +1592,7 @@ class WC_AJAX {
 
 			$products[ $product_object->get_id() ] = rawurldecode( $formatted_name );
 		}
+		// }
 
 		wp_send_json( apply_filters( 'woocommerce_json_search_found_products', $products ) );
 	}

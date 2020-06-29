@@ -69,7 +69,9 @@ add_action( 'template_redirect', 'my_callback' );
 add_filter( 'site_transient_update_plugins', 'remove_plugin_updates' );
 function remove_plugin_updates( $value ) {
     unset( $value->response['jetpack/modules/woocommerce-analytics/wp-woocommerce-analytics.php'] );
-    unset( $value->response['buddymeet/buddymeet.phpgr'] );
+    unset( $value->response['buddymeet/buddymeet.php'] );
+    unset( $value->response['masterstudy-lms-learning-management-system-pro/masterstudy-lms-learning-management-system-pro.php']);
+    unset( $value->response['woocommerce/woocommerce.php']);
     
     return $value;
 }
