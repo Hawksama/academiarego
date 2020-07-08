@@ -1,10 +1,3 @@
-"use strict";
+/*! academiarego 1.0.0 javascript.js 2020-07-08 6:13:48 PM */
 
-jQuery(document).ready(function() {
-    // debugger;
-    // var numberOfParticipants = 123123;
-    // numberOfParticipants = api.getNumberOfParticipants();
-    // console.log(numberOfParticipants);
-    // debugger;
-});
-//# sourceMappingURL=child-custom.js.map
+"use strict";jQuery(document).ready(function(){});
